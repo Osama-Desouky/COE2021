@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="pin-outline" transform="translate(0.494)">
+    <g id="pin-outline-2" data-name="pin-outline" transform="translate(-0.494 0)">
+      <g id="pin" transform="translate(0)">
+        <rect id="Rectangle_13791" data-name="Rectangle 13791" width="30" height="30" transform="translate(0)" fill="#1d4487" opacity="0"/>
+        <path id="Path_107162" data-name="Path 107162" d="M15.025,2A11.026,11.026,0,0,0,4,12.916c0,7.552,9.716,15.959,10.13,16.317a1.378,1.378,0,0,0,1.792,0c.482-.358,10.13-8.765,10.13-16.318A11.025,11.025,0,0,0,15.025,2Zm0,24.325c-2.3-2.191-8.269-8.269-8.269-13.41a8.269,8.269,0,0,1,16.538,0C23.295,18.014,17.327,24.133,15.025,26.325Z" transform="translate(0.135 0.437)" fill="#1d4487"/>
+        <path id="Path_107163" data-name="Path 107163" d="M13.324,6a4.824,4.824,0,1,0,4.824,4.824A4.824,4.824,0,0,0,13.324,6Zm0,6.891a2.067,2.067,0,1,1,2.067-2.067A2.067,2.067,0,0,1,13.324,12.891Z" transform="translate(1.837 1.95)" fill="#1d4487"/>
+      </g>
+    </g>
+  </g>
+</svg>

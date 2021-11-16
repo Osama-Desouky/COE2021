@@ -1,0 +1,6 @@
+<svg id="email-outline" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="email">
+    <rect id="Rectangle_13795" data-name="Rectangle 13795" width="30" height="30" fill="#1d4487" opacity="0"/>
+    <path id="Path_107168" data-name="Path 107168" d="M23.25,4H5.75A3.75,3.75,0,0,0,2,7.75v12.5A3.75,3.75,0,0,0,5.75,24h17.5A3.75,3.75,0,0,0,27,20.25V7.75A3.75,3.75,0,0,0,23.25,4Zm-.837,2.5L14.5,12.438,6.588,6.5Zm.837,15H5.75A1.25,1.25,0,0,1,4.5,20.25V8.063L13.75,15a1.25,1.25,0,0,0,1.5,0L24.5,8.063V20.25A1.25,1.25,0,0,1,23.25,21.5Z" transform="translate(0.5 1)" fill="#1d4487"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="left-arrow" transform="translate(0)">
+    <rect id="Rectangle_11367" data-name="Rectangle 11367" width="32" height="32" rx="2" transform="translate(0)" fill="#fff" opacity="0"/>
+    <path id="caret" d="M21.067,8.872l-8.106,7.994,8.106,8.388" transform="translate(-1.461 -1.373)" fill="none" stroke="#1d4487" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+  </g>
+</svg>

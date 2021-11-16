@@ -1,0 +1,403 @@
+/*
+this UI is made desktop first.
+*/
+
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1260px;
+  }
+  // .custom-container{
+  //   max-width: 1340px;
+  //   margin: 0 auto;
+  // }
+  
+  // .inner-container{
+  //   max-width: 1340px;
+  //   padding-left: 0;
+  //   padding-right: 0;
+  // }
+}
+
+@media (min-width: 1650px) {
+  .container {
+    max-width: 1640px;
+  }
+  // .custom-container{
+  //   max-width: 1640px;
+  //   margin: 0 auto;
+  // }
+  // .inner-container{
+  //   max-width: 1640px;
+  //   padding-left: 0;
+  //   padding-right: 0;
+  // }
+}
+
+@media (max-width: 1649.98px){
+
+  .main-navbar {
+    .top-nav {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      .nav-item.contact-us{
+        a{
+          padding: 0 25px;
+        }
+      }
+    }
+    // #navbarSupportedContent > {
+    //   .navbar-nav  {
+    //     .dropdown-menu{
+    //       top: 89px;
+    //     }
+    //     > .nav-item{
+    //      > .nav-link{
+    //         padding: 18px 0 ;
+    //       }
+    //       &:last-child{
+    //         a{
+    //           padding-bottom: 10px;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    .search-box{
+      top: 89px !important;
+    }
+  }
+}
+
+
+@media (max-width: 1399.97px) {
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item {
+    margin-left: auto;
+  }
+
+  }
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  .navbar .nav-item {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* makes the dropdown full width  */
+  .navbar .dropdown {
+    position: static;
+  }
+
+  // .navbar .dropdown-menu {
+  //   width: 100%;
+  //   left: 0;
+  //   right: 0;
+  //   /*  height of nav-item  */
+  //   top: 135px;
+  //   display: block;
+  //   visibility: hidden;
+  //   opacity: 0;
+  //   transition: visibility 0s, opacity 0.3s linear;
+  // }
+  // .main-navbar.fixed .navbar .dropdown-menu {
+  //   top: 69px;
+  // }
+  /* shows the dropdown menu on hover */
+  // .navbar .dropdown:hover .dropdown-menu,
+  // .navbar .dropdown .dropdown-menu:hover {
+  //   display: block;
+  //   visibility: visible;
+  //   opacity: 1;
+  //   transition: visibility 0s, opacity 0.3s linear;
+  // }
+
+  // .navbar .dropdown-menu {
+  //   border: 1px solid rgba(0, 0, 0, 0.15);
+  //   background-color: #fff;
+  // }
+}
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(lg) {
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item > .nav-link {
+    font-size: 12px;
+  }
+
+  .main-navbar #navbarSupportedContent > .navbar-nav{
+    padding-inline-start: 15px;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item{
+    margin-#{$start-direction}: 10px;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item:last-child {
+    margin-right: 10px;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item > .nav-link.dropdown-toggle::after{
+    background-size: contain;
+    background-position-y: 100%;
+    width: 8px;
+  }
+  
+
+}
+// Medium devices (tablets, less than 992px)
+@include media-breakpoint-down(md) {
+  .main-navbar {
+    #navbarSupportedContent {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      background: #fff;
+      top: 99px;
+      z-index: 99;
+      > .navbar-nav {
+        box-shadow: 0 80px 65px rgba($color: #000, $alpha: 0.20);
+        padding-bottom: 20px;
+        padding-inline-start: 0;
+        > .nav-item {
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          &.search-mob{
+            width: 400px;
+            padding: 0 40px;
+            .form-group{
+              position: relative;
+              margin-bottom: 0;
+              margin-top: 20px;
+              .form-control{
+                padding-#{$end-direction}:45px ;
+              }
+              button{
+                position: absolute;
+                top: -4px;
+                #{$end-direction}:10px
+              }
+            }
+
+          }
+          .nav-link{
+            font-size: 14px;
+
+          }
+          .search-toggle{
+            display: none;
+          }
+          &.contact-us{
+            a{
+              // color: $golden-color;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+    .navbar-brand {
+      align-self: flex-start;
+      &.brand-2{
+        position: absolute;
+        #{$start-direction}: 220px;
+        max-width: 75px;
+        margin-#{$start-direction}: 20px;
+        padding-#{$start-direction}: 0;
+        &::before{
+          content: "";
+          background-color: #c3c3c3;
+          width: 2px;
+          height: 70%;
+          position: absolute;
+          #{$start-direction}: -15px;
+          bottom: 5px
+        }
+      }
+    }
+    .navbar-toggler {
+      position: absolute;
+      #{$end-direction}: 50px;
+      top: 40px;
+      width: 54px;
+      min-width: auto;
+    }
+    .nav-wrapper {
+      flex-grow: 1;
+      width: auto;
+      align-self: flex-start;
+      margin-top: 45px;
+      margin-#{$end-direction}: 115px;
+      .top-nav {
+        margin-top: 0;
+        .nav-item {
+          margin-#{$start-direction}: auto;
+          &.contact-us{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .main-navbar .top-nav .nav-item .nav-link {
+    font-size: 12px;
+  }
+
+
+  .navigator{
+    display: none;
+    // right: 20px;
+    // li{
+    //   display: flex;
+    //   margin-bottom: 10px;
+    //   a{
+    //     display: inline-flex;
+    //     &::before{
+    //       width: 10px;
+    //       height: 10px;
+    //     }
+    //   }
+    // }
+
+  }
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@include media-breakpoint-down(sm) {
+
+  // .navbar .dropdown-menu {
+  //   &.show {
+  //     text-align: center;
+  //     padding-bottom: 0;
+  //     background-color: rgba(0, 0, 0, 0.5) !important;
+  //     padding-top: 15px;
+  //     padding-bottom: 20px;
+  //   }
+
+  //   ul.nav {
+  //     margin-bottom: 15px;
+  //     padding-inline-start: 0;
+  //   }
+  // }
+  // .main-navbar .navbar .dropdown-menu{
+  //   h6 {
+  //     font-size: 16px;
+  //     line-height: 25px;
+  //     margin-bottom: 7px;
+  //   }
+  //   p{
+  //     font-size: 14px;
+  //     line-height: 24px;
+  //   }
+  //   .nav-item {
+  //     .nav-link{
+  //       font-size: 14px;
+  //       line-height: 24px;
+  //       padding: 3px 8px;
+  //     }
+  //   }
+  // }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item > .nav-link{
+    font-size: 14px;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item{
+    width: 95%;
+  }
+ 
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(xs) {
+  // .main-navbar .nav-wrapper .top-nav {
+  //   display: none;
+  // }
+
+  .main-navbar{
+    height: 85px;
+  }
+  .main-navbar #navbarSupportedContent{
+    top: 85px;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item.search-mob{
+    padding: 0 15px;
+    width: 100%;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item.search-mob .form-group button{
+    top: 3px;
+    #{$end-direction}: 3px;
+    padding: 0 6px;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item > .nav-link.dropdown-toggle::before{
+    width: 35%;
+  }
+  .main-navbar .navbar-brand{
+    flex: 0 0 135px;
+  }
+  .main-navbar .navbar-brand.brand-2{
+    #{$start-direction}: 155px;
+    max-width: 55px;
+    margin-#{$start-direction}: 10px;
+    &::before{
+      #{$start-direction}: -8px;
+    }
+  }
+  .main-navbar .navbar-toggler{
+    #{$end-direction}: 20px;
+    top: 25px;
+    padding: 5px 8px;
+  }
+  #navbarSupportedContent > .navbar-nav > .nav-item #navbarDropdown {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item #navbarDropdown::after{
+    #{$end-direction}: 16px;
+    position: absolute;
+    top: 19px;
+  }
+  .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item.contact-us a{
+    text-align: #{$start-direction};
+    padding: 12px 15px;
+  }
+  .main-navbar .nav-wrapper{
+    margin-top: 30px;
+    margin-#{$end-direction}: 63px;
+  }
+  .main-navbar .top-nav .nav-item .nav-link.lang img{
+    margin-#{$start-direction}:3px ;
+  }
+ 
+ 
+}
+
+
+@media (max-width: 349.97px) {
+
+ 
+  .main-navbar .nav-wrapper{
+    margin-#{$end-direction}: 48px;
+  }
+  .main-navbar .navbar-toggler{
+    #{$end-direction}: 10px;
+    top: 28px;
+    padding: 3px 5px;
+  }
+
+}
+
+
+
+
+// meedia max height
+@media (max-height: 850px) {
+
+}
+@media (max-height: 700px) {
+
+}

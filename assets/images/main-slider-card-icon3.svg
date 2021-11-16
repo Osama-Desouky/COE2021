@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
+  <g id="main-slider-card-icon3" transform="translate(8223.166 -1063.833)">
+    <rect id="Rectangle_13506" data-name="Rectangle 13506" width="57" height="57" rx="28.5" transform="translate(-8223.166 1063.833)" fill="rgba(66,167,198,0.1)"/>
+    <g id="people-outline" transform="translate(-8203.166 1083.833)">
+      <g id="people-outline-2" data-name="people-outline" transform="translate(-12 -12)">
+        <g id="people">
+          <rect id="Rectangle_13797" data-name="Rectangle 13797" width="42" height="42" fill="#42a7c6" opacity="0"/>
+          <path id="Path_107174" data-name="Path 107174" d="M12,17a7,7,0,1,0-7-7A7,7,0,0,0,12,17ZM12,6.5A3.5,3.5,0,1,1,8.5,10,3.5,3.5,0,0,1,12,6.5Z" transform="translate(3.75 2.25)" fill="#42a7c6"/>
+          <path id="Path_107175" data-name="Path 107175" d="M19.25,17.5A5.25,5.25,0,1,0,14,12.25,5.25,5.25,0,0,0,19.25,17.5Zm0-7a1.75,1.75,0,1,1-1.75,1.75A1.75,1.75,0,0,1,19.25,10.5Z" transform="translate(10.5 5.25)" fill="#42a7c6"/>
+          <path id="Path_107176" data-name="Path 107176" d="M28.25,14.743A8.75,8.75,0,0,0,22.9,16.581,12.25,12.25,0,0,0,2,25.243a1.75,1.75,0,1,0,3.5,0,8.75,8.75,0,0,1,17.5,0,1.75,1.75,0,0,0,3.5,0A12.075,12.075,0,0,0,25,19.381,5.25,5.25,0,0,1,33.5,23.493a1.75,1.75,0,1,0,3.5,0A8.75,8.75,0,0,0,28.25,14.743Z" transform="translate(1.5 9.757)" fill="#42a7c6"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

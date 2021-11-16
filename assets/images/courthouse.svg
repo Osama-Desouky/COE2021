@@ -1,0 +1,11 @@
+<svg id="courthouse" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <path id="Vector" d="M0,0H30" transform="translate(3 33)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0A10.126,10.126,0,0,0,7.5,0V4.5A10.126,10.126,0,0,1,0,4.5Z" transform="translate(18 3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0V4.5" transform="translate(18 7.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-4" data-name="Vector" d="M19.5,0H4.5Q0,0,0,4.5V21H24V4.5Q24,0,19.5,0Z" transform="translate(6 12)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-5" data-name="Vector" d="M0,0H22.26" transform="translate(6.87 18)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-6" data-name="Vector" d="M0,0V15" transform="translate(11.985 18)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-7" data-name="Vector" d="M0,0V15" transform="translate(17.985 18)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-8" data-name="Vector" d="M0,0V15" transform="translate(23.985 18)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-9" data-name="Vector" d="M0,0H36V36H0Z" fill="none" opacity="0"/>
+</svg>

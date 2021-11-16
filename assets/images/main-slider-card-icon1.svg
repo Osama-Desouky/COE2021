@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
+  <g id="main-slider-card-icon1" transform="translate(8223.166 -1063.833)">
+    <rect id="Rectangle_13506" data-name="Rectangle 13506" width="57" height="57" rx="28.5" transform="translate(-8223.166 1063.833)" fill="rgba(46,182,125,0.2)"/>
+    <g id="vuesax_linear_user-octagon" data-name="vuesax/linear/user-octagon" transform="translate(-8215.166 1071.833)">
+      <g id="user-octagon">
+        <path id="Vector" d="M31.8,23.485a5.554,5.554,0,0,1-2.747,4.778l-10.4,6a5.535,5.535,0,0,1-5.512,0l-10.395-6A5.512,5.512,0,0,1,0,23.485V11.515A5.554,5.554,0,0,1,2.747,6.737l10.395-6a5.535,5.535,0,0,1,5.512,0l10.4,6A5.533,5.533,0,0,1,31.8,11.515Z" transform="translate(5.093 3.5)" fill="none" stroke="#2eb67d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="0 0"/>
+        <g id="Group" transform="translate(14 11.095)">
+          <path id="Vector-2" data-name="Vector" d="M4.077,8.155A4.077,4.077,0,1,1,8.155,4.077,4.078,4.078,0,0,1,4.077,8.155Z" transform="translate(2.922)" fill="none" stroke="#2eb67d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="0 0"/>
+          <path id="Vector-3" data-name="Vector" d="M14,5.7C14,2.555,10.868,0,7,0S0,2.555,0,5.7" transform="translate(0 12.355)" fill="none" stroke="#2eb67d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="0 0"/>
+        </g>
+        <path id="Vector-4" data-name="Vector" d="M42,0V42H0V0Z" fill="none" stroke="#2eb67d" stroke-width="3" opacity="0"/>
+      </g>
+    </g>
+  </g>
+</svg>

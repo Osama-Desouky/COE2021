@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <filter id="Rectangle_13609" x="0" y="0" width="150" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#1d4487" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="who-we-are3" transform="translate(24 16)">
+    <g transform="matrix(1, 0, 0, 1, -24, -16)" filter="url(#Rectangle_13609)">
+      <rect id="Rectangle_13609-2" data-name="Rectangle 13609" width="102" height="102" rx="9" transform="translate(24 16)" fill="#f1f6ff"/>
+    </g>
+    <g id="Artwork_68" data-name="Artwork 68" transform="translate(36.681 37.677)">
+      <g id="Group_39559" data-name="Group 39559" transform="translate(-10.681 -10.677)">
+        <g id="Group_39556" data-name="Group 39556">
+          <rect id="Rectangle_13605" data-name="Rectangle 13605" width="45.379" height="44.852" rx="2.168" transform="translate(3.621 4.127)" fill="#1d4487"/>
+          <path id="Path_74294" data-name="Path 74294" d="M40.972,45.986H5.539A5.546,5.546,0,0,1,0,40.447V5.542A5.546,5.546,0,0,1,5.539,0H40.972a5.546,5.546,0,0,1,5.539,5.542V40.447A5.546,5.546,0,0,1,40.972,45.986ZM5.539,1.135a4.408,4.408,0,0,0-4.4,4.406V40.447a4.41,4.41,0,0,0,4.4,4.406H40.972a4.412,4.412,0,0,0,4.406-4.406V5.542a4.41,4.41,0,0,0-4.406-4.406Z" fill="#192946"/>
+        </g>
+        <g id="Group_39557" data-name="Group 39557" transform="translate(26.311 7.06)">
+          <path id="Path_74295" data-name="Path 74295" d="M12.051,16.64l12.228-2.748a12.533,12.533,0,0,0-8.062-9.069Z" transform="translate(-10.721 -0.821)" fill="#fff"/>
+          <path id="Path_74296" data-name="Path 74296" d="M11.471,16.28l4.652-13.2.493.174a13.142,13.142,0,0,1,8.4,9.448l.115.511ZM16.758,4.424l-3.672,10.42L23.871,12.42A12.111,12.111,0,0,0,16.758,4.424Z" transform="translate(-11.471 -3.078)" fill="#192946"/>
+        </g>
+        <g id="Group_39558" data-name="Group 39558" transform="translate(9.803 10.439)">
+          <path id="Path_74297" data-name="Path 74297" d="M17.27,18.773,21.435,6.956A12.558,12.558,0,1,0,29.5,16.025Z" transform="translate(-3.684 -2.375)" fill="#fff"/>
+          <path id="Path_74298" data-name="Path 74298" d="M17.337,30.678A13.064,13.064,0,1,1,21.674,5.3l.5.174L18.144,16.9l11.817-2.656.115.511A13.03,13.03,0,0,1,17.337,30.678Zm0-25.079a12.057,12.057,0,1,0,11.822,9.9L16.529,18.334l4.3-12.207A11.938,11.938,0,0,0,17.337,5.6Z" transform="translate(-4.274 -4.551)" fill="#192946"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

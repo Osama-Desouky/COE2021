@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="people-outline" transform="translate(12 12)">
+    <g id="people-outline-2" data-name="people-outline" transform="translate(-12 -12)">
+      <g id="people">
+        <rect id="Rectangle_13797" data-name="Rectangle 13797" width="36" height="36" fill="#fff" opacity="0"/>
+        <path id="Path_107174" data-name="Path 107174" d="M11,15A6,6,0,1,0,5,9,6,6,0,0,0,11,15Zm0-9A3,3,0,1,1,8,9,3,3,0,0,1,11,6Z" transform="translate(2.5 1.5)" fill="#fff"/>
+        <path id="Path_107175" data-name="Path 107175" d="M18.5,16A4.5,4.5,0,1,0,14,11.5,4.5,4.5,0,0,0,18.5,16Zm0-6A1.5,1.5,0,1,1,17,11.5,1.5,1.5,0,0,1,18.5,10Z" transform="translate(7 3.5)" fill="#fff"/>
+        <path id="Path_107176" data-name="Path 107176" d="M24.5,14.5a7.5,7.5,0,0,0-4.59,1.575A10.5,10.5,0,0,0,2,23.5a1.5,1.5,0,1,0,3,0,7.5,7.5,0,0,1,15,0,1.5,1.5,0,0,0,3,0,10.35,10.35,0,0,0-1.29-5.025A4.5,4.5,0,0,1,29,22a1.5,1.5,0,1,0,3,0A7.5,7.5,0,0,0,24.5,14.5Z" transform="translate(1 6.505)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
