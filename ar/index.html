@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
 
+  <!-- AOS -->
+  <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+
   <!-- custom -->
   <link rel="stylesheet" href="../assets/css/styles-rtl.css">
 </head>
@@ -129,7 +132,7 @@
 
   <!-- main slider -->
 
-  <section class="main-slider">
+  <section class="main-slider" >
     <a href="#partners" class="scroll-mouse scroll-down">
       <img src="../assets/images/scroll-down.svg" alt="">
       <span>
@@ -150,11 +153,10 @@
         <a href="javascript:;" class="next-arrow"></a>
       </div>
       <div class="owl-carousel owl-theme">
-
         <div class="item">
           <div class="container">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6"  data-aos="fade-right" data-aos-delay="100" >
                 <div class="caption">
                   <h2>
                     إن كل خطوة نخطوها نحو تطوير ثرواتنا البشرية نابعة من شغفنا بتحقيق 
@@ -171,65 +173,20 @@
                   </a>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100" >
                 <div class="left-slider-imgs">
-                  <div class="ellipse-image">
+                  <div class="ellipse-image"  data-aos="zoom-in" data-aos-delay="200">
                     <img src="../assets/images/main-slider-ellipse.svg" alt="">
                   </div>
-                  <div class="person-image">
+                  <div class="person-image" data-aos="fade-up" data-aos-delay="650" data-aos-duration="700" data-aos-easing="linear">
                     <img src="../assets/images/person.svg" alt="">
                   </div>
-                  <!-- <div class="shapes"> -->
-                    <div class="shape2">
+                    <div class="shape2"  data-aos="zoom-in" data-aos-delay="500">
                       <img src="../assets/images/shapes-2.svg" alt="">
                     </div>
-                    <div class="shape1">
+                    <div class="shape1" data-aos="zoom-in" data-aos-delay="500">
                       <img src="../assets/images/shapes-1.svg" alt="">
                     </div>
-                  <!-- </div> -->
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="caption">
-                  <h2>
-                    إن كل خطوة نخطوها نحو تطوير ثرواتنا البشرية نابعة من شغفنا بتحقيق 
-                    <span class="">
-                      التميّز
-                    </span>
-                  </h2>
-                  <p>
-                    نبدع ونبتكر ونصمم حلولاً تدريبية فريدة تتوائم ومتطلبات الأعمال
-                  </p>
-                  <a href="#" class="more">
-                    إقرأ المزيد
-                    <img src="../assets/images/arrow-ios-back.svg" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="left-slider-imgs">
-                  <div class="ellipse-image">
-                    <img src="../assets/images/main-slider-ellipse.svg" alt="">
-                  </div>
-                  <div class="person-image">
-                    <img src="../assets/images/person.svg" alt="">
-                  </div>
-                  <!-- <div class="shapes"> -->
-                    <div class="shape2">
-                      <img src="../assets/images/shapes-2.svg" alt="">
-                    </div>
-                    <div class="shape1">
-                      <img src="../assets/images/shapes-1.svg" alt="">
-                    </div>
-                  <!-- </div> -->
                     <div class="main-slider-card card1">
                      <div class="slider-card-img">
                       <img src="../assets/images/main-slider-card-icon1.svg" alt="">
@@ -268,6 +225,50 @@
             </div>
           </div>
         </div>
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                <div class="caption">
+                  <h2>
+                    إن كل خطوة نخطوها نحو تطوير ثرواتنا البشرية نابعة من شغفنا بتحقيق 
+                    <span class="">
+                      التميّز
+                    </span>
+                  </h2>
+                  <p>
+                    نبدع ونبتكر ونصمم حلولاً تدريبية فريدة تتوائم ومتطلبات الأعمال
+                  </p>
+                  <a href="#" class="more">
+                    إقرأ المزيد
+                    <img src="../assets/images/arrow-ios-back.svg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                <div class="left-slider-imgs">
+                  <div class="ellipse-image">
+                    <img src="../assets/images/main-slider-ellipse.svg" alt="">
+                  </div>
+                  <div class="person-image" >
+                    <img src="../assets/images/person.svg" alt="">
+                  </div>
+                  <!-- <div class="shapes"> -->
+                    <div class="shape2">
+                      <img src="../assets/images/shapes-2.svg" alt="">
+                    </div>
+                    <div class="shape1">
+                      <img src="../assets/images/shapes-1.svg" alt="">
+                    </div>
+                  <!-- </div> -->
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+       
       
 
        
@@ -280,12 +281,12 @@
   <section class="our-partners" id="partners">
     <div class="container" >
       <div class="heading">
-        <h2>
+        <h2 data-aos="fade-in" data-aos-delay="100">
           أهم الشركاء
         </h2>
       </div>
       <div class="slider-wrapper">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme" data-aos="fade-in" data-aos-delay="200">
           <div class="item">
             <div class="partner-card">
               <img src="../assets/images/partner5.svg" alt="">
@@ -337,11 +338,11 @@
    <div class="line-bg">
 
      <!-- Our Advantages -->
-      <section class="our-advantages">
+      <section class="our-advantages" >
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <div class="advantages-top">
+              <div class="advantages-top" data-aos="fade-in" data-aos-delay="100">
                 <h2>
                  مميزاتنا
                 </h2>
@@ -354,7 +355,7 @@
           </div>
           <div class="row">
             <div class="col-lg-4">
-              <div class="advantages-card">
+              <div class="advantages-card advantages1">
                  <div class="img-box">
                    <img src="../assets/images/advantages-1.svg" alt="">
                  </div>
@@ -369,7 +370,7 @@
               </div>
             </div>
             <div class="col-lg-4">
-             <div class="advantages-card">
+             <div class="advantages-card advantages2">
                <div class="img-box">
                  <img src="../assets/images/advantages-2.svg" alt="">
                </div>
@@ -384,7 +385,7 @@
              </div>
             </div>
             <div class="col-lg-4">
-             <div class="advantages-card">
+             <div class="advantages-card advantages3">
                <div class="img-box">
                  <img src="../assets/images/advantages-3.svg" alt="">
                </div>
@@ -447,7 +448,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="top-desc">
+          <div class="top-desc" data-aos="fade-in" data-aos-delay="200">
             <h2>
               رحلة التميُّز 
             </h2>
@@ -468,7 +469,8 @@
           <img src="../assets/images/graph.svg" alt="">
         </div>
       </div>
-      <div class="item item1">
+      <div class="item item1" >
+       
         <div class="details">
           <h4>
             إنشاء الشركة وبدء تشغيل 10 كليات تقنية عالمية
@@ -478,6 +480,34 @@
           <img src="../assets/images/bulb.svg" alt="">
         </div>
         <div class="item-marker">
+          <!-- <span class="mark"></span> -->
+          <span class="mark-line"></span>
+          <div class="marker-img">
+            <img src="../assets/images/tour-marker1.svg" alt="">
+          </div>
+        </div>
+        <div class="year-name">
+          2013م
+          <span> النشأة</span>
+        </div>
+        <div class="number">
+          1
+        </div>
+      </div>
+
+      <div class="item item2">
+       
+        <div class="details">
+          <h4>
+            إنشاء الشركة وبدء تشغيل 10 كليات تقنية عالمية
+          </h4>
+        </div>
+        <div class="icon-box">
+          <img src="../assets/images/bulb.svg" alt="">
+        </div>
+        <div class="item-marker">
+          <span class="mark"></span>
+          <span class="mark-line"></span>
           <div class="marker-img">
             <img src="../assets/images/tour-marker1.svg" alt="">
           </div>
@@ -497,7 +527,7 @@
    <section class="our-services">
      <div class="container">
        <div class="col-12">
-         <div class="top-desc">
+         <div class="top-desc" data-aos="fade-in" data-aos-delay="100">
            <h2>
             خدماتنا
            </h2>
@@ -532,10 +562,11 @@
    </section>
 
    <!-- our-program -->
-   <section class="our-services our-program">
+   <section class="our-program" >
+    <div class="prog-bg"></div>
     <div class="container">
       <div class="col-12">
-        <div class="top-desc">
+        <div class="top-desc" data-aos="fade-in" data-aos-delay="100">
           <h2>
             برامجنا
           </h2>
@@ -690,7 +721,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="top-desc">
+          <div class="top-desc" data-aos="fade-in" data-aos-delay="100">
             <h2>
               آراء عملائنا
             </h2>
@@ -710,10 +741,10 @@
               <div class="owl-carousel owl-theme">
                 <div class="item">
                   <div class="customer-op-card">
-                    <div class="img-box">
+                    <div class="img-box" data-aos="fade-right" data-aos-delay="150">
                       <img src="../assets/images/cust-person.svg" alt="">
                     </div>
-                    <div class="content-box">
+                    <div class="content-box" data-aos="fade-left" data-aos-delay="150">
                       <p class="details">
                         تشرفت فعلا بما رأيت، إنه لمدعاة للفخر أن نصل إلى هذه المراحل المتقدمة من التدريب والتعليم والتأهيل
                       </p>
@@ -779,8 +810,8 @@
   <section class="strategic-partners">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="top-desc">
+        <div class="col-12" data-aos="fade-in" data-aos-delay="300">
+          <div class="top-desc" >
             <h2>
               شركائنا الاستراتيجيين
             </h2>
@@ -801,7 +832,7 @@
                 <div class="item">
                   <div class="strategic-partners-card">
                     <div class="row">
-                      <div class="col-lg-6">
+                      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400" data-aos-duration="500">
                         <div class="content-box">
                          <h4>
                           أڤيشين أستراليا الرياض كوليج
@@ -816,7 +847,7 @@
                          </a>
                         </div>
                       </div>
-                      <div class="col-lg-5 offset-lg-1">
+                      <div class="col-lg-5 offset-lg-1" data-aos="fade-right" data-aos-delay="400" data-aos-duration="500">
                         <div class="img-box">
                           <img src="../assets/images/st-img-1.svg" alt="">
                         </div>
@@ -919,7 +950,7 @@
       </div>
     </div>
 
-    <a href="#" class="be-one">
+    <a href="#" class="be-one" data-aos="zoom-out" data-aos-delay="250">
       <img src="../assets/images/hands-helping.svg" alt="">
       كن شريكنا الجديد
     </a>
@@ -1180,7 +1211,43 @@
     });
   
  
+    // $(document).ready(function(){
+    //   $(".ellipse-image").fadeIn("fast");
+    //   $(".ellipse-image").fadeTo("fast", 1);
+    //   $(".shape2").fadeIn("1500");
+    //   $(".shape2").fadeTo("1500", 1);
+    //   $(".shape1").fadeIn("2000");
+    //   $(".shape1").fadeTo("2000", 1);
+    //   $(".person-image").fadeIn("slow");
+    //   $(".person-image").fadeTo("slow", 1);
+     
+    //   $( "footer" ).closest( "section" ).addClass( "contentMinHight" )
+
+    //     })
   </script>
+
+
+
+
+<!-- scroll magic -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+<!--
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/jquery.ScrollMagic.js" integrity="sha512-bvm+qYsmO30ffnPinuQh59T6PhZMktZeJPwImygJSEwVajnt5ZJfZqGpRYlhZxZuf9QpsQOJ2J6KEw/N9EKlpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.min.js"></script>
+
+ <script src="../node_modules/aos/dist/aos.js"></script>
+ <!-- inline -->
+ <script>
+   $(function () {
+     AOS.init();
+   });
+ </script>
 
   <!-- custom Js -->
   <script src="../assets/js/custom.js"></script>
