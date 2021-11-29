@@ -11988,6 +11988,11 @@ index
   background-color: #F2EFF3;
   padding-top: 66px;
   padding-bottom: 110px;
+  overflow: hidden;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../images/lineZ.svg);
+  background-position-x: 40px;
 }
 
 .our-advantages .advantages-top {
@@ -12067,6 +12072,10 @@ index
 .who-we-are {
   padding-top: 273px;
   padding-bottom: 262px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(../images/lineZ2.svg);
+  background-position-x: 40px;
 }
 
 .who-we-are .who-we-content h2 {
@@ -12142,26 +12151,6 @@ index
   position: absolute;
   top: -153px;
   right: -35px;
-}
-
-.line-bg {
-  position: relative;
-}
-
-.line-bg::before {
-  content: "";
-  background-image: url(../images/dash-lines-bg.svg);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-position: left top;
-  height: 100%;
-  position: absolute;
-  background-size: auto;
-  top: 0;
-  bottom: 0;
-  right: 30px;
-  left: 0;
-  z-index: 0;
 }
 
 .tour {
@@ -12324,7 +12313,7 @@ index
   height: 34px;
 }
 
-.tour .item .item-marker::before {
+.tour .item .item-marker span.mark {
   content: "";
   position: absolute;
   width: 34px;
@@ -12334,9 +12323,10 @@ index
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 0;
+  background-color: transparent;
 }
 
-.tour .item .item-marker::after {
+.tour .item .item-marker span.mark-line {
   content: "";
   position: absolute;
   width: 310px;
@@ -12371,12 +12361,12 @@ index
   opacity: .18;
 }
 
-.tour .item.item1 .item-marker::before {
+.tour .item.item1 .item-marker span.mark {
   top: 122px;
   left: 228px;
 }
 
-.tour .item.item1 .item-marker::after {
+.tour .item.item1 .item-marker span.mark-line {
   background-image: url(../images/tour-Ellipse1.svg);
   top: 15px;
   left: 0;
@@ -12385,6 +12375,7 @@ index
 .our-services {
   padding-top: 127px;
   padding-bottom: 131px;
+  overflow: hidden;
 }
 
 .our-services .top-desc {
@@ -12474,9 +12465,10 @@ index
   position: relative;
   padding-top: 60px;
   padding-bottom: 235px;
+  overflow: hidden;
 }
 
-.our-program::before {
+.our-program .prog-bg {
   content: "";
   position: absolute;
   width: 100%;
@@ -12486,17 +12478,33 @@ index
   background-image: url(../images/prog-shapes.svg);
   background-repeat: no-repeat;
   background-size: 4740px;
-  background-position: -1700px -1200px;
-  -webkit-filter: opacity(0.08);
-          filter: opacity(0.08);
+  background-position: -1700px -1100px;
+  -webkit-filter: opacity(0.08) !important;
+          filter: opacity(0.08) !important;
 }
 
 .our-program .top-desc {
+  margin: 0 auto;
+  max-width: 1082px;
   margin-bottom: 55px;
 }
 
 .our-program .top-desc h2 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #1B222C;
+  line-height: 49px;
   margin-bottom: 24px;
+  text-align: center;
+}
+
+.our-program .top-desc p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #7D7D7D;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .our-program .details-sec {
@@ -12509,13 +12517,31 @@ index
 }
 
 .our-program .details-sec .details-content h4 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1D4487;
+  position: relative;
+  display: inline-block;
   margin-bottom: 32px;
+}
+
+.our-program .details-sec .details-content h4::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(66, 167, 198, 0.09);
+  width: calc(100% + 15px);
+  height: 21px;
+  left: 0;
+  bottom: -22px;
+  border-radius: 4px;
 }
 
 .our-program .details-sec .details-content p {
   font-size: 20px;
   line-height: 26px;
   margin-bottom: 0;
+  font-weight: 500;
+  color: #7D7D7D;
 }
 
 .our-program .details-sec .details-content .about-prog {
@@ -12838,6 +12864,7 @@ index
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-left: 5px;
 }
 
 .strategic-partners .strategic-partners-slider .item .strategic-partners-card .content-box h4 {
