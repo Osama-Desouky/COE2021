@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>الاخبار</title>
+  <title>مركز التحميل</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- fontawesome5 -->
   <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
@@ -138,9 +138,9 @@
     <div class="container">
       <nav aria-label="subMenu" class="subMenu-area">
           <ul >
-            <li class="subMenu-item "><a class="active" href="#">الاخبار</a></li>
+            <li class="subMenu-item "><a  href="#">الاخبار</a></li>
             <li class="subMenu-item"><a href="#"> مكتبة الوسائط</a></li>
-            <li class="subMenu-item"><a href="#">مركز التحميل</a></li>
+            <li class="subMenu-item"><a href="#" class="active">مركز التحميل</a></li>
            
           </ul>
   
@@ -155,7 +155,7 @@
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
             <li class="breadcrumb-item"><a href="#">المركز الإعلامي</a></li>
-            <li class="breadcrumb-item active" aria-current="page">الاخبار</li>
+            <li class="breadcrumb-item active" aria-current="page">مركز التحميل</li>
           </ol>
   
           <ul class="share">
@@ -183,184 +183,327 @@
       </nav>
     </div>
 
-    <div class="list-with-search news">
+    <div class="list-with-search ">
       <!-- page title -->
       <div class="container">
         <div class="row">
           <div class="col-12">
             <h2 class="main-h2">
-              الأخبار
+              مركز التحميل
             </h2>
           </div>
         </div>
       </div>
 
       <!-- search and sort -->
-      <div class="container" >
-        <div class="row">
-          <div class="col-12">
-            <div class="search-and-sort">
-              <div class="search-area">
-                <form class="form-inline">
-                  <div class="form-group">
-                    <input type="text" class="form-control search-input" id="search1" placeholder="البحث في الاخبار" aria-describedby="basic-addon2">
-                  </div>
-                  <button class="btn search-go">
-                    بحث
-                  </button>
-    
-                </form>
-              </div>
-              <div class="sort-area">
-                <form class="form-inline">
-                  <div class="form-group">
-                    <input data-date-format="dd/mm/yyyy" id="datepicker" class="form-control sort-date" placeholder="تصفية بالتاريخ">
-                  </div>
-                  <div class="form-group">
-                    <label>
-                      الترتيب
-                    </label>
-                    <div class="dropdown">
-                      <button class="btn btn-sort dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-                        الاحدث
-                      </button>
-                      <ul class="dropdown-menu" >
-                        <li><a href="#" class="active">تاريخ</a></li>
-                        <li><a href="#">اسم</a></li>
-                        <hr>
-                        <li><a href="#" class="active">تصاعدي</a></li>
-                        <li><a href="#">تنازلي</a></li>
-                      </ul>
+        <div class="container" >
+          <div class="row">
+            <div class="col-12">
+              <div class="search-and-sort border-btm" >
+                <div class="search-area">
+                  <form class="form-inline">
+                    <div class="form-group">
+                      <input type="text" class="form-control search-input" id="search1" placeholder="البحث في المركز الاعلامي" aria-describedby="basic-addon2">
                     </div>
-                  </div>
-                </form>
+                    <div class="form-group">
+                      <div class="dropdown">
+                        <button class="btn btn-sort dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                          التصنيف
+                        </button>
+                        <ul class="dropdown-menu" >
+                          <li><a href="#" class="active">تاريخ</a></li>
+                          <li><a href="#">اسم</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <button class="btn search-go">
+                      بحث
+                    </button>
+      
+                  </form>
+                </div>
+                <div class="sort-area">
+                  <form class="form-inline">
+                    <!-- <div class="form-group">
+                      <input data-date-format="dd/mm/yyyy" id="datepicker" class="form-control sort-date" placeholder="تصفية بالتاريخ">
+                    </div> -->
+                    <div class="form-group">
+                      <label>
+                        الترتيب
+                      </label>
+                      <div class="dropdown">
+                        <button class="btn btn-sort dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                          الاحدث
+                        </button>
+                        <ul class="dropdown-menu" >
+                          <!-- <li><a href="#" class="active">تاريخ</a></li>
+                          <li><a href="#">اسم</a></li>
+                          <hr> -->
+                          <li><a href="#" class="active">تصاعدي</a></li>
+                          <li><a href="#">تنازلي</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
       <!-- list items -->
-      <div class="list-items">
+      <div class="list-items download-center">
         <div class="container">
-          <div class="news-list-item" data-aos="fade-in" data-aos-delay="300">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="news-img-box">
-                  <img src="../assets/images/list-1.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="news-content-box">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="download-card">
+                <div class="top-area">
                   <div class="date">
                     <img src="../assets/images/calendar-dates-grey.svg" alt="">
                     <span>
                       الأحد, 29 مايو 2021
                     </span>
                   </div>
+                  <div class="type">
+                    <img src="../assets/images/ppt.svg" alt="">
+                  </div>
+                </div>
+                <div class="content-box">
                   <h4>
-                    لتأهيل وتوظيف كوادر وطنية عالمية التدريب التقني توقع اتفاقية إطلاق وحدة تدريبية غير ربحية بالتعاون مع الوطنية للتقني
+                    لائحة كليات الطيران التقنيه العالمية بالرياض
                   </h4>
                   <p>
-                    بناءً على موافقة صاحب السمو الملكي الأمير محمد بن سلمان بن عبد العزيز ولي العهد نائب رئيس مجلس الوزراء وزير الدفاع وقعت وزارة الدفاع ممثلة بإدارة الإخلاء الطبي الجوي بالإدارة العامة للخدمات الصحية مذكرة تعاون مع المؤسسة العامة للتدريب التقني والمهني 
+                    أسستها الحكومة الأسترالية في عام 2001م لدعم وتطوير صناعة الطيران، وتقديم التدريب التطبيقي في هندسة الطيران، وتدريب الأطقم الملاحية. 
                   </p>
-                  <a class="more" href="#">
-                    المزيد
-                    <img src="../assets/images/arrow-ios-back.svg" alt="">
+                </div>
+                <div class="download-btn">
+                  <a href="#">
+                    <img src="../assets/images/download-white.svg" alt="">
+                    <div>
+                      تحميل
+                    </div>
                   </a>
                 </div>
               </div>
             </div>
-          </div>
-          
-          <div class="news-list-item" data-aos="fade-in" data-aos-delay="300">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="news-img-box">
-                  <img src="../assets/images/list-2.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="news-content-box">
+            <div class="col-lg-4">
+              <div class="download-card">
+                <div class="top-area">
                   <div class="date">
                     <img src="../assets/images/calendar-dates-grey.svg" alt="">
                     <span>
                       الأحد, 29 مايو 2021
                     </span>
                   </div>
+                  <div class="type">
+                    <img src="../assets/images/pdf.svg" alt="">
+                  </div>
+                </div>
+                <div class="content-box">
                   <h4>
-                    لتأهيل وتوظيف كوادر وطنية عالمية التدريب التقني توقع اتفاقية إطلاق وحدة تدريبية غير ربحية بالتعاون مع الوطنية للتقني
+                    لائحة كليات الطيران التقنيه العالمية 
                   </h4>
                   <p>
-                    بناءً على موافقة صاحب السمو الملكي الأمير محمد بن سلمان بن عبد العزيز ولي العهد نائب رئيس مجلس الوزراء وزير الدفاع وقعت وزارة الدفاع ممثلة بإدارة الإخلاء الطبي الجوي بالإدارة العامة للخدمات الصحية مذكرة تعاون مع المؤسسة العامة للتدريب التقني والمهني 
+                    أسستها الحكومة الأسترالية في عام 2001م لدعم وتطوير صناعة الطيران، وتقديم التدريب التطبيقي في هندسة الطيران، وتدريب الأطقم الملاحية. 
                   </p>
-                  <a class="more" href="#">
-                    المزيد
-                    <img src="../assets/images/arrow-ios-back.svg" alt="">
+                </div>
+                <div class="download-btn">
+                  <a href="#">
+                    <img src="../assets/images/download-white.svg" alt="">
+                    <div>
+                      تحميل
+                    </div>
                   </a>
                 </div>
               </div>
             </div>
-          </div>
+            <div class="col-lg-4">
+              <div class="download-card">
+                <div class="top-area">
+                  <div class="date">
+                    <img src="../assets/images/calendar-dates-grey.svg" alt="">
+                    <span>
+                      الأحد, 29 مايو 2021
+                    </span>
+                  </div>
+                  <div class="type">
+                    <img src="../assets/images/docs.svg" alt="">
+                  </div>
+                </div>
+                <div class="content-box">
+                  <h4>
+                    لائحة كليات الطيران التقنيه العالمية بالرياض
+                  </h4>
+                  <p>
+                    أسستها الحكومة الأسترالية في عام 2001م لدعم وتطوير صناعة الطيران، وتقديم التدريب التطبيقي في هندسة الطيران، وتدريب الأطقم الملاحية. 
+                  </p>
+                </div>
+                <div class="download-btn">
+                  <a href="#">
+                    <img src="../assets/images/download-white.svg" alt="">
+                    <div>
+                      تحميل
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="download-card">
+                <div class="top-area">
+                  <div class="date">
+                    <img src="../assets/images/calendar-dates-grey.svg" alt="">
+                    <span>
+                      الأحد, 29 مايو 2021
+                    </span>
+                  </div>
+                  <div class="type">
+                    <img src="../assets/images/xls.svg" alt="">
+                  </div>
+                </div>
+                <div class="content-box">
+                  <h4>
+                    لائحة كليات الطيران التقنيه العالمية بالرياض
+                  </h4>
+                  <p>
+                    أسستها الحكومة الأسترالية في عام 2001م لدعم وتطوير صناعة الطيران، وتقديم التدريب التطبيقي في هندسة الطيران، وتدريب الأطقم الملاحية. 
+                  </p>
+                </div>
+                <div class="download-btn">
+                  <a href="#">
+                    <img src="../assets/images/download-white.svg" alt="">
+                    <div>
+                      تحميل
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="download-card">
+                <div class="top-area">
+                  <div class="date">
+                    <img src="../assets/images/calendar-dates-grey.svg" alt="">
+                    <span>
+                      الأحد, 29 مايو 2021
+                    </span>
+                  </div>
+                  <div class="type">
+                    <img src="../assets/images/ppt.svg" alt="">
+                  </div>
+                </div>
+                <div class="content-box">
+                  <h4>
+                    لائحة كليات الطيران التقنيه العالمية بالرياض
+                  </h4>
+                  <p>
+                    أسستها الحكومة الأسترالية في عام 2001م لدعم وتطوير صناعة الطيران، وتقديم التدريب التطبيقي في هندسة الطيران، وتدريب الأطقم الملاحية. 
+                  </p>
+                </div>
+                <div class="download-btn">
+                  <a href="#">
+                    <img src="../assets/images/download-white.svg" alt="">
+                    <div>
+                      تحميل
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="download-card">
+                <div class="top-area">
+                  <div class="date">
+                    <img src="../assets/images/calendar-dates-grey.svg" alt="">
+                    <span>
+                      الأحد, 29 مايو 2021
+                    </span>
+                  </div>
+                  <div class="type">
+                    <img src="../assets/images/ppt.svg" alt="">
+                  </div>
+                </div>
+                <div class="content-box">
+                  <h4>
+                    لائحة كليات الطيران التقنيه العالمية بالرياض
+                  </h4>
+                  <p>
+                    أسستها الحكومة الأسترالية في عام 2001م لدعم وتطوير صناعة الطيران، وتقديم التدريب التطبيقي في هندسة الطيران، وتدريب الأطقم الملاحية. 
+                  </p>
+                </div>
+                <div class="download-btn">
+                  <a href="#">
+                    <img src="../assets/images/download-white.svg" alt="">
+                    <div>
+                      تحميل
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="download-card">
+                <div class="top-area">
+                  <div class="date">
+                    <img src="../assets/images/calendar-dates-grey.svg" alt="">
+                    <span>
+                      الأحد, 29 مايو 2021
+                    </span>
+                  </div>
+                  <div class="type">
+                    <img src="../assets/images/ppt.svg" alt="">
+                  </div>
+                </div>
+                <div class="content-box">
+                  <h4>
+                    لائحة كليات الطيران التقنيه العالمية بالرياض
+                  </h4>
+                  <p>
+                    أسستها الحكومة الأسترالية في عام 2001م لدعم وتطوير صناعة الطيران، وتقديم التدريب التطبيقي في هندسة الطيران، وتدريب الأطقم الملاحية. 
+                  </p>
+                </div>
+                <div class="download-btn">
+                  <a href="#">
+                    <img src="../assets/images/download-white.svg" alt="">
+                    <div>
+                      تحميل
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="download-card">
+                <div class="top-area">
+                  <div class="date">
+                    <img src="../assets/images/calendar-dates-grey.svg" alt="">
+                    <span>
+                      الأحد, 29 مايو 2021
+                    </span>
+                  </div>
+                  <div class="type">
+                    <img src="../assets/images/ppt.svg" alt="">
+                  </div>
+                </div>
+                <div class="content-box">
+                  <h4>
+                    لائحة كليات الطيران التقنيه العالمية بالرياض
+                  </h4>
+                  <p>
+                    أسستها الحكومة الأسترالية في عام 2001م لدعم وتطوير صناعة الطيران، وتقديم التدريب التطبيقي في هندسة الطيران، وتدريب الأطقم الملاحية. 
+                  </p>
+                </div>
+                <div class="download-btn">
+                  <a href="#">
+                    <img src="../assets/images/download-white.svg" alt="">
+                    <div>
+                      تحميل
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
 
-          <div class="news-list-item" data-aos="fade-in" data-aos-delay="300"> 
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="news-img-box">
-                  <img src="../assets/images/list-3.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="news-content-box">
-                  <div class="date">
-                    <img src="../assets/images/calendar-dates-grey.svg" alt="">
-                    <span>
-                      الأحد, 29 مايو 2021
-                    </span>
-                  </div>
-                  <h4>
-                    لتأهيل وتوظيف كوادر وطنية عالمية التدريب التقني توقع اتفاقية إطلاق وحدة تدريبية غير ربحية بالتعاون مع الوطنية للتقني
-                  </h4>
-                  <p>
-                    بناءً على موافقة صاحب السمو الملكي الأمير محمد بن سلمان بن عبد العزيز ولي العهد نائب رئيس مجلس الوزراء وزير الدفاع وقعت وزارة الدفاع ممثلة بإدارة الإخلاء الطبي الجوي بالإدارة العامة للخدمات الصحية مذكرة تعاون مع المؤسسة العامة للتدريب التقني والمهني 
-                  </p>
-                  <a class="more" href="#">
-                    المزيد
-                    <img src="../assets/images/arrow-ios-back.svg" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="news-list-item" data-aos="fade-in" data-aos-delay="300">
-            <div class="row">
-              <div class="col-lg-3">
-                <div class="news-img-box">
-                  <img src="../assets/images/list-4.jpg" alt="">
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="news-content-box">
-                  <div class="date">
-                    <img src="../assets/images/calendar-dates-grey.svg" alt="">
-                    <span>
-                      الأحد, 29 مايو 2021
-                    </span>
-                  </div>
-                  <h4>
-                    لتأهيل وتوظيف كوادر وطنية عالمية التدريب التقني توقع اتفاقية إطلاق وحدة تدريبية غير ربحية بالتعاون مع الوطنية للتقني
-                  </h4>
-                  <p>
-                    بناءً على موافقة صاحب السمو الملكي الأمير محمد بن سلمان بن عبد العزيز ولي العهد نائب رئيس مجلس الوزراء وزير الدفاع وقعت وزارة الدفاع ممثلة بإدارة الإخلاء الطبي الجوي بالإدارة العامة للخدمات الصحية مذكرة تعاون مع المؤسسة العامة للتدريب التقني والمهني 
-                  </p>
-                  <a class="more" href="#">
-                    المزيد
-                    <img src="../assets/images/arrow-ios-back.svg" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
