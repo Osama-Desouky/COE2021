@@ -3591,6 +3591,28 @@ meeeeeeeedia for bootstrap col
     }
   }
 }
+
+
+/*
+***************** programs-inner *******************
+*/
+
+.first-inner.programs-inner{
+  .about-content-box{
+    p{
+
+    }
+  }
+  .first-img-box{
+    display: flex;
+    justify-content: flex-end;
+    img{
+     border: 1px solid #E3E7EC;
+     box-shadow: 0px 8px 15px rgba($color: #7E8692, $alpha: .08);
+     
+    }
+  }
+}
 // LTR
 // html[dir="ltr"] {
 // }
