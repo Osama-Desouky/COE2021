@@ -1,0 +1,12 @@
+<svg id="text-block" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="text-block-2" data-name="text-block">
+    <path id="Vector" d="M20.625,32.25h-9C3.48,32.25,0,28.77,0,20.625v-9C0,3.48,3.48,0,11.625,0h9C28.77,0,32.25,3.48,32.25,11.625v9C32.25,28.77,28.77,32.25,20.625,32.25Zm-9-30C4.71,2.25,2.25,4.71,2.25,11.625v9C2.25,27.54,4.71,30,11.625,30h9C27.54,30,30,27.54,30,20.625v-9C30,4.71,27.54,2.25,20.625,2.25Z" transform="translate(1.875 1.875)" fill="#fff"/>
+    <g id="Group_48748" data-name="Group 48748" transform="translate(13.27 10.605)">
+      <path id="Vector-2" data-name="Vector" d="M1.125,14.79A1.133,1.133,0,0,1,0,13.665V1.125A1.133,1.133,0,0,1,1.125,0,1.133,1.133,0,0,1,2.25,1.125V13.68A1.12,1.12,0,0,1,1.125,14.79Z" fill="#fff"/>
+      <path id="Vector-3" data-name="Vector" d="M1.125,9.46C.51,9.46,0,9.134,0,8.741V.72C0,.326.51,0,1.125,0S2.25.326,2.25.72V8.75C2.25,9.144,1.74,9.46,1.125,9.46Z" transform="translate(9.46) rotate(90)" fill="#fff"/>
+      <path id="Vector-4" data-name="Vector" d="M1.125,9.46C.51,9.46,0,9.134,0,8.741V.72C0,.326.51,0,1.125,0S2.25.326,2.25.72V8.75C2.25,9.144,1.74,9.46,1.125,9.46Z" transform="translate(9.46 12.54) rotate(90)" fill="#fff"/>
+      <path id="Vector-5" data-name="Vector" d="M1.125,7.543C.51,7.543,0,7.283,0,6.969V.574C0,.26.51,0,1.125,0S2.25.26,2.25.574v6.4C2.25,7.291,1.74,7.543,1.125,7.543Z" transform="translate(7.543 6.27) rotate(90)" fill="#fff"/>
+    </g>
+    <path id="Vector-6" data-name="Vector" d="M0,0H36V36H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>
