@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="Group_55080" data-name="Group 55080" transform="translate(-934 -2077)">
+    <g id="Group_48750" data-name="Group 48750" transform="translate(-143 1211)">
+      <rect id="Rectangle_13861" data-name="Rectangle 13861" width="52" height="52" rx="26" transform="translate(1077 866)" fill="#bd8bd5" opacity="0.09"/>
+    </g>
+    <g id="star_linear" data-name="star/linear" transform="translate(946 2089)">
+      <g id="vuesax_linear_star" data-name="vuesax/linear/star">
+        <g id="star">
+          <path id="Vector" d="M14.074,1.721l2.112,4.23a2.608,2.608,0,0,0,1.7,1.262l3.828.637c2.448.409,3.024,2.187,1.26,3.941L20,14.771a2.612,2.612,0,0,0-.624,2.175l.852,3.689c.672,2.92-.876,4.049-3.456,2.523l-3.588-2.127a2.591,2.591,0,0,0-2.376,0L7.223,23.158c-2.568,1.526-4.128.385-3.456-2.523l.852-3.689a2.612,2.612,0,0,0-.624-2.175l-2.976-2.98C-.733,10.037-.169,8.258,2.279,7.85l3.828-.637A2.614,2.614,0,0,0,7.8,5.951l2.112-4.23C11.063-.574,12.934-.574,14.074,1.721Z" transform="translate(2.001 2.077)" fill="none" stroke="#804d98" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+          <path id="Vector-2" data-name="Vector" d="M0,0H28V28H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

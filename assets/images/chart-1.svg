@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <g id="chart-1" transform="translate(-1077 -866)">
+    <rect id="Rectangle_13861" data-name="Rectangle 13861" width="52" height="52" rx="26" transform="translate(1077 866)" fill="#42a7c6" opacity="0.09"/>
+    <g id="chart_linear" data-name="chart/linear" transform="translate(1085 874)">
+      <g id="vuesax_linear_chart" data-name="vuesax/linear/chart">
+        <g id="chart">
+          <path id="Vector" d="M0,0H27" transform="translate(4.5 33)" fill="none" stroke="#192946" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+          <g id="Group" transform="translate(4.5 3)">
+            <path id="Vector-2" data-name="Vector" d="M3.9,0H1.5A1.5,1.5,0,0,0,0,1.5V14.43a1.5,1.5,0,0,0,1.5,1.5H3.9a1.5,1.5,0,0,0,1.5-1.5V1.5A1.5,1.5,0,0,0,3.9,0Z" transform="translate(0 9.57)" fill="none" stroke="#192946" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+            <path id="Vector-3" data-name="Vector" d="M3.9,0H1.5A1.5,1.5,0,0,0,0,1.5V19.215a1.5,1.5,0,0,0,1.5,1.5H3.9a1.5,1.5,0,0,0,1.5-1.5V1.5A1.5,1.5,0,0,0,3.9,0Z" transform="translate(10.8 4.785)" fill="none" stroke="#192946" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+            <path id="Vector-4" data-name="Vector" d="M3.9,0H1.5A1.5,1.5,0,0,0,0,1.5V24a1.5,1.5,0,0,0,1.5,1.5H3.9A1.5,1.5,0,0,0,5.4,24V1.5A1.5,1.5,0,0,0,3.9,0Z" transform="translate(21.6)" fill="none" stroke="#192946" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+          </g>
+          <path id="Vector-5" data-name="Vector" d="M0,0H36V36H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
