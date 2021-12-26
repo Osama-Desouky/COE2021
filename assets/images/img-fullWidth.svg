@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="img-fullWidth" transform="translate(-17212.5 -11526.5)">
+    <circle id="Ellipse_11173" data-name="Ellipse 11173" cx="24" cy="24" r="24" transform="translate(17212.5 11526.5)" fill="#fff"/>
+    <g id="expand" transform="translate(17224.5 11538.5)">
+      <g id="expand-2" data-name="expand" transform="translate(0 0)">
+        <g id="expand-3" data-name="expand">
+          <rect id="Rectangle_14283" data-name="Rectangle 14283" width="24" height="24" transform="translate(24 24) rotate(180)" fill="#1d4487" opacity="0"/>
+          <path id="Path_131305" data-name="Path 131305" d="M19.708,4.958A.958.958,0,0,0,18.75,4H13.958a.958.958,0,1,0,0,1.917h2.463L13.278,9.07a.962.962,0,1,0,1.361,1.361l3.153-3.153V9.75a.958.958,0,1,0,1.917,0Z" transform="translate(-0.04 0.333)" fill="#1d4487"/>
+          <path id="Path_131306" data-name="Path 131306" d="M10.43,13.278a.958.958,0,0,0-1.361,0L5.917,16.421V13.958a.958.958,0,1,0-1.917,0V18.75a.958.958,0,0,0,.958.958H9.75a.958.958,0,1,0,0-1.917H7.278l3.153-3.153a.958.958,0,0,0,0-1.361Z" transform="translate(0.334 -0.042)" fill="#1d4487"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

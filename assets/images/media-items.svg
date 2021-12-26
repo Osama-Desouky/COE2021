@@ -1,0 +1,11 @@
+<svg id="media-items" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_video-play" data-name="vuesax/outline/video-play">
+    <g id="video-play">
+      <path id="Vector" d="M13.75,21.5h-6C2.32,21.5,0,19.18,0,13.75v-6C0,2.32,2.32,0,7.75,0h6c5.43,0,7.75,2.32,7.75,7.75v6C21.5,19.18,19.18,21.5,13.75,21.5Zm-6-20C3.14,1.5,1.5,3.14,1.5,7.75v6C1.5,18.36,3.14,20,7.75,20h6C18.36,20,20,18.36,20,13.75v-6c0-4.61-1.64-6.25-6.25-6.25Z" transform="translate(1.25 1.25)" fill="#192946"/>
+      <path id="Vector-2" data-name="Vector" d="M19.71,1.5H.75A.75.75,0,0,1,.75,0H19.71a.75.75,0,0,1,0,1.5Z" transform="translate(1.77 6.36)" fill="#192946"/>
+      <path id="Vector-3" data-name="Vector" d="M.75,6.36A.755.755,0,0,1,0,5.61V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V5.61A.755.755,0,0,1,.75,6.36Z" transform="translate(7.77 1.36)" fill="#192946"/>
+      <path id="Vector-4" data-name="Vector" d="M.75,5.91A.755.755,0,0,1,0,5.16V.75A.755.755,0,0,1,.75,0,.755.755,0,0,1,1.5.75V5.16A.743.743,0,0,1,.75,5.91Z" transform="translate(14.73 1.36)" fill="#192946"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>
