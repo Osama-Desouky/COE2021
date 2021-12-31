@@ -7,16 +7,6 @@ this UI is made desktop first.
   .container {
     max-width: 1260px;
   }
-  // .custom-container{
-  //   max-width: 1340px;
-  //   margin: 0 auto;
-  // }
-  
-  // .inner-container{
-  //   max-width: 1340px;
-  //   padding-left: 0;
-  //   padding-right: 0;
-  // }
 }
 
 @media (min-width: 1650px) {
@@ -24,15 +14,6 @@ this UI is made desktop first.
     max-width: 1640px;
     padding: 0;
   }
-  // .custom-container{
-  //   max-width: 1640px;
-  //   margin: 0 auto;
-  // }
-  // .inner-container{
-  //   max-width: 1640px;
-  //   padding-left: 0;
-  //   padding-right: 0;
-  // }
 }
 
 @media (max-width: 1649.98px){
@@ -67,6 +48,261 @@ this UI is made desktop first.
     .search-box{
       top: 89px !important;
     }
+    .navbar {
+      margin-top: 25px;
+      padding-bottom: 10px;
+      .nav-div {
+        .nav-div-one {
+          width: auto;
+          .nav-item {
+            margin-#{$end-direction}: 25px;
+            .nav-link{
+              font-size: 17px;
+              &.active{
+                &::before{
+                  bottom: -20px;
+                }
+              }
+            }
+          }
+        }
+        .nav-div-two {
+          .contact-us{
+            margin-#{$end-direction}: 15px;
+            a{
+              height: 39px;
+              width: 85px;
+              font-size: 14px;
+              padding: 10px 10px 12px;
+            }
+          }
+          .language{
+            margin-#{$end-direction}: 15px;
+            button{
+              width: 39px;
+              height: 39px;
+              background-position: 9px center;
+              padding: 5px 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .sub-menu {
+    .subMenu-area {
+      ul {
+        li{
+          padding-top: 7px;
+          padding-bottom: 10px;
+          margin-#{$end-direction}: 30px;
+          &:last-child{
+            margin-#{$end-direction}: 0;
+          }
+        }
+      }
+    }
+  }
+  .about-first {
+    .about-content-box{
+      h2{
+        font-size: 40px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 17px;
+      }
+    }
+  }
+  .about-ro2ya-2020{
+    padding-top: 65px;
+    padding-bottom: 65px;
+    .ro2ya-content-box {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h2{
+        font-size: 40px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 17px;
+      }
+    }
+  }
+  .our-msg {
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    .msg-img-box{
+      &::before{
+        width: 360px;
+        height: 280px;
+        #{$end-direction}: -12px;
+        top: 15px;
+      }
+    }
+    .msg-content-box {
+      span{
+        font-size: 25px;
+        padding: 10px 20px 5px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  .about-vision {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding-bottom: 20px;
+    .vision-img-box{
+      margin-top: 20px;
+      &::before{
+        width: 310px;
+        height: 270px;
+      }
+    }
+    .vision-content-box {
+      span{
+        font-size: 25px;
+        padding: 10px 20px 5px;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  .about-values {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-bottom: 75px;
+    h2{
+      font-size: 40px;
+      margin-bottom: 25px;
+      line-height: 40px;
+    }
+    .value-card{
+      .value-content-box{
+        h4{
+          font-size: 25px;
+          line-height: 24px;
+          margin-bottom: 7px;
+        }
+        p{
+          font-size: 16px;
+          line-height: 18px;
+        }
+      }
+    } 
+  }
+
+
+  // news list
+  .list-with-search {
+    .list-items{
+      .news-list-item {
+        .news-content-box {
+          h4{
+            font-size: 22px;
+            line-height: 28px;
+          }
+          p{
+            font-size: 18px;
+            line-height: 25px;
+          }
+          a.more{
+            height: 40px;
+            width: 100px;
+            font-size: 16px;
+            padding: 7px;
+          }
+        }
+      }
+    }
+  }
+
+  .first-inner {
+    .about-content-box {
+      h2{
+        font-size: 35px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+  .title-with-p {
+    margin-top: 30px;
+  }
+  .our-programs {
+    .program-card {
+      .content-1{
+        h4{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .Government-partners {
+    .partners-list {
+      .partner-card{
+        height: 160px;
+      }
+    }
+  
+  
+  }
+
+
+
+  .download-center {
+    .download-card {
+      .top-area {
+        .date  {
+          font-size: 13px !important;
+        }
+      }
+      .content-box {
+        h4{
+          font-size: 25px;
+          line-height: 25px;
+          height: calc(27px * 2);
+        }
+        p{
+          font-size: 16px;
+          line-height: 20px;
+          max-height: calc(20px * 3);
+        }
+      }
+    }
+  }
+  .event-list {
+    .events-list {
+      .download-card{
+        min-height: auto;
+        .content-area {
+          .top-area {
+            .date  {
+              font-size: 13px !important;
+            }
+            .location{
+              font-size: 13px;
+              margin-#{$start-direction}:auto ;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact-first{
+    padding-top: 100px;
+    padding-bottom: 60px;
   }
 }
 
@@ -75,6 +311,192 @@ this UI is made desktop first.
   .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item {
     margin-left: auto;
   }
+
+    // news list
+    .list-with-search {
+      .list-items{
+        .news-list-item {
+          .news-content-box {
+            .date{
+              font-size: 14px;
+            }
+            h4{
+              font-size: 20px;
+              line-height: 25px;
+            }
+            p{
+              font-size: 16px;
+              line-height: 20px;
+            }
+            a.more{
+              height: 35px;
+              width: 85px;
+              font-size: 14px;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+    .tamayoz-role{
+      padding-top: 45px;
+      padding-bottom: 45px;
+      .list-roles {
+        ul {
+          li {
+            span{
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .Qualifications {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      .list-qualifications {
+        ul {
+          li {
+            span{
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .Benefits {
+      .list-Benefits {
+        ul {
+          li {
+            span{
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .Achievements-results {
+      ul {
+        li {
+          .content-box {
+            .number{
+              font-size: 20px;
+            }
+            .title-1 {
+              font-size: 20px;
+            }
+            .title {
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+
+    .event-details-page {
+      .details-content {
+        .event-details{
+          div{
+            font-size: 16px;
+            span{
+              font-size: inherit;
+            }
+            img{
+              width: 20px;
+            }
+          }
+        }
+          .event-description{
+            margin-top: 15px;
+            h2{
+              font-size: 35px;
+              margin-bottom: 10px;
+            }
+            p{
+              font-size: 18px;
+              margin-bottom: 25px;
+            }
+            a.sign{
+              width: 110px;
+              height: 40px;
+              padding: 9px;
+              font-size: 15px;
+            }
+            .note {
+              font-size: 18px;
+            }
+          }
+      }
+    }
+
+    .contact-mid{
+      .contactUs-details {
+        h2{
+          font-size: 28px;
+        }
+        p{     
+          font-size: 18px;
+        }
+        .details{
+          div {
+            span{
+              font-size: 18px;
+              margin-#{$start-direction}: 15px;
+            }
+          }
+        }
+      }
+      .contactUs-form {
+        h2{
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 16px;
+          margin-bottom: 15px;
+        }
+        .formGroup.InputStyle{
+          margin-bottom: 8px;
+         
+          input[type=text],
+          input[type=email],
+          input[type=number]
+          {
+            height: 40px;
+            padding: 7px 20px;
+            font-size: 16px;
+          }
+        }
+        .formGroup.selectBox {
+          margin-bottom: 8px;
+          select{
+            height: 40px;
+            padding: 7px 20px;
+            font-size: 16px;
+          }
+        }
+        .formGroup.textareaStyle {
+          textarea{
+            padding: 7px 20px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .map-location {
+      .content-box {
+        h2{
+          font-size: 28px;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+      span.our-time{
+        font-size: 18px;
+      }
+    }
+
 
   }
 
@@ -146,8 +568,806 @@ this UI is made desktop first.
     width: 8px;
   }
   
+  .main-navbar .nav-div{
+    width: auto;
+    .nav-item {
+      .nav-link{
+        font-size: 15px;
+      }
+    }
+  }
 
+  // footer
+
+  footer {
+    h5{
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 12px;
+    }
+    ul {
+      li{
+        margin-bottom: 5px;
+        a{
+          font-size: 15px;
+          line-height: 20px;
+        }
+      }
+    }
+    .about-us-footer{
+      ul {
+        li{
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .copySection{
+      flex-direction: column;
+      .copy-rights{
+        .copy{
+          font-size: 15px;
+          padding-#{$end-direction}: 20px;
+          border-#{$end-direction}: 1px solid #7D7D7D;
+          margin-#{$end-direction}: 15px;
+        }
+        a{
+          font-size: 15px;
+          margin-#{$end-direction}: 10px;
+        }
+      }
+      .social-media{
+        width: auto;
+        justify-content: flex-end;
+        a{
+          margin-#{$start-direction}: 15px;
+        }
+      }
+    }
+  }
+
+
+  // inner pages
+
+
+
+  .privacy {
+    .title-with-p{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      .content-main {
+        h2{
+          font-size: 29px;
+        }
+      }
+    }
+    .privacy-content{
+      .content-box{
+        padding-top: 30px;
+        padding-bottom: 60px;
+        h4{
+          font-size: 25px;
+          margin-bottom: 12px;
+        }
+        p{
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  .about-first{
+    .about-content-box{
+      h2{
+        font-size: 29px;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  } 
+  .about-ro2ya-2020 {
+    .ro2ya-content-box {
+      h2{
+        font-size: 29px;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+  .our-msg {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    .msg-img-box{
+      &::before{
+        width: 300px;
+        height: 246px;
+        #{$end-direction}: -41px;
+        top: 45px;
+      }
+    }
+    .msg-content-box {
+      span{
+        font-size: 20px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+
+  .about-vision {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    .vision-img-box{
+      margin-#{$start-direction}: 0;
+      &::before{
+        width: 285px;
+        height: 245px;
+      }
+    }
+    .vision-content-box {
+      span{
+        font-size: 20px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+  .about-values{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    h2{
+      font-size: 29px;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .value-card {
+      .value-img-box{
+        flex: 0 0 70px;
+        width: 70px;
+        height: 70px;
+        margin-left: 10px;
+      }
+      .value-content-box {
+        h4{
+          font-size: 20px;
+        }
+        p{
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+    }
+  }
+    
+
+  // top search
+  .list-with-search {
+    h2.main-h2 {
+      margin-top: 35px;
+      margin-bottom: 35px;
+      font-size: 28px
+    }
+    .search-and-sort {
+      .search-area {
+        .search-go{
+          font-size: 14px;
+          font-weight: 400;
+          text-align: center;
+          padding: 7px 20px 10px;
+          height: 40px;
+        }
+        .search-input{
+          font-size: 14px;
+          height: 40px;
+          width: 220px;
+          background-position: 12px 12px;
+          margin-#{$end-direction}: 15px;
+        }
+      }
+      .sort-area {
+        .sort-date{
+          font-size: 14px;
+          height: 40px;
+          width: 200px;
+          margin-#{$end-direction}: 15px;
+        }
+        label{
+          font-size: 14px;
+          margin-#{$end-direction}: 7px;
+        }
+      }
+      .dropdown{
+        .btn-sort{
+          font-size: 14px;
+          height: 40px;
+          min-width: 80px;
+          padding: 7px;
+        }
+      }
+    }
+  }
+
+ // news list
+  .list-with-search {
+    .list-items{
+      .news-list-item {
+        padding-bottom: 25px;
+        margin-bottom: 10px;
+        .news-img-box{
+          &::after{
+            width: 100%;
+            height: 100%;
+            background-size: contain;
+          }
+        }
+        .news-content-box {
+          .date{
+            font-size: 12px;
+            img{
+              margin-#{$end-direction}: 5px;
+              width: 13px;
+              vertical-align: top;
+            }
+          }
+          h4{
+            font-size: 16px;
+            line-height: 20px;
+          }
+          p{
+            font-size: 14px;
+            line-height: 18px;
+            max-height: calc(19px * 2);
+            overflow: hidden;
+          }
+          a.more{
+            height: 30px;
+            width: 70px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .details-page {
+    .details-title {
+      h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+      }
+    }
+    .details-content{
+      p{
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .first-inner {
+    padding-bottom: 50px;
+    background-size: 450px;
+    background-position: 101% 0px;
+    .about-content-box {
+      h2{
+        font-size: 25px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+  .title-with-p {
+    .content-main {
+      max-width: 800px;
+      h2{
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+
+  // programs
+  .our-programs {
+    margin-top: 40px;
+    margin-bottom: 75px;
+    .program-card {
+      margin-top: -50px;
+      .content-1 {
+        h4{
+          font-size: 18px;
+        }
+      }
+      .plus-prog {
+        a{
+          width: 37px;
+          height: 37px;
+          img{
+            max-width: 18px;
+          }
+        }
+      }
+      .content-hidden {
+        h4{
+          font-size: 18px;
+          line-height: 25px;
+        }
+        p{
+          font-size: 14px;
+          line-height: 22px;
+          max-height: calc(22px * 8);
+        }
+        .btns-prog {
+          .card-more{
+            font-size: 15px;
+          }
+          .back-btn{
+            width: 37px;
+            height: 37px;
+            img{
+              max-width: 11px;
+            }
+          }
+        }
+      }
+     
+     
+     
+      &:nth-child(odd){
+        height: 350px;
+      }
+      &:nth-child(even) {
+        height: 400px;
+      }
+      &::nth-of-type(2n - 1) {
+        margin-top: 0px;
+      }
+    }
+    .loading-more{
+      margin-top: 30px;
+      a{
+        font-size: 16px;
+        width: 85px;
+        height: 37px;
+      }
+    }
+  }
+
+  // partner
+  .Government-partners {
+    .partners-list{
+      margin-top: 40px;
+      .partner-card{
+        width: calc(100%/ 3 - 30px);
+        margin-#{$end-direction}: 30px !important;
+        margin-#{$start-direction}: 0px !important;
+        flex: 0 0 auto;
+        &:nth-child(3n + 3){
+          margin-#{$end-direction}: 0px !important;
+        }
+      }
+    }
+  }
+
+
+  // download-center
+  .download-center {
+    .download-card {
+      margin-bottom: 30px;
+      min-height: 300px;
+      .top-area {
+        .date{
+          font-size: 14px;
+          img{
+            margin-#{$end-direction}: 5px;
+          }
+        }
+        .type{
+          width: 60px;
+        }
+      }
+      .content-box {
+        h4{
+          font-size: 20px;
+          line-height: 23px;
+          height: calc(25px * 2);
+        }
+        p{
+          font-size: 16px;
+          line-height: 20px;
+          max-height: calc(21px * 3);
+        }
+      }
+      .download-btn {
+        a{
+          height: 40px;
+          width: 40px;
+          padding: 12px;
+          div{
+            font-size: 15px;
+            line-height: 14px;
+          }
+          &:hover{
+            width: 105px;
+            div{
+              margin-right: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // itps inner
+  .important-specialties {
+    min-height: auto;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin-bottom: 45px;
+    .head-top{
+      h2{
+        font-size: 25px;
+        img{
+          width: 40px;
+          height: 40px;
+          margin-#{$end-direction}: 8px;
+        }
+      }
+    }
+    .list-sections{
+      margin-top: 30px;
+      ul{
+        li{
+          margin-bottom: 15px;
+          .icon-box{
+            width: 40px;
+            height: 40px;
+            flex:  0 0 40px;
+            img{
+              max-width: 25px;
+            }
+          }
+          span{
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .another-partners {
+    h2{
+      font-size: 25px;
+    }
+    .itps-list {
+      .itp-card {
+        min-height: auto;
+        .content-box {
+          .img-box{
+            margin-bottom: 20px;
+          }
+          h4{
+            font-size: 16px;
+            // margin-top: 10px;
+            margin-bottom: 20px;
+          }
+          a.more{
+            height: 35px;
+            width: 90px;
+            font-size: 14px;
+            padding: 6px;
+          }
+        }
+      }
+    }
+    .show-all {
+      margin-bottom: 50px;
+      a{
+        margin-#{$end-direction}: 5px;
+        font-size: 18px;
+      }
+    }
+  }
+  .not-found {
+    .not-found-content {
+      h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 18px;
+      }
+      .btns-div {
+        a{
+          font-size: 15px;
+          height: 40px;
+          &.home{
+            width: 160px;
+            margin-left: 15px;
+          }
+
+        }
+      }
+    }
+  }
+
+
+  .tamayoz-role{
+    .list-roles {
+      margin-top: 45px;
+      ul {
+        li {
+          margin-bottom: 10px;
+          .number{
+            width: 35px;
+            height: 35px;
+            margin-#{$end-direction}: 15px;
+            flex: 0 0 35px;
+            font-size: 20px;
+            background-size: contain;
+          }
+          span{
+            min-height: 50px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .Qualifications {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .list-qualifications {
+      ul {
+        li {
+          margin-bottom: 15px;
+          .icon-box{
+            width: 40px;
+            height: 40px;
+            flex: 0 0 40px;
+            img{
+              max-width: 25px;
+            }
+          }
+          span{
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+  .Benefits {
+    .list-Benefits {
+      ul {
+        li {
+          margin-bottom: 15px;
+          .number{
+            width: 35px;
+            height: 35px;
+            margin-#{$end-direction}: 15px;
+            flex: 0 0 35px;
+            font-size: 20px;
+            background-size: contain;
+          }
+          span{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .our-services {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .event-list {
+    .events-list {
+      .download-card {
+        .img-box{
+          height: 180px;
+        }
+        .content-area {
+          .top-area{
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            .date , .location{
+              width: 100%;
+              margin: 5px 0;
+              img{
+                width: 18px;
+                margin-#{$end-direction}: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .events-main {
+    .events-slider {
+      .item {
+        .event-banner {
+          .caption {
+            .event-details{
+              div {
+                font-size: 14px;
+                img{
+                  width: 18px;
+                  height: 18px;
+                }
+                span{
+                  font-size: inherit;
+                }
+              }
+            }
+            .content-box{
+              margin-top: 10px;
+              h2 {
+                font-size: 35px;
+                margin-bottom: 15px;
+              }
+              p {
+                font-size: 16px;
+                margin-bottom: 15px;
+              }
+              a.more {
+                width: 125px;
+                height: 40px;
+                font-size: 16px;
+                padding: 9px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .event-details-page {
+    .details-content {
+      .event-details{
+        div{
+          font-size: 16px;
+          span{
+            font-size: inherit;
+          }
+          img{
+            width: 20px;
+          }
+        }
+      }
+        .event-description{
+          h2{
+            font-size: 25px;
+          }
+          p{
+            font-size: 16px;
+          }
+          a.sign{
+            width: 100px;
+            height: 35px;
+            padding: 6px;
+            font-size: 14px;
+          }
+          .note {
+            font-size: 16px;
+          }
+        }
+    }
+  }
+  .about-event{
+    padding-top: 35px;
+    .about-event-details{
+      h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+    }
+    .partner-section{
+      h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      .partners-list{
+        .partner-card{
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  .contact-first{
+    padding-top: 0px;
+  }
+  .contact-mid {
+    .contactUs-details {
+      h2{
+        font-size: 25px;
+      }
+      p{
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+      .details {
+        div {
+          img{
+            width: 25px;
+          }
+          span{
+            font-size: 16px;
+            margin-#{$start-direction}: 8px;
+          }
+        }
+      }
+    }
+  }
+  .map-location {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    .content-box {
+      h2{
+        font-size: 25px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    span.our-time{
+      font-size: 16px;
+    }
+  }
+
+  .media-list {
+    .main-h{
+      margin-bottom: 30px;
+      h2{
+        font-size: 28px;
+      }
+    }
+  }
+  .media-inner {
+    .top-details{
+      margin-top: 45px;
+      .media-details {
+        div{
+          font-size: 16px;
+          span{
+            font-size: inherit;
+          }
+        }
+      }
+      .media-description{
+        margin-top: 15px;
+        h2{
+          font-size: 28px;
+          margin-bottom: 15px;
+        }
+        p{
+          font-size: 18px;
+        }
+      }
+    }
+  }
 }
+
+
+
 // Medium devices (tablets, less than 992px)
 @include media-breakpoint-down(md) {
   .main-navbar {
@@ -202,22 +1422,6 @@ this UI is made desktop first.
     }
     .navbar-brand {
       align-self: flex-start;
-      &.brand-2{
-        position: absolute;
-        #{$start-direction}: 220px;
-        max-width: 75px;
-        margin-#{$start-direction}: 20px;
-        padding-#{$start-direction}: 0;
-        &::before{
-          content: "";
-          background-color: #c3c3c3;
-          width: 2px;
-          height: 70%;
-          position: absolute;
-          #{$start-direction}: -15px;
-          bottom: 5px
-        }
-      }
     }
     .navbar-toggler {
       position: absolute;
@@ -264,6 +1468,349 @@ this UI is made desktop first.
     // }
 
   }
+  .main-navbar {
+    .nav-div {      
+      width: auto;
+      flex-direction: column;
+      justify-content: center;
+      .nav-div-one{
+        justify-content: center;
+        flex-direction: column;
+      }
+      .nav-div-two{
+        // position: absolute;
+        // top: -60px;
+        // left: 50%;
+        // transform: translateX(-100%);
+        .search-toggle{
+          display: none;
+        }
+      }
+    }
+  }
+
+  // footer
+  footer{
+    padding-top: 30px !important;
+    padding-bottom: 30px;
+    .col-lg-3 ,  .col-lg-6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h5{
+      margin-top: 15px;
+    }
+    ul{
+      li{
+        text-align: center;
+      }
+    }
+    .about-us-footer {
+      ul{
+        li {
+          margin-bottom: 10px;
+          a{
+            justify-content: center;
+            flex-direction: column;
+            max-width: 350px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .copySection {
+      margin-top: 20px;
+      .copy-rights{
+        text-align: center;
+        .copy{
+          display: block;
+          margin: 0;
+          padding: 0;
+          border: 0;
+        }
+
+      }
+      .social-media{
+        justify-content: center;
+        margin-top: 10px;
+      }
+    }
+  } 
+
+
+  .about-first {
+    .first-img-box{
+      margin-top: 20px;
+    }
+  }
+  .our-msg {
+    .msg-img-box{
+      &::before{
+        #{$end-direction}:50%;
+        transform: translateX(-60%) rotate(-45deg);
+      }
+    }
+  }
+  .about-vision {
+    .vision-img-box{
+      justify-content: flex-start;
+      margin-top: 0;
+      margin-bottom: 20px;
+      &::before{
+        height: 200px;
+      }
+    }
+
+  }
+
+
+  .list-with-search {
+    .list-items {
+      .news-list-item {
+        // border: 1px solid #ddd;
+        box-shadow: 0px 10px 25px rgba($color: #000000, $alpha: 0.10);
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        border-radius: 16px;
+        .news-img-box{
+          max-height: 350px;
+          &::before{
+            top: 5%;
+          }
+          &::after{
+            display: none;
+          }
+        }
+        .news-content-box{
+          justify-content: center;
+          margin-top: 10px;
+          padding:10px 20px;
+          h4{
+            margin: 10px 0;
+          }
+          p{
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  .details-page {
+    .details-title {
+      h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+    }
+    .details-content{
+      margin-top: 20px;
+      p{
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+
+
+  // programs
+  .first-inner {
+    &.programs-inner{
+      .first-img-box{
+        justify-content: center;
+      }
+    } 
+    .about-content-box{
+      h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+    }
+    .first-img-box{
+      margin-top: 20px;
+    }
+  }
+
+  .our-programs {
+    .program-card{
+      width: calc(100% / 2 - 15px);
+      margin-#{$end-direction}: 30px !important;
+      margin-#{$start-direction}: 0px !important;
+      height: 350px !important;
+      margin-top: 0px;
+      &:nth-child(even){
+        margin-#{$end-direction}: 0px !important;
+        
+      }
+    }
+  }
+
+  // Government-partners
+
+  .Government-partners{
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+  .itps-list {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    .itp-card {
+      min-height: auto;
+      margin-bottom: 30px;
+      &:hover{
+        border-width: 1px;
+      }
+      .content-box {
+        h4{
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+        }
+        a.more{
+          height: 40px;
+          width: 95px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+
+
+  .tamayoz-role {
+    .list-roles {
+      ul {
+        li {
+          margin-bottom: 15px !important;
+          span{
+            display: flex;
+            align-items: center;
+            min-height: auto;
+          }
+        }
+      }
+    }
+  }
+  .Benefits {
+    .list-Benefits {
+      ul {
+        li{
+          margin-bottom: 15px !important;
+          span{
+            display: flex;
+            align-items: center;
+            min-height: auto;
+          }
+        }
+      }
+    }
+  }
+  .Qualifications {
+    .list-qualifications{
+      margin-top: 30px;
+    }
+  }
+  .Achievements-results {
+    ul {
+      li {
+        .content-box {
+          .number{
+            font-size: 20px;
+          }
+          .title-1 {
+            font-size: 20px;
+          }
+          .title {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .results , .Achievements{
+      h2{
+        font-size: 28px;
+        img{
+          width: 35px;
+          height: 35px;
+          margin-#{$end-direction}: 10px;
+        }
+      }
+      .list-results{
+        margin-top: 30px;
+        padding-bottom: 25px;
+        margin-bottom: 15px;
+        &::before{
+          width: 100%;
+          height: 1px;
+          bottom: 0;
+          top: auto;
+          #{$end-direction}: 0;
+        }
+      }
+      .list-Achievements{
+        margin-top: 30px;
+        justify-content: center;
+      }
+    }
+  }
+  .events-main {
+    .events-slider {
+      .item {
+        .event-banner {
+          .caption {
+            padding: 0 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-mid{
+    .contactUs-form{
+      padding-top: 25px;
+      padding-bottom: 30px;
+      margin-top: 30px;
+    }
+  }
+  
+  .media-list {
+    .main-h{
+      h2{
+        font-size: 25px;
+      }
+    }
+  }
+
+  .media-inner {
+    .top-details{
+      .media-details {
+        div{
+          font-size: 14px;
+          span{
+            font-size: inherit;
+          }
+        }
+      }
+      .media-description{
+        margin-top: 15px;
+        h2{
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+    }
+    .media-inner-list {
+      .media-list-cards{
+        column-count: 2;
+      }
+    }
+  }
 
 }
 
@@ -309,7 +1856,450 @@ this UI is made desktop first.
     width: 95%;
   }
  
+  .privacy {
+    .title-with-p{
+      .content-main {
+        h2{
+          font-size: 25px;
+        }
+      }
+    }
+    .privacy-content{
+      .content-box{
+        h4{
+          font-size: 20px;
+          margin-bottom: 7px;
+        }
+        p{
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
 
+  .list-with-search {
+    .search-and-sort{
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      margin-bottom: 35px;
+      .search-area{
+        margin-bottom: 10px;
+      }
+      .form-group{
+        margin-bottom: 0;
+      }
+      label{
+        display: none;
+      }
+    }
+  }
+
+  .details-page {
+    margin-bottom: 60px;
+    .details-title {
+      .date{
+        font-size: 14px;
+      }
+      h2{
+        margin-top: 10px;
+        font-size: 16px;
+      }
+    }
+  }
+  .details-page .details-content p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 19px;
+  }
+
+  .first-inner {
+    .about-content-box{
+      h2{
+        font-size: 20px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+  .title-with-p {
+    .content-main {
+      h2{
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+
+  .our-programs {
+    .program-card{
+      width: calc(100% );
+      margin-#{$end-direction}: 0px !important;
+      height: 300px !important;
+      .icon-box{
+        max-height: 170px;
+        margin-bottom: 10px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  // partner
+  .Government-partners {
+    .partners-list{
+      .partner-card{
+        width: 100%;
+        margin-#{$end-direction}: 0px !important;
+        margin-#{$start-direction}: 0px !important;
+       margin-bottom: 20px;
+      }
+    }
+  }
+
+  .download-center {
+    .download-card{
+      min-height: 260px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      .content-box {
+        h4{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+      
+    }
+  }
+
+  .itps-list {
+    .itp-card {
+      .content-box {
+        h4{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+        a.more{
+          height: 35px;
+          width: 80px;
+          font-size: 14px;
+          padding: 6px;
+        }
+      }
+    }
+  }
+
+  // 404
+  .not-found {
+    .not-found-content {
+      h2{
+        font-size: 22px;
+        margin-bottom: 7px;
+      }
+      p{
+        font-size: 14px;
+      }
+      .btns-div {
+        margin-top: 20px;
+        a{
+          font-size: 14px;
+          height: 35px;
+        }
+      }
+    }
+  }
+
+
+  .Qualifications {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Benefits {
+    .list-Benefits{
+      margin-top: 30px;
+      margin-bottom: 40px;  
+    }
+  }
+  .Achievements-results{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin-bottom: 80px;
+    .results , .Achievements{
+      h2{
+        font-size: 20px;
+        img{
+          width: 30px;
+          height: 30px;
+          margin-#{$end-direction}: 10px;
+        }
+      }
+
+      ul {
+        li {
+          .icon-box{
+            width: 40px;
+            height: 40px;
+            img{
+              width: 25px;
+              height: 25px;
+            }
+          }
+          .content-box {
+            .number{
+              font-size: 16px;
+              line-height: 17px;
+            }
+            .title-1{
+              font-size: 16px;
+              line-height: 17px;
+            }
+            .title{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+
+  .events-main {
+    h2.main-h2{
+      font-size: 28px;
+    }
+    .events-slider {
+      margin-top: 20px;
+      .item {
+        .event-banner {
+          .caption {
+            .event-details{
+              div {
+                flex-direction: column;
+                align-items: center;
+                img{
+                  margin: 0;
+                  margin-bottom: 5px;
+                }
+              }
+            }
+            .content-box{
+              h2 {
+                font-size: 25px;
+                margin-bottom: 10px;
+              }
+              p {
+                font-size: 14px;
+                margin-bottom: 10px;
+              }
+              a.more {
+                width: 110px;
+                height: 35px;
+                font-size: 14px;
+                padding: 6px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .event-list {
+    .events-list {
+      .download-card {
+        .content-area {
+          .content-box {
+            p{
+              margin-top: 10px;
+              margin-bottom: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .event-details-page {
+    margin-bottom: 30px;
+    .details-content {
+      .event-details{
+        flex-direction: column;
+        .event-description {
+          h2{
+            font-size: 20px;
+            margin-bottom: 5px;
+          }
+          p{
+            font-size: 14px;
+            margin-bottom: 15px;
+          }
+          .note {
+            font-size: 14px;
+            img{
+              margin-#{$end-direction}: 5px;
+              width: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .about-event {
+    .about-event-details {
+      margin-bottom: 30px;
+      h2{
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+      p{
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+    }
+    .partner-section {
+      h2{
+        font-size: 20px;
+      }
+    }
+  }
+
+  .contact-first {
+    .about-content-box {
+      p{
+        margin-bottom: 10px;
+      }
+      .links {
+        a{
+          width: 33px;
+          height: 33px;
+          img{
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+  .contact-mid {
+    .contactUs-details {
+      h2{
+        font-size: 20px;
+      }
+      p{
+        font-size: 14px;
+      }
+      .details{
+        div{
+          span{
+            font-size: 14px;
+            img {
+              width: 20px;
+            }
+          }
+        }
+      }
+    }
+    .contactUs-form {
+      h2{
+        font-size: 20px;
+      }
+      p{
+        font-size: 14px;
+      }
+      .formGroup.InputStyle{
+
+        input[type=text],
+        input[type=email],
+        input[type=number]
+        {
+          height: 35px;
+          padding: 6px 20px;
+          font-size: 14px;
+        }
+      }
+      .formGroup.selectBox {
+        select{
+          height: 35px;
+          padding: 6px 20px;
+          font-size: 14px;
+          background-size: 18px;
+        }
+      }
+      .formGroup.textareaStyle {
+        textarea{
+          padding: 6px 20px;
+          font-size: 14px;
+        }
+      }
+      .down-form {
+        a.btnForm{
+          width: 100px;
+          height: 35px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .map-location {
+    .content-box {
+      h2{
+        font-size: 20px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+    span.our-time{
+      font-size: 14px;
+
+    }
+  }
+
+  .media-list {
+    .main-h{
+      h2{
+        font-size: 20px;
+      }
+    }
+  }
+  .media-inner {
+    .top-details{
+      .media-details{
+        flex-direction: column;
+        div {
+          img{
+            width: 25px;
+            margin-#{$end-direction}: 5px ;
+          }
+        }
+      }
+      .media-description{
+        margin-top: 10px;
+        h2{
+          font-size: 20px;
+          margin-bottom: 8px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+    .media-inner-list {
+      .media-list-cards{
+        column-count: 1;
+      }
+    }
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -339,14 +2329,6 @@ this UI is made desktop first.
   .main-navbar .navbar-brand{
     flex: 0 0 135px;
   }
-  .main-navbar .navbar-brand.brand-2{
-    #{$start-direction}: 155px;
-    max-width: 55px;
-    margin-#{$start-direction}: 10px;
-    &::before{
-      #{$start-direction}: -8px;
-    }
-  }
   .main-navbar .navbar-toggler{
     #{$end-direction}: 20px;
     top: 25px;
@@ -370,11 +2352,84 @@ this UI is made desktop first.
     margin-top: 30px;
     margin-#{$end-direction}: 63px;
   }
-  .main-navbar .top-nav .nav-item .nav-link.lang img{
-    margin-#{$start-direction}:3px ;
+
+
+  // breadcrumb
+  .breadcrumb-area{
+    flex-direction: column;
+    align-items: inherit;
+    .breadcrumb{
+      .breadcrumb-item {
+        a{
+          font-size: 15px;
+          &.active{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    ul.share{
+      justify-content: flex-end;
+      margin-top: 10px;
+    }
   }
  
  
+
+  // inner pages
+
+  .about-values{
+    .value-card {
+      .value-content-box {
+        h4{
+          font-size: 16px;
+          line-height: 16px;
+          margin-bottom: 5px;
+        }
+        p{
+          font-size: 13px;
+          line-height: 15px;
+        }
+      }
+    }
+  } 
+
+
+  .list-with-search {
+    .search-and-sort {
+      .search-area {
+        .search-input{
+          width: auto;
+          font-size: 12px;
+          background-position: 10px 14px;
+        }
+      }
+      .dropdown {
+        .btn-sort{
+          font-size: 12px;
+        }
+        .dropdown-menu{
+          li {
+            a{
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .search-area {
+        .search-go{
+          font-size: 12px;
+          padding: 5px 13px 8px;
+          height: 35px;
+        }
+      }
+    }
+  }
+  .first-inner{
+    padding-bottom: 15px;
+  }
+
+
 }
 
 

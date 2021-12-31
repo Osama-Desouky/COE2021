@@ -1,5 +1,7 @@
 // RTL
-
+html{
+  overflow-x: hidden;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -1431,7 +1433,7 @@ index
   padding-top: 127px;
   padding-bottom: 131px;
   overflow: hidden;
-  max-height: 1100px;
+  // max-height: 1100px;
   // height: 100%;
   // width: 100%;
   .top-desc{
@@ -2892,6 +2894,7 @@ about page
         font-weight: $w-bold;
         color: $dark-blue-text;
         line-height: 30px;
+        text-align: center;
 
       }
     }
@@ -3669,7 +3672,7 @@ meeeeeeeedia for bootstrap col
           color: #27C4F5;
         }
         span{
-          height: 70px;
+          min-height: 70px;
           font-size: 22px;
           font-weight: $w-medium;
           color: #fff;
@@ -3772,7 +3775,7 @@ meeeeeeeedia for bootstrap col
           color: #2758AE;
         }
         span{
-          height: 70px;
+          // height: 70px;
           font-size: 22px;
           font-weight: $w-medium;
           color: #434951;
@@ -4198,6 +4201,11 @@ meeeeeeeedia for bootstrap col
           height: 100%;
           top: 0;
           left: 0;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
         }
         .caption{
           max-width: 815px;
@@ -4971,7 +4979,7 @@ meeeeeeeedia for bootstrap col
               z-index: 3;
               background-repeat: no-repeat;
               background-position: center;
-              background-image: url(../images/video-icon.svg);
+              // background-image: url(../images/video-icon.svg);
               background-size: 24px;
               opacity: 0;
               transition: 500ms;
@@ -4981,10 +4989,18 @@ meeeeeeeedia for bootstrap col
               &::before{
                 background-image: url(../images/img-fullWidth.svg);
               }
+              &::after{
+                background-image: url(../images/gallery.svg);
+
+              }
             }
             &.video{
               &::before{
                 background-image: url(../images/video-play.svg);
+              }
+              &::after{
+                background-image: url(../images/video-icon.svg);
+
               }
             }
         }

@@ -10985,6 +10985,10 @@ ol li {
   float: left !important;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12398,7 +12402,6 @@ index
   padding-top: 127px;
   padding-bottom: 131px;
   overflow: hidden;
-  max-height: 1100px;
 }
 
 .our-services .top-desc {
@@ -14135,6 +14138,7 @@ about page
   font-weight: 700;
   color: #192946;
   line-height: 30px;
+  text-align: center;
 }
 
 .our-programs .program-card .plus-prog {
@@ -15108,7 +15112,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .tamayoz-role .list-roles ul li span {
-  height: 70px;
+  min-height: 70px;
   font-size: 22px;
   font-weight: 500;
   color: #fff;
@@ -15251,7 +15255,6 @@ meeeeeeeedia for bootstrap col
 }
 
 .Benefits .list-Benefits ul li span {
-  height: 70px;
   font-size: 22px;
   font-weight: 500;
   color: #434951;
@@ -15734,6 +15737,13 @@ meeeeeeeedia for bootstrap col
   height: 100%;
   top: 0;
   left: 0;
+}
+
+.events-main .events-slider .item .event-banner .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .events-main .events-slider .item .event-banner .caption {
@@ -16676,7 +16686,6 @@ meeeeeeeedia for bootstrap col
   z-index: 3;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../images/video-icon.svg);
   background-size: 24px;
   opacity: 0;
   -webkit-transition: 500ms;
@@ -16687,8 +16696,16 @@ meeeeeeeedia for bootstrap col
   background-image: url(../images/img-fullWidth.svg);
 }
 
+.media-inner .media-inner-list .media-list-cards .media-card .img-box.image::after {
+  background-image: url(../images/gallery.svg);
+}
+
 .media-inner .media-inner-list .media-list-cards .media-card .img-box.video::before {
   background-image: url(../images/video-play.svg);
+}
+
+.media-inner .media-inner-list .media-list-cards .media-card .img-box.video::after {
+  background-image: url(../images/video-icon.svg);
 }
 
 .media-inner .media-inner-list .media-list-cards .media-card:hover {
@@ -16733,11 +16750,320 @@ this UI is made desktop first.
   .main-navbar .search-box {
     top: 89px !important;
   }
+  .main-navbar .navbar {
+    margin-top: 25px;
+    padding-bottom: 10px;
+  }
+  .main-navbar .navbar .nav-div .nav-div-one {
+    width: auto;
+  }
+  .main-navbar .navbar .nav-div .nav-div-one .nav-item {
+    margin-right: 25px;
+  }
+  .main-navbar .navbar .nav-div .nav-div-one .nav-item .nav-link {
+    font-size: 17px;
+  }
+  .main-navbar .navbar .nav-div .nav-div-one .nav-item .nav-link.active::before {
+    bottom: -20px;
+  }
+  .main-navbar .navbar .nav-div .nav-div-two .contact-us {
+    margin-right: 15px;
+  }
+  .main-navbar .navbar .nav-div .nav-div-two .contact-us a {
+    height: 39px;
+    width: 85px;
+    font-size: 14px;
+    padding: 10px 10px 12px;
+  }
+  .main-navbar .navbar .nav-div .nav-div-two .language {
+    margin-right: 15px;
+  }
+  .main-navbar .navbar .nav-div .nav-div-two .language button {
+    width: 39px;
+    height: 39px;
+    background-position: 9px center;
+    padding: 5px 6px;
+  }
+  .sub-menu .subMenu-area ul li {
+    padding-top: 7px;
+    padding-bottom: 10px;
+    margin-right: 30px;
+  }
+  .sub-menu .subMenu-area ul li:last-child {
+    margin-right: 0;
+  }
+  .about-first .about-content-box h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .about-first .about-content-box p {
+    font-size: 17px;
+  }
+  .about-ro2ya-2020 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+  .about-ro2ya-2020 .ro2ya-content-box {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-ro2ya-2020 .ro2ya-content-box h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .about-ro2ya-2020 .ro2ya-content-box p {
+    font-size: 17px;
+  }
+  .our-msg {
+    margin-top: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .our-msg .msg-img-box::before {
+    width: 360px;
+    height: 280px;
+    right: -12px;
+    top: 15px;
+  }
+  .our-msg .msg-content-box span {
+    font-size: 25px;
+    padding: 10px 20px 5px;
+    margin-bottom: 15px;
+  }
+  .our-msg .msg-content-box p {
+    font-size: 20px;
+  }
+  .about-vision {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding-bottom: 20px;
+  }
+  .about-vision .vision-img-box {
+    margin-top: 20px;
+  }
+  .about-vision .vision-img-box::before {
+    width: 310px;
+    height: 270px;
+  }
+  .about-vision .vision-content-box span {
+    font-size: 25px;
+    padding: 10px 20px 5px;
+    margin-bottom: 15px;
+  }
+  .about-vision .vision-content-box p {
+    font-size: 20px;
+  }
+  .about-values {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-bottom: 75px;
+  }
+  .about-values h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    line-height: 40px;
+  }
+  .about-values .value-card .value-content-box h4 {
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 7px;
+  }
+  .about-values .value-card .value-content-box p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box h4 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box a.more {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    padding: 7px;
+  }
+  .first-inner .about-content-box h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .first-inner .about-content-box p {
+    font-size: 18px;
+  }
+  .title-with-p {
+    margin-top: 30px;
+  }
+  .our-programs .program-card .content-1 h4 {
+    font-size: 20px;
+  }
+  .Government-partners .partners-list .partner-card {
+    height: 160px;
+  }
+  .download-center .download-card .top-area .date {
+    font-size: 13px !important;
+  }
+  .download-center .download-card .content-box h4 {
+    font-size: 25px;
+    line-height: 25px;
+    height: calc(27px * 2);
+  }
+  .download-center .download-card .content-box p {
+    font-size: 16px;
+    line-height: 20px;
+    max-height: calc(20px * 3);
+  }
+  .event-list .events-list .download-card {
+    min-height: auto;
+  }
+  .event-list .events-list .download-card .content-area .top-area .date {
+    font-size: 13px !important;
+  }
+  .event-list .events-list .download-card .content-area .top-area .location {
+    font-size: 13px;
+    margin-left: auto;
+  }
+  .contact-first {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 1399.97px) {
   .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item {
     margin-left: auto;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box .date {
+    font-size: 14px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box h4 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box a.more {
+    height: 35px;
+    width: 85px;
+    font-size: 14px;
+    padding: 5px;
+  }
+  .tamayoz-role {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .tamayoz-role .list-roles ul li span {
+    font-size: 18px;
+  }
+  .Qualifications {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .Qualifications .list-qualifications ul li span {
+    font-size: 18px;
+  }
+  .Benefits .list-Benefits ul li span {
+    font-size: 18px;
+  }
+  .Achievements-results ul li .content-box .number {
+    font-size: 20px;
+  }
+  .Achievements-results ul li .content-box .title-1 {
+    font-size: 20px;
+  }
+  .Achievements-results ul li .content-box .title {
+    font-size: 17px;
+  }
+  .event-details-page .details-content .event-details div {
+    font-size: 16px;
+  }
+  .event-details-page .details-content .event-details div span {
+    font-size: inherit;
+  }
+  .event-details-page .details-content .event-details div img {
+    width: 20px;
+  }
+  .event-details-page .details-content .event-description {
+    margin-top: 15px;
+  }
+  .event-details-page .details-content .event-description h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .event-details-page .details-content .event-description p {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .event-details-page .details-content .event-description a.sign {
+    width: 110px;
+    height: 40px;
+    padding: 9px;
+    font-size: 15px;
+  }
+  .event-details-page .details-content .event-description .note {
+    font-size: 18px;
+  }
+  .contact-mid .contactUs-details h2 {
+    font-size: 28px;
+  }
+  .contact-mid .contactUs-details p {
+    font-size: 18px;
+  }
+  .contact-mid .contactUs-details .details div span {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  .contact-mid .contactUs-form h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .contact-mid .contactUs-form p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .contact-mid .contactUs-form .formGroup.InputStyle {
+    margin-bottom: 8px;
+  }
+  .contact-mid .contactUs-form .formGroup.InputStyle input[type=text],
+  .contact-mid .contactUs-form .formGroup.InputStyle input[type=email],
+  .contact-mid .contactUs-form .formGroup.InputStyle input[type=number] {
+    height: 40px;
+    padding: 7px 20px;
+    font-size: 16px;
+  }
+  .contact-mid .contactUs-form .formGroup.selectBox {
+    margin-bottom: 8px;
+  }
+  .contact-mid .contactUs-form .formGroup.selectBox select {
+    height: 40px;
+    padding: 7px 20px;
+    font-size: 16px;
+  }
+  .contact-mid .contactUs-form .formGroup.textareaStyle textarea {
+    padding: 7px 20px;
+    font-size: 16px;
+  }
+  .map-location .content-box h2 {
+    font-size: 28px;
+  }
+  .map-location .content-box p {
+    font-size: 18px;
+  }
+  .map-location span.our-time {
+    font-size: 18px;
   }
 }
 
@@ -16777,6 +17103,625 @@ this UI is made desktop first.
     background-size: contain;
     background-position-y: 100%;
     width: 8px;
+  }
+  .main-navbar .nav-div {
+    width: auto;
+  }
+  .main-navbar .nav-div .nav-item .nav-link {
+    font-size: 15px;
+  }
+  footer h5 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 12px;
+  }
+  footer ul li {
+    margin-bottom: 5px;
+  }
+  footer ul li a {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  footer .about-us-footer ul li {
+    margin-bottom: 15px;
+  }
+  footer .copySection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .copySection .copy-rights .copy {
+    font-size: 15px;
+    padding-right: 20px;
+    border-right: 1px solid #7D7D7D;
+    margin-right: 15px;
+  }
+  footer .copySection .copy-rights a {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  footer .copySection .social-media {
+    width: auto;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  footer .copySection .social-media a {
+    margin-left: 15px;
+  }
+  .privacy .title-with-p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .privacy .title-with-p .content-main h2 {
+    font-size: 29px;
+  }
+  .privacy .privacy-content .content-box {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .privacy .privacy-content .content-box h4 {
+    font-size: 25px;
+    margin-bottom: 12px;
+  }
+  .privacy .privacy-content .content-box p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .about-first .about-content-box h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+  .about-first .about-content-box p {
+    font-size: 16px;
+  }
+  .about-ro2ya-2020 .ro2ya-content-box h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+  .about-ro2ya-2020 .ro2ya-content-box p {
+    font-size: 16px;
+  }
+  .our-msg {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .our-msg .msg-img-box::before {
+    width: 300px;
+    height: 246px;
+    right: -41px;
+    top: 45px;
+  }
+  .our-msg .msg-content-box span {
+    font-size: 20px;
+  }
+  .our-msg .msg-content-box p {
+    font-size: 16px;
+  }
+  .about-vision {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .about-vision .vision-img-box {
+    margin-left: 0;
+  }
+  .about-vision .vision-img-box::before {
+    width: 285px;
+    height: 245px;
+  }
+  .about-vision .vision-content-box span {
+    font-size: 20px;
+  }
+  .about-vision .vision-content-box p {
+    font-size: 16px;
+  }
+  .about-values {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .about-values h2 {
+    font-size: 29px;
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+  .about-values .value-card .value-img-box {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70px;
+            flex: 0 0 70px;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+  }
+  .about-values .value-card .value-content-box h4 {
+    font-size: 20px;
+  }
+  .about-values .value-card .value-content-box p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .list-with-search h2.main-h2 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 28px;
+  }
+  .list-with-search .search-and-sort .search-area .search-go {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 7px 20px 10px;
+    height: 40px;
+  }
+  .list-with-search .search-and-sort .search-area .search-input {
+    font-size: 14px;
+    height: 40px;
+    width: 220px;
+    background-position: 12px 12px;
+    margin-right: 15px;
+  }
+  .list-with-search .search-and-sort .sort-area .sort-date {
+    font-size: 14px;
+    height: 40px;
+    width: 200px;
+    margin-right: 15px;
+  }
+  .list-with-search .search-and-sort .sort-area label {
+    font-size: 14px;
+    margin-right: 7px;
+  }
+  .list-with-search .search-and-sort .dropdown .btn-sort {
+    font-size: 14px;
+    height: 40px;
+    min-width: 80px;
+    padding: 7px;
+  }
+  .list-with-search .list-items .news-list-item {
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+  }
+  .list-with-search .list-items .news-list-item .news-img-box::after {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box .date {
+    font-size: 12px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box .date img {
+    margin-right: 5px;
+    width: 13px;
+    vertical-align: top;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box p {
+    font-size: 14px;
+    line-height: 18px;
+    max-height: calc(19px * 2);
+    overflow: hidden;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box a.more {
+    height: 30px;
+    width: 70px;
+    font-size: 12px;
+  }
+  .details-page .details-title h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .details-page .details-content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .first-inner {
+    padding-bottom: 50px;
+    background-size: 450px;
+    background-position: 101% 0px;
+  }
+  .first-inner .about-content-box h2 {
+    font-size: 25px;
+  }
+  .first-inner .about-content-box p {
+    font-size: 16px;
+  }
+  .title-with-p .content-main {
+    max-width: 800px;
+  }
+  .title-with-p .content-main h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .title-with-p .content-main p {
+    font-size: 16px;
+  }
+  .our-programs {
+    margin-top: 40px;
+    margin-bottom: 75px;
+  }
+  .our-programs .program-card {
+    margin-top: -50px;
+  }
+  .our-programs .program-card .content-1 h4 {
+    font-size: 18px;
+  }
+  .our-programs .program-card .plus-prog a {
+    width: 37px;
+    height: 37px;
+  }
+  .our-programs .program-card .plus-prog a img {
+    max-width: 18px;
+  }
+  .our-programs .program-card .content-hidden h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .our-programs .program-card .content-hidden p {
+    font-size: 14px;
+    line-height: 22px;
+    max-height: calc(22px * 8);
+  }
+  .our-programs .program-card .content-hidden .btns-prog .card-more {
+    font-size: 15px;
+  }
+  .our-programs .program-card .content-hidden .btns-prog .back-btn {
+    width: 37px;
+    height: 37px;
+  }
+  .our-programs .program-card .content-hidden .btns-prog .back-btn img {
+    max-width: 11px;
+  }
+  .our-programs .program-card:nth-child(odd) {
+    height: 350px;
+  }
+  .our-programs .program-card:nth-child(even) {
+    height: 400px;
+  }
+  .our-programs .program-card::nth-of-type(2n - 1) {
+    margin-top: 0px;
+  }
+  .our-programs .loading-more {
+    margin-top: 30px;
+  }
+  .our-programs .loading-more a {
+    font-size: 16px;
+    width: 85px;
+    height: 37px;
+  }
+  .Government-partners .partners-list {
+    margin-top: 40px;
+  }
+  .Government-partners .partners-list .partner-card {
+    width: calc(100%/ 3 - 30px);
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+  }
+  .Government-partners .partners-list .partner-card:nth-child(3n + 3) {
+    margin-right: 0px !important;
+  }
+  .download-center .download-card {
+    margin-bottom: 30px;
+    min-height: 300px;
+  }
+  .download-center .download-card .top-area .date {
+    font-size: 14px;
+  }
+  .download-center .download-card .top-area .date img {
+    margin-right: 5px;
+  }
+  .download-center .download-card .top-area .type {
+    width: 60px;
+  }
+  .download-center .download-card .content-box h4 {
+    font-size: 20px;
+    line-height: 23px;
+    height: calc(25px * 2);
+  }
+  .download-center .download-card .content-box p {
+    font-size: 16px;
+    line-height: 20px;
+    max-height: calc(21px * 3);
+  }
+  .download-center .download-card .download-btn a {
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+  }
+  .download-center .download-card .download-btn a div {
+    font-size: 15px;
+    line-height: 14px;
+  }
+  .download-center .download-card .download-btn a:hover {
+    width: 105px;
+  }
+  .download-center .download-card .download-btn a:hover div {
+    margin-right: 15px;
+  }
+  .important-specialties {
+    min-height: auto;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    margin-bottom: 45px;
+  }
+  .important-specialties .head-top h2 {
+    font-size: 25px;
+  }
+  .important-specialties .head-top h2 img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+  }
+  .important-specialties .list-sections {
+    margin-top: 30px;
+  }
+  .important-specialties .list-sections ul li {
+    margin-bottom: 15px;
+  }
+  .important-specialties .list-sections ul li .icon-box {
+    width: 40px;
+    height: 40px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+  }
+  .important-specialties .list-sections ul li .icon-box img {
+    max-width: 25px;
+  }
+  .important-specialties .list-sections ul li span {
+    font-size: 18px;
+  }
+  .another-partners h2 {
+    font-size: 25px;
+  }
+  .another-partners .itps-list .itp-card {
+    min-height: auto;
+  }
+  .another-partners .itps-list .itp-card .content-box .img-box {
+    margin-bottom: 20px;
+  }
+  .another-partners .itps-list .itp-card .content-box h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .another-partners .itps-list .itp-card .content-box a.more {
+    height: 35px;
+    width: 90px;
+    font-size: 14px;
+    padding: 6px;
+  }
+  .another-partners .show-all {
+    margin-bottom: 50px;
+  }
+  .another-partners .show-all a {
+    margin-right: 5px;
+    font-size: 18px;
+  }
+  .not-found .not-found-content h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .not-found .not-found-content p {
+    font-size: 18px;
+  }
+  .not-found .not-found-content .btns-div a {
+    font-size: 15px;
+    height: 40px;
+  }
+  .not-found .not-found-content .btns-div a.home {
+    width: 160px;
+    margin-left: 15px;
+  }
+  .tamayoz-role .list-roles {
+    margin-top: 45px;
+  }
+  .tamayoz-role .list-roles ul li {
+    margin-bottom: 10px;
+  }
+  .tamayoz-role .list-roles ul li .number {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 35px;
+            flex: 0 0 35px;
+    font-size: 20px;
+    background-size: contain;
+  }
+  .tamayoz-role .list-roles ul li span {
+    min-height: 50px;
+    font-size: 14px;
+  }
+  .Qualifications {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .Qualifications .list-qualifications ul li {
+    margin-bottom: 15px;
+  }
+  .Qualifications .list-qualifications ul li .icon-box {
+    width: 40px;
+    height: 40px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+  }
+  .Qualifications .list-qualifications ul li .icon-box img {
+    max-width: 25px;
+  }
+  .Qualifications .list-qualifications ul li span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .Benefits .list-Benefits ul li {
+    margin-bottom: 15px;
+  }
+  .Benefits .list-Benefits ul li .number {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 35px;
+            flex: 0 0 35px;
+    font-size: 20px;
+    background-size: contain;
+  }
+  .Benefits .list-Benefits ul li span {
+    font-size: 14px;
+  }
+  .our-services {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .event-list .events-list .download-card .img-box {
+    height: 180px;
+  }
+  .event-list .events-list .download-card .content-area .top-area {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .event-list .events-list .download-card .content-area .top-area .date, .event-list .events-list .download-card .content-area .top-area .location {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .event-list .events-list .download-card .content-area .top-area .date img, .event-list .events-list .download-card .content-area .top-area .location img {
+    width: 18px;
+    margin-right: 5px;
+  }
+  .events-main .events-slider .item .event-banner .caption .event-details div {
+    font-size: 14px;
+  }
+  .events-main .events-slider .item .event-banner .caption .event-details div img {
+    width: 18px;
+    height: 18px;
+  }
+  .events-main .events-slider .item .event-banner .caption .event-details div span {
+    font-size: inherit;
+  }
+  .events-main .events-slider .item .event-banner .caption .content-box {
+    margin-top: 10px;
+  }
+  .events-main .events-slider .item .event-banner .caption .content-box h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .events-main .events-slider .item .event-banner .caption .content-box p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .events-main .events-slider .item .event-banner .caption .content-box a.more {
+    width: 125px;
+    height: 40px;
+    font-size: 16px;
+    padding: 9px;
+  }
+  .event-details-page .details-content .event-details div {
+    font-size: 16px;
+  }
+  .event-details-page .details-content .event-details div span {
+    font-size: inherit;
+  }
+  .event-details-page .details-content .event-details div img {
+    width: 20px;
+  }
+  .event-details-page .details-content .event-description h2 {
+    font-size: 25px;
+  }
+  .event-details-page .details-content .event-description p {
+    font-size: 16px;
+  }
+  .event-details-page .details-content .event-description a.sign {
+    width: 100px;
+    height: 35px;
+    padding: 6px;
+    font-size: 14px;
+  }
+  .event-details-page .details-content .event-description .note {
+    font-size: 16px;
+  }
+  .about-event {
+    padding-top: 35px;
+  }
+  .about-event .about-event-details h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .about-event .about-event-details p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .about-event .partner-section h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .about-event .partner-section .partners-list .partner-card {
+    margin-bottom: 30px;
+  }
+  .contact-first {
+    padding-top: 0px;
+  }
+  .contact-mid .contactUs-details h2 {
+    font-size: 25px;
+  }
+  .contact-mid .contactUs-details p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .contact-mid .contactUs-details .details div img {
+    width: 25px;
+  }
+  .contact-mid .contactUs-details .details div span {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  .map-location {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .map-location .content-box h2 {
+    font-size: 25px;
+  }
+  .map-location .content-box p {
+    font-size: 16px;
+  }
+  .map-location span.our-time {
+    font-size: 16px;
+  }
+  .media-list .main-h {
+    margin-bottom: 30px;
+  }
+  .media-list .main-h h2 {
+    font-size: 28px;
+  }
+  .media-inner .top-details {
+    margin-top: 45px;
+  }
+  .media-inner .top-details .media-details div {
+    font-size: 16px;
+  }
+  .media-inner .top-details .media-details div span {
+    font-size: inherit;
+  }
+  .media-inner .top-details .media-description {
+    margin-top: 15px;
+  }
+  .media-inner .top-details .media-description h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .media-inner .top-details .media-description p {
+    font-size: 18px;
   }
 }
 
@@ -16836,22 +17781,6 @@ this UI is made desktop first.
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
-  .main-navbar .navbar-brand.brand-2 {
-    position: absolute;
-    left: 220px;
-    max-width: 75px;
-    margin-left: 20px;
-    padding-left: 0;
-  }
-  .main-navbar .navbar-brand.brand-2::before {
-    content: "";
-    background-color: #c3c3c3;
-    width: 2px;
-    height: 70%;
-    position: absolute;
-    left: -15px;
-    bottom: 5px;
-  }
   .main-navbar .navbar-toggler {
     position: absolute;
     right: 50px;
@@ -16884,6 +17813,284 @@ this UI is made desktop first.
   .navigator {
     display: none;
   }
+  .main-navbar .nav-div {
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-navbar .nav-div .nav-div-one {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-navbar .nav-div .nav-div-two .search-toggle {
+    display: none;
+  }
+  footer {
+    padding-top: 30px !important;
+    padding-bottom: 30px;
+  }
+  footer .col-lg-3, footer .col-lg-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer h5 {
+    margin-top: 15px;
+  }
+  footer ul li {
+    text-align: center;
+  }
+  footer .about-us-footer ul li {
+    margin-bottom: 10px;
+  }
+  footer .about-us-footer ul li a {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 350px;
+    text-align: center;
+  }
+  footer .copySection {
+    margin-top: 20px;
+  }
+  footer .copySection .copy-rights {
+    text-align: center;
+  }
+  footer .copySection .copy-rights .copy {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  footer .copySection .social-media {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+  }
+  .about-first .first-img-box {
+    margin-top: 20px;
+  }
+  .our-msg .msg-img-box::before {
+    right: 50%;
+    -webkit-transform: translateX(-60%) rotate(-45deg);
+            transform: translateX(-60%) rotate(-45deg);
+  }
+  .about-vision .vision-img-box {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .about-vision .vision-img-box::before {
+    height: 200px;
+  }
+  .list-with-search .list-items .news-list-item {
+    -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+  }
+  .list-with-search .list-items .news-list-item .news-img-box {
+    max-height: 350px;
+  }
+  .list-with-search .list-items .news-list-item .news-img-box::before {
+    top: 5%;
+  }
+  .list-with-search .list-items .news-list-item .news-img-box::after {
+    display: none;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box h4 {
+    margin: 10px 0;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box p {
+    margin-bottom: 10px;
+  }
+  .details-page .details-title h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .details-page .details-content {
+    margin-top: 20px;
+  }
+  .details-page .details-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .first-inner.programs-inner .first-img-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .first-inner .about-content-box h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .first-inner .first-img-box {
+    margin-top: 20px;
+  }
+  .our-programs .program-card {
+    width: calc(100% / 2 - 15px);
+    margin-right: 30px !important;
+    margin-left: 0px !important;
+    height: 350px !important;
+    margin-top: 0px;
+  }
+  .our-programs .program-card:nth-child(even) {
+    margin-right: 0px !important;
+  }
+  .Government-partners {
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+  .itps-list {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .itps-list .itp-card {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  .itps-list .itp-card:hover {
+    border-width: 1px;
+  }
+  .itps-list .itp-card .content-box h4 {
+    font-size: 20px;
+  }
+  .itps-list .itp-card .content-box p {
+    font-size: 16px;
+  }
+  .itps-list .itp-card .content-box a.more {
+    height: 40px;
+    width: 95px;
+    font-size: 15px;
+  }
+  .tamayoz-role .list-roles ul li {
+    margin-bottom: 15px !important;
+  }
+  .tamayoz-role .list-roles ul li span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: auto;
+  }
+  .Benefits .list-Benefits ul li {
+    margin-bottom: 15px !important;
+  }
+  .Benefits .list-Benefits ul li span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: auto;
+  }
+  .Qualifications .list-qualifications {
+    margin-top: 30px;
+  }
+  .Achievements-results ul li .content-box .number {
+    font-size: 20px;
+  }
+  .Achievements-results ul li .content-box .title-1 {
+    font-size: 20px;
+  }
+  .Achievements-results ul li .content-box .title {
+    font-size: 17px;
+  }
+  .Achievements-results .results h2, .Achievements-results .Achievements h2 {
+    font-size: 28px;
+  }
+  .Achievements-results .results h2 img, .Achievements-results .Achievements h2 img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  .Achievements-results .results .list-results, .Achievements-results .Achievements .list-results {
+    margin-top: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+  }
+  .Achievements-results .results .list-results::before, .Achievements-results .Achievements .list-results::before {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    top: auto;
+    right: 0;
+  }
+  .Achievements-results .results .list-Achievements, .Achievements-results .Achievements .list-Achievements {
+    margin-top: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .events-main .events-slider .item .event-banner .caption {
+    padding: 0 20px;
+  }
+  .contact-mid .contactUs-form {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  .media-list .main-h h2 {
+    font-size: 25px;
+  }
+  .media-inner .top-details .media-details div {
+    font-size: 14px;
+  }
+  .media-inner .top-details .media-details div span {
+    font-size: inherit;
+  }
+  .media-inner .top-details .media-description {
+    margin-top: 15px;
+  }
+  .media-inner .top-details .media-description h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .media-inner .top-details .media-description p {
+    font-size: 16px;
+  }
+  .media-inner .media-inner-list .media-list-cards {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -16892,6 +18099,325 @@ this UI is made desktop first.
   }
   .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item {
     width: 95%;
+  }
+  .privacy .title-with-p .content-main h2 {
+    font-size: 25px;
+  }
+  .privacy .privacy-content .content-box h4 {
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
+  .privacy .privacy-content .content-box p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .list-with-search .search-and-sort {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 35px;
+  }
+  .list-with-search .search-and-sort .search-area {
+    margin-bottom: 10px;
+  }
+  .list-with-search .search-and-sort .form-group {
+    margin-bottom: 0;
+  }
+  .list-with-search .search-and-sort label {
+    display: none;
+  }
+  .details-page {
+    margin-bottom: 60px;
+  }
+  .details-page .details-title .date {
+    font-size: 14px;
+  }
+  .details-page .details-title h2 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .details-page .details-content p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 19px;
+  }
+  .first-inner .about-content-box h2 {
+    font-size: 20px;
+  }
+  .first-inner .about-content-box p {
+    font-size: 14px;
+  }
+  .title-with-p .content-main h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .title-with-p .content-main p {
+    font-size: 14px;
+  }
+  .our-programs .program-card {
+    width: calc(100%);
+    margin-right: 0px !important;
+    height: 300px !important;
+  }
+  .our-programs .program-card .icon-box {
+    max-height: 170px;
+    margin-bottom: 10px;
+  }
+  .our-programs .program-card .icon-box img {
+    width: 100%;
+    height: 100%;
+  }
+  .Government-partners .partners-list .partner-card {
+    width: 100%;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-bottom: 20px;
+  }
+  .download-center .download-card {
+    min-height: 260px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .download-center .download-card .content-box h4 {
+    font-size: 18px;
+  }
+  .download-center .download-card .content-box p {
+    font-size: 14px;
+  }
+  .itps-list .itp-card .content-box h4 {
+    font-size: 18px;
+  }
+  .itps-list .itp-card .content-box p {
+    font-size: 14px;
+  }
+  .itps-list .itp-card .content-box a.more {
+    height: 35px;
+    width: 80px;
+    font-size: 14px;
+    padding: 6px;
+  }
+  .not-found .not-found-content h2 {
+    font-size: 22px;
+    margin-bottom: 7px;
+  }
+  .not-found .not-found-content p {
+    font-size: 14px;
+  }
+  .not-found .not-found-content .btns-div {
+    margin-top: 20px;
+  }
+  .not-found .not-found-content .btns-div a {
+    font-size: 14px;
+    height: 35px;
+  }
+  .Qualifications {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Benefits .list-Benefits {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .Achievements-results {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    margin-bottom: 80px;
+  }
+  .Achievements-results .results h2, .Achievements-results .Achievements h2 {
+    font-size: 20px;
+  }
+  .Achievements-results .results h2 img, .Achievements-results .Achievements h2 img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .Achievements-results .results ul li .icon-box, .Achievements-results .Achievements ul li .icon-box {
+    width: 40px;
+    height: 40px;
+  }
+  .Achievements-results .results ul li .icon-box img, .Achievements-results .Achievements ul li .icon-box img {
+    width: 25px;
+    height: 25px;
+  }
+  .Achievements-results .results ul li .content-box .number, .Achievements-results .Achievements ul li .content-box .number {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .Achievements-results .results ul li .content-box .title-1, .Achievements-results .Achievements ul li .content-box .title-1 {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .Achievements-results .results ul li .content-box .title, .Achievements-results .Achievements ul li .content-box .title {
+    font-size: 14px;
+  }
+  .events-main h2.main-h2 {
+    font-size: 28px;
+  }
+  .events-main .events-slider {
+    margin-top: 20px;
+  }
+  .events-main .events-slider .item .event-banner .caption .event-details div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .events-main .events-slider .item .event-banner .caption .event-details div img {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .events-main .events-slider .item .event-banner .caption .content-box h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .events-main .events-slider .item .event-banner .caption .content-box p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .events-main .events-slider .item .event-banner .caption .content-box a.more {
+    width: 110px;
+    height: 35px;
+    font-size: 14px;
+    padding: 6px;
+  }
+  .event-list .events-list .download-card .content-area .content-box p {
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+  .event-details-page {
+    margin-bottom: 30px;
+  }
+  .event-details-page .details-content .event-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .event-details-page .details-content .event-details .event-description h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .event-details-page .details-content .event-details .event-description p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .event-details-page .details-content .event-details .event-description .note {
+    font-size: 14px;
+  }
+  .event-details-page .details-content .event-details .event-description .note img {
+    margin-right: 5px;
+    width: 25px;
+  }
+  .about-event .about-event-details {
+    margin-bottom: 30px;
+  }
+  .about-event .about-event-details h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .about-event .about-event-details p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .about-event .partner-section h2 {
+    font-size: 20px;
+  }
+  .contact-first .about-content-box p {
+    margin-bottom: 10px;
+  }
+  .contact-first .about-content-box .links a {
+    width: 33px;
+    height: 33px;
+  }
+  .contact-first .about-content-box .links a img {
+    width: 25px;
+    height: 25px;
+  }
+  .contact-mid .contactUs-details h2 {
+    font-size: 20px;
+  }
+  .contact-mid .contactUs-details p {
+    font-size: 14px;
+  }
+  .contact-mid .contactUs-details .details div span {
+    font-size: 14px;
+  }
+  .contact-mid .contactUs-details .details div span img {
+    width: 20px;
+  }
+  .contact-mid .contactUs-form h2 {
+    font-size: 20px;
+  }
+  .contact-mid .contactUs-form p {
+    font-size: 14px;
+  }
+  .contact-mid .contactUs-form .formGroup.InputStyle input[type=text],
+  .contact-mid .contactUs-form .formGroup.InputStyle input[type=email],
+  .contact-mid .contactUs-form .formGroup.InputStyle input[type=number] {
+    height: 35px;
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+  .contact-mid .contactUs-form .formGroup.selectBox select {
+    height: 35px;
+    padding: 6px 20px;
+    font-size: 14px;
+    background-size: 18px;
+  }
+  .contact-mid .contactUs-form .formGroup.textareaStyle textarea {
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+  .contact-mid .contactUs-form .down-form a.btnForm {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .map-location .content-box h2 {
+    font-size: 20px;
+  }
+  .map-location .content-box p {
+    font-size: 14px;
+  }
+  .map-location span.our-time {
+    font-size: 14px;
+  }
+  .media-list .main-h h2 {
+    font-size: 20px;
+  }
+  .media-inner .top-details .media-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .media-inner .top-details .media-details div img {
+    width: 25px;
+    margin-right: 5px;
+  }
+  .media-inner .top-details .media-description {
+    margin-top: 10px;
+  }
+  .media-inner .top-details .media-description h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .media-inner .top-details .media-description p {
+    font-size: 14px;
+  }
+  .media-inner .media-inner-list .media-list-cards {
+    -webkit-column-count: 1;
+            column-count: 1;
   }
 }
 
@@ -16919,14 +18445,6 @@ this UI is made desktop first.
         -ms-flex: 0 0 135px;
             flex: 0 0 135px;
   }
-  .main-navbar .navbar-brand.brand-2 {
-    left: 155px;
-    max-width: 55px;
-    margin-left: 10px;
-  }
-  .main-navbar .navbar-brand.brand-2::before {
-    left: -8px;
-  }
   .main-navbar .navbar-toggler {
     right: 20px;
     top: 25px;
@@ -16950,8 +18468,54 @@ this UI is made desktop first.
     margin-top: 30px;
     margin-right: 63px;
   }
-  .main-navbar .top-nav .nav-item .nav-link.lang img {
-    margin-left: 3px;
+  .breadcrumb-area {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
+  }
+  .breadcrumb-area .breadcrumb .breadcrumb-item a {
+    font-size: 15px;
+  }
+  .breadcrumb-area .breadcrumb .breadcrumb-item a.active {
+    font-size: 15px;
+  }
+  .breadcrumb-area ul.share {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .about-values .value-card .value-content-box h4 {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+  .about-values .value-card .value-content-box p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .list-with-search .search-and-sort .search-area .search-input {
+    width: auto;
+    font-size: 12px;
+    background-position: 10px 14px;
+  }
+  .list-with-search .search-and-sort .dropdown .btn-sort {
+    font-size: 12px;
+  }
+  .list-with-search .search-and-sort .dropdown .dropdown-menu li a {
+    font-size: 12px;
+  }
+  .list-with-search .search-and-sort .search-area .search-go {
+    font-size: 12px;
+    padding: 5px 13px 8px;
+    height: 35px;
+  }
+  .first-inner {
+    padding-bottom: 15px;
   }
 }
 
