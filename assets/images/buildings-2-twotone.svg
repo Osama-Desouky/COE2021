@@ -1,0 +1,13 @@
+<svg id="buildings-2_twotone" data-name="buildings-2/twotone" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="vuesax_twotone_buildings-2" data-name="vuesax/twotone/buildings-2">
+    <g id="buildings-2">
+      <path id="Vector" d="M5.875,20H2.688A2.379,2.379,0,0,1,0,17.312V2.688A2.379,2.379,0,0,1,2.688,0H8.063A2.379,2.379,0,0,1,10.75,2.688V5" transform="translate(2.5 2.5)" fill="none" stroke="#4e4e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M13.337,3.025v13.95c0,2.012-1,3.025-3.012,3.025h-7.3A2.677,2.677,0,0,1,0,16.975V3.025A2.677,2.677,0,0,1,3.025,0h7.3C12.338,0,13.337,1.012,13.337,3.025Z" transform="translate(8.375 7.5)" fill="none" stroke="#4e4e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-3" data-name="Vector" d="M0,5V2.688A2.379,2.379,0,0,1,2.687,0H8.062A2.379,2.379,0,0,1,10.75,2.688V17.312A2.379,2.379,0,0,1,8.062,20h-3.1" transform="translate(16.75 2.5)" fill="none" stroke="#4e4e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H5" transform="translate(12.5 13.75)" fill="none" stroke="#4e4e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+      <path id="Vector-5" data-name="Vector" d="M0,0H5" transform="translate(12.5 17.5)" fill="none" stroke="#4e4e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+      <path id="Vector-6" data-name="Vector" d="M0,3.75V0" transform="translate(15 23.75)" fill="none" stroke="#4e4e4e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Vector-7" data-name="Vector" d="M0,0H30V30H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

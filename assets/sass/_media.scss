@@ -304,6 +304,67 @@ this UI is made desktop first.
     padding-top: 100px;
     padding-bottom: 60px;
   }
+
+
+
+  // index
+  .main-slider {
+    .item {
+      .caption {
+        h2{
+          font-size: 35px;
+          margin-bottom: 15px;
+        }
+        p{
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+        a.more{
+          font-size: 16px;
+        }
+      }
+      .left-slider-imgs {
+        .main-slider-card{
+          font-size: 16px;
+          .slider-card-img{
+            margin-#{$end-direction}: 5px;
+            img{
+              width: 40px;
+            }
+          }
+        }
+        .ellipse-image{
+          position: absolute;
+          width: 450px;
+          height: 359px;
+          #{$end-direction}: 50px;
+        }
+        .person-image{
+          top: -97px;
+          #{$start-direction}: 162px;
+          width: 335px
+        }
+        .shape2{
+          width: 550px;
+          #{$end-direction}: -50px;
+          top: -15px;
+        }
+        .shape1 {
+          width: 495px;
+          right: 0px;
+          top: 200px;
+      }
+    }
+  }
+}
+  .customers-opinions {
+    .cust-op-slider {
+      .owl-dots{
+        #{$start-direction}: calc(100% / 2 + 60px);
+        top: calc(100% /2 + 160px);
+      }
+    }
+  }
 }
 
 
@@ -498,8 +559,444 @@ this UI is made desktop first.
     }
 
 
+    // index
+    .main-slider {
+      margin-top: 0;
+      background-position: bottom;
+      min-height: auto;
+      .item {
+        min-height: 700px;
+        .caption {
+          padding: 0;
+          padding-#{$end-direction}:48px ;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          justify-content: center;
+          h2{
+            font-size: 28px;
+            margin-bottom: 10px;
+          }
+          p{
+            font-size: 18px;
+            margin-bottom: 15px;
+          }
+          a.more{
+            font-size: 14px;
+            width: 110px;
+            height: 35px;
+            padding: 5px;
+          }
+        }
+        .left-slider-imgs {
+          
+          .ellipse-image{
+            position: absolute;
+            width: 400px;
+            height: 330px;
+          }
+          .person-image{
+            top: -97px;
+            width: 308px;
+            #{$start-direction}: 140px;
+          }
+          .shape2{
+            width: 500px;
+            #{$end-direction}: -40px;
+            top: -25px;
+          }
+          .shape1 {
+            width: 415px;
+            right: 30px;
+            top: 180px;
+        }
+      }
+    }
+    .actions{
+      #{$start-direction}: 50px;
+      bottom: 200px;
+      .owl-dots {
+        min-width: 55px;
+        .owl-dot{
+          width: 7px !important;
+          height: 7px !important;
+        }
+      }
+      .prev-arrow , .next-arrow{
+        width: 25px;
+        height: 25px;
+      }
+    }
+    .scroll-mouse{
+      top: 600px;
+      width: 35px;
+      #{$start-direction}: calc(50% - 17.5px);
+      span{
+        width: 4px;
+        height: 5px;
+        #{$start-direction}: calc(50% - 2px);
+        top: 62%;
+      }
+    }
+    }
+    .our-partners{
+      padding-top: 45px;
+      padding-bottom: 60px;
+      .heading {
+        h2{
+          font-size: 28px;
+          line-height: initial;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .our-advantages{
+      padding-top: 45px;
+      padding-bottom: 60px;
+      background-position-x: 20px;
+      background-size: contain;
+      .advantages-top {
+        margin-bottom: 40px;
+        h2{
+          font-size: 28px;
+          line-height: initial;
+          margin-bottom: 30px;
+        }
+        p{
+          font-size: 18px;
+          line-height: initial;
+        }
+      }
+      .advantages-card {
+        .img-box{
+          margin-bottom: 15px;
+          max-width: 85px;
+        }
+        .content-box {
+          h4{
+            font-size: 23px;
+            line-height: initial;
+            margin-bottom: 8px;
+          }
+          p{
+            font-size: 16px;
+            line-height: initial;
+          }
+        }
+      }
+    }
+    .who-we-are{
+      padding-top: 200px;
+      padding-bottom: 140px;
+      background-position-x: 20px;
+      background-size: contain;
+      .who-we-content {
+        h2{
+          font-size: 28px;
+          line-height: initial;
+          margin-bottom: 15px;
+          &::before{
+            height: 12px;
+          }
+        }
+        p{
+          font-size: 18px;
+          line-height: initial;
+          margin-bottom: 15px;
+        }
+        a.more{
+          font-size: 14px;
+          width: 110px;
+          height: 35px;
+          padding: 5px;
+        }
+      }
+      .who-we-main-img{
+        width: 100%;
+        top: 30px;
+        .who-we-sub-img1{
+          top: -100px;
+          #{$start-direction}: 30px;
+          width: 120px;
+        }
+        .who-we-sub-img2{
+          top: -125px;
+          #{$start-direction}: 175px;
+          width: 120px;
+        }
+        .who-we-sub-img3{
+          top: -100px;
+          #{$end-direction}: 20px;
+          width: 140px;
+        }
+      }
+    }
+    .tour {
+      // padding-top: 130px;
+      // padding-bottom: 130px;
+      .top-desc {
+        margin-bottom: 40px;
+        h2{
+          font-size: 28px;
+          line-height: initial;
+        }
+        p{
+          font-size: 18px;
+          line-height: initial;
+
+        }
+      }
+      .item {
+        .details{
+          width: 280px;
+          height: 225px;
+          margin-bottom: 15px;
+          h4{
+            font-size: 16px;
+          }
+        }
+        .icon-box{          
+          width: 65px;
+          height: 65px;
+          margin-bottom: 20px
+          img{
+            max-height: 25px;
+          }
+
+        }
+        .year-name{
+          font-size: 20px;
+        }
+        .number{
+          font-size: 65px;
+          line-height: 55px;
+        }
+      }
+    }
+    .our-services {
+      .details-sec{
+        background-position: 45% 0px;
+        height: 480px;
+        background-size: cover;
+      }
+      .top-desc{
+        margin-bottom: 85px;
+        h2{
+          font-size: 28px;
+          line-height: initial;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 18px;
+          line-height: initial;
+        }
+      }
+      .details-sec {
+        .service-image{
+          width: 95%;
+          top: 0;
+        }
+        .details-content {
+          h4{
+            font-size: 22px;
+            line-height: initial;
+            &::before{
+              height: 12px;
+            }
+          }
+          p{
+            font-size: 18px;
+            line-height: initial;
+          }
+          a{
+            width: 100px;
+            height: 35px;
+            padding: 5px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .our-program {
+      .top-desc {
+        margin-bottom: 40px;
+        h2{
+          font-size: 28px;
+          line-height: initial;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 18px;
+          line-height: initial;
+
+        }
+      }
+      .details-sec{
+        .details-content {
+          h4{
+            font-size: 25px;
+            line-height: initial;
+            margin-bottom: 20px;
+            &::before{
+              height: 12px;
+              bottom: -10px;
+            }
+          }
+          p{
+            font-size: 18px;
+            line-height: initial;
+          }
+        }
+      }
+      .program-images{
+        width: 100%;
+        .prog1-img{
+          top:20px;
+          width: 180px;
+        }
+        .prog2-img{
+          top:70px;
+          width: 250px;
+        }
+        .prog3-img{
+          top: 155px;
+          width:390px
+        }
+        .prog4-img{
+          width: 285px;
+        }
+      }
+    }
+    .customers-opinions {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      .top-desc{
+        margin-bottom: 85px;
+        h2{
+          font-size: 28px;
+          line-height: initial;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 18px;
+          line-height: initial;
+        }
+      }
+      .cust-op-slider {
+        .item {
+          .customer-op-card {
+            .img-box{
+              width: 450px;
+              flex: 0 0 450px;
+              margin-#{$end-direction}: 50px;
+            }
+            .content-box {
+              .details{
+                font-size: 25px;
+                line-height: 30px;
+                padding-bottom: 40px;
+                padding-top: 35px;
+                padding-#{$start-direction}: 30px;
+                padding-#{$end-direction}: 30px;
+                &::before{
+                  width: 60px;
+                  height: 36px;
+                  background-size: contain;
+                }
+                &::after{
+                  width: 60px;
+                  height: 36px;
+                  background-size: contain;
+                }
+              }
+              .name , .job{
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        .owl-dots{
+          #{$start-direction}:calc(100% / 2 - 10px);
+          .owl-dot {
+            span{
+              margin: 0 4px;
+              width: 7px;
+              height: 7px;
+            }
+          }
+        }
+      }
+    }
+
+    .strategic-partners {
+      padding-top: 60px;
+      padding-bottom: 100px;
+      .top-desc{
+        margin-bottom: 50px;
+        h2{
+          font-size: 28px;
+          line-height: initial;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 18px;
+          line-height: initial;
+        }
+      }
+      .strategic-partners-slider {
+        .item .strategic-partners-card {
+          .img-box{
+            padding-#{$start-direction}: 70px;
+            height: 350px;
+          }
+          .content-box {
+            h4{
+              font-size: 25px;
+              line-height: initial;
+              margin-bottom:15px ;
+              &::before{
+                height: 12px;
+                bottom: -10px;
+              }
+            }
+            p{
+              font-size: 18px;
+              line-height: initial;
+            }
+            a.more{
+              font-size: 14px;
+              width: 90px;
+              height: 35px;
+              padding: 7px;
+            }
+          }
+        }
+        .owl-dots{
+          // #{$start-direction}:calc(100% / 2 - 10px);
+          .owl-dot {
+            span{
+              margin: 0 4px;
+              width: 7px;
+              height: 7px;
+            }
+          }
+        }
+      }
+      a.be-one{
+        width: 235px;
+        height: 55px;
+        font-size: 18px;
+        margin-top: 60px;
+        img{
+          margin-#{$end-direction}: 10px;
+          width: 40px;
+        }
+      }
+    }
   }
 
+  
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
   /* remove the padding from the navbar so the dropdown hover state is not broken */
@@ -1361,6 +1858,68 @@ this UI is made desktop first.
         p{
           font-size: 18px;
         }
+      }
+    }
+  }
+
+  .main-slider {
+    .item{
+      .left-slider-imgs {
+        .ellipse-image{
+          width: 320px;
+          height: 250px;
+          top: 115px;
+        }
+        .person-image {
+          top: -30px;
+          width: 265px;
+          #{$start-direction}: 111px;
+       }
+       .shape2 {
+        width: 420px;
+        #{$end-direction}: -25px;
+        top: 15px;
+      }
+      .shape1{
+        width: 370px;
+        #{$start-direction}: 5px;
+        top: 210px;
+      }
+
+      }
+    }
+  }
+  .our-services {
+    .top-desc{
+      margin-top: 125px;
+      margin-bottom: 40px;
+    }
+    .details-sec{
+      height: 355px;
+      .details-content {
+        padding-top: 60px;
+        padding-bottom: 50px;
+      }
+    }
+  }
+
+  .our-program {
+    .program-images {
+      background-position: #{$start-direction} 68%;
+      .prog1-img{
+        width: 150px;
+        #{$end-direction}:0;
+      }
+      .prog2-img{
+        width: 215px;
+      }
+      .prog3-img{
+        width: 350px;
+      }
+      div.prog4-img{
+        width: 240px;
+        bottom: -5px;
+        #{$end-direction}:0;
       }
     }
   }
