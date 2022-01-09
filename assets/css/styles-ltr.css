@@ -14012,6 +14012,7 @@ ul.share li.share-title img {
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 .first-inner .about-content-box p:last-child {
@@ -17356,6 +17357,405 @@ meeeeeeeedia for bootstrap col
 
 .sign-in .not-found-content {
   margin-top: -170px;
+}
+
+.life-first .about-content-box h2 {
+  margin-bottom: 24px;
+}
+
+.life-first .about-content-box a.join-us {
+  color: #fff;
+  background-color: #1D4487;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  padding: 7px 10px;
+  font-size: 18px;
+  height: 46px;
+  width: 140px;
+}
+
+.blue-section {
+  background-color: #29429B;
+  border-radius: 16px;
+  padding: 96px 0;
+  margin-top: 55px;
+  margin-bottom: 60px;
+  -webkit-box-shadow: 0px 15px 25px rgba(29, 68, 135, 0.15);
+          box-shadow: 0px 15px 25px rgba(29, 68, 135, 0.15);
+  background-image: url(../images/bluesec-bg.svg), url(../images/bluesec-bg2.svg);
+  background-repeat: no-repeat;
+  background-position: top left , bottom right;
+}
+
+.blue-section .blue-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.blue-section .blue-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blue-section .blue-container div p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.blue-section .blue-container div p.plus {
+  margin-right: 13px;
+}
+
+.blue-section .blue-container div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.Advantages-with-us {
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.Advantages-with-us h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #804D98;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.Advantages-with-us .Adv-with-us-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 48px 24px;
+  border-radius: 16px;
+  border: 1px solid #E3E7EC;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.Advantages-with-us .Adv-with-us-card .img-box {
+  width: 60px;
+  height: 60px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.Advantages-with-us .Adv-with-us-card .content-box {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.Advantages-with-us .Adv-with-us-card .content-box h4 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #153365;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.Advantages-with-us .Adv-with-us-card .content-box p {
+  color: #66738A;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.Advantages-with-us .Adv-with-us-card:hover {
+  -webkit-box-shadow: 0px 8px 35px rgba(126, 134, 146, 0.15);
+          box-shadow: 0px 8px 35px rgba(126, 134, 146, 0.15);
+  border: 3px solid #804D98;
+  padding: 46px 24px;
+}
+
+.Advantages-with-us .Adv-with-us-card:hover .img-box {
+  -webkit-filter: opacity(0.75);
+          filter: opacity(0.75);
+}
+
+.Advantages-with-us .Adv-with-us-card:hover .content-box h4 {
+  color: #804D98;
+}
+
+.specialties {
+  padding: 191px 0;
+  margin-bottom: 120px;
+  border-radius: 16px;
+  background-color: #F9FAFD;
+}
+
+.specialties .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 140px;
+  text-align: justify;
+}
+
+.specialties .content-box h2 {
+  font-weight: 700;
+  color: #804D98;
+  font-size: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.specialties .content-box h2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 21px;
+  background-color: rgba(128, 77, 152, 0.09);
+  left: 0;
+  bottom: -10px;
+}
+
+.specialties .content-box p {
+  font-weight: 400;
+  color: #7D7D7D;
+  font-size: 20px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.specialties ul {
+  padding: 0;
+  list-style: none;
+}
+
+.specialties ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 41px;
+}
+
+.specialties ul li .icon-box {
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  background-color: #804D98;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 52px;
+          flex: 0 0 52px;
+  -webkit-box-shadow: 0px 4px 6px rgba(209, 209, 209, 0.61);
+          box-shadow: 0px 4px 6px rgba(209, 209, 209, 0.61);
+}
+
+.specialties ul li span {
+  font-size: 22px;
+  font-weight: 500;
+  color: #434951;
+}
+
+.life-join {
+  background-color: #1D4487;
+  -webkit-box-shadow: 0px 15px 24px rgba(29, 68, 135, 0.16);
+          box-shadow: 0px 15px 24px rgba(29, 68, 135, 0.16);
+  border-radius: 16px;
+  padding-top: 64px;
+  padding-bottom: 72px;
+  margin-bottom: 120px;
+}
+
+.life-join .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 905px;
+  margin: auto;
+  text-align: center;
+}
+
+.life-join .content-box h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.life-join .content-box p {
+  color: #D2D2D2;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 33px;
+}
+
+.life-join .content-box a {
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  color: #1D4487;
+  font-weight: 500;
+  text-align: center;
+  font-size: 18px;
+  width: 145px;
+  padding: 7px;
+  display: block;
+}
+
+.recruitment-stages {
+  margin-top: 57px;
+}
+
+.recruitment-stages .recruitment-item {
+  margin-bottom: 120px;
+}
+
+.recruitment-stages .recruitment-item .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.recruitment-stages .recruitment-item .content-box span {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #E3E7EC;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: #804D98;
+  padding-top: 5px;
+  margin-bottom: 27px;
+}
+
+.recruitment-stages .recruitment-item .content-box h3 {
+  position: relative;
+  color: #804D98;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.recruitment-stages .recruitment-item .content-box h3::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(128, 77, 152, 0.09);
+  border-radius: 4px;
+  width: 100%;
+  height: 22px;
+  left: 0;
+  bottom: -10px;
+}
+
+.recruitment-stages .recruitment-item .content-box p {
+  color: #7D7D7D;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 0;
 }
 
 /*

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="301" height="264" viewBox="0 0 301 264">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_14305" data-name="Rectangle 14305" width="301" height="264" rx="16" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1.561" y1="1.336" x2="0.531" y2="0.539" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="bluesec-bg" clip-path="url(#clip-path)">
+    <g id="Group_56744" data-name="Group 56744" transform="translate(-136 -136)">
+      <rect id="Rectangle_14303" data-name="Rectangle 14303" width="271" height="271" rx="135.5" opacity="0.09" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_14304" data-name="Rectangle 14304" width="210" height="210" rx="105" transform="translate(30 30)" opacity="0.09" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
