@@ -11474,6 +11474,14 @@ footer .social-media {
   width: 150px;
 }
 
+footer .social-media .share {
+  margin: 0;
+}
+
+footer .social-media .share li {
+  margin-bottom: 0;
+}
+
 footer .copySection {
   margin-top: 40px;
   display: -webkit-box;
@@ -12576,16 +12584,19 @@ index
   position: relative;
   display: inline-block;
   margin-bottom: 32px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .our-program .details-sec .details-content h4::before {
   content: "";
   position: absolute;
   background-color: rgba(66, 167, 198, 0.09);
-  width: 50%;
+  width: calc(100% + 15px);
   height: 21px;
   right: 0;
-  bottom: -22px;
+  bottom: -15px;
   border-radius: 4px;
 }
 
@@ -12719,12 +12730,16 @@ index
 .customers-opinions {
   padding-top: 135px;
   padding-bottom: 70px;
+  background-image: url(../images/cust-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: center bottom;
 }
 
 .customers-opinions .top-desc {
   margin: 0 auto;
   max-width: 1080px;
-  margin-bottom: 55px;
+  margin-bottom: 100px;
 }
 
 .customers-opinions .top-desc h2 {
@@ -12759,27 +12774,10 @@ index
   margin: 0 auto;
 }
 
-.customers-opinions .cust-op-slider .item .customer-op-card .img-box {
-  position: relative;
-  max-width: 534px;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 534px;
-          flex: 0 0 534px;
-  border-radius: 40px;
-  overflow: hidden;
-  margin-left: 94px;
-  padding-right: 76px;
-}
-
-.customers-opinions .cust-op-slider .item .customer-op-card .img-box::before {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: 0;
-  width: 115px;
-  height: 158px;
-  background-image: url(../images/cust-art.svg);
-  background-repeat: no-repeat;
+.customers-opinions .cust-op-slider .item .customer-op-card .content-box {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 120px;
 }
 
 .customers-opinions .cust-op-slider .item .customer-op-card .content-box .details {
@@ -12788,20 +12786,20 @@ index
   font-weight: 500;
   color: #1B222C;
   line-height: 34px;
-  padding-bottom: 52px;
-  padding-top: 42px;
-  padding-right: 37px;
-  padding-left: 37px;
-  margin-bottom: 0;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  padding-right: 45px;
+  padding-left: 45px;
+  margin-bottom: 55px;
 }
 
 .customers-opinions .cust-op-slider .item .customer-op-card .content-box .details::before {
   content: "";
   position: absolute;
   top: 0%;
-  right: 0;
-  width: 74px;
-  height: 47px;
+  right: 2px;
+  width: 38px;
+  height: 25px;
   background-image: url(../images/double-right.svg);
   background-repeat: no-repeat;
   z-index: -1;
@@ -12812,8 +12810,8 @@ index
   position: absolute;
   bottom: 0%;
   left: 0;
-  width: 74px;
-  height: 47px;
+  width: 38px;
+  height: 25px;
   background-image: url(../images/double-left.svg);
   background-repeat: no-repeat;
   z-index: -1;
@@ -12839,8 +12837,10 @@ index
 
 .customers-opinions .cust-op-slider .owl-dots {
   position: absolute;
-  right: calc(100% / 2 - 110px);
-  top: calc(100% /2 + 125px);
+  right: calc(100% / 2);
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  top: calc(100% /2 + 130px);
   margin-top: 0 !important;
 }
 
@@ -12851,6 +12851,46 @@ index
 
 .customers-opinions .cust-op-slider .owl-dots .owl-dot.active span {
   background-color: #804D98;
+}
+
+.customers-opinions .cust-op-slider .owl-nav {
+  margin-top: 0;
+  top: calc(30%);
+  right: 50%;
+  position: absolute;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  width: 100%;
+}
+
+.customers-opinions .cust-op-slider .owl-nav button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+
+.customers-opinions .cust-op-slider .owl-nav button.disabled {
+  opacity: .8;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.customers-opinions .cust-op-slider .owl-nav button.owl-prev {
+  background-image: url(../images/cust-arrow-circle-right.svg);
+  right: -15%;
+}
+
+.customers-opinions .cust-op-slider .owl-nav button.owl-next {
+  background-image: url(../images/cust-arrow-circle-left.svg);
+  left: -15%;
+}
+
+.customers-opinions .cust-op-slider .owl-nav button span {
+  display: none;
 }
 
 .strategic-partners {
@@ -13034,6 +13074,7 @@ about page
   font-weight: 500;
   color: #192946;
   margin-bottom: 24px;
+  text-align: justify;
 }
 
 .about-first .about-content-box p {
@@ -13041,6 +13082,7 @@ about page
   font-weight: 500;
   color: #192946;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .about-first .about-content-box p:last-child {
@@ -13090,6 +13132,7 @@ about page
   font-weight: 500;
   color: #192946;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .about-ro2ya-2020 .ro2ya-content-box p:last-child {
@@ -13174,6 +13217,7 @@ about page
   font-size: 25px;
   font-weight: 500;
   color: #192946;
+  text-align: justify;
 }
 
 .our-msg .msg-img-box {
@@ -13251,6 +13295,7 @@ about page
   font-size: 25px;
   font-weight: 500;
   color: #192946;
+  text-align: justify;
 }
 
 .about-vision .vision-img-box {
@@ -13314,6 +13359,7 @@ about page
   background-color: transparent;
   border-radius: 4px;
   padding: 12px 12px 23px;
+  padding-left: 20px;
 }
 
 .about-values .value-card:hover {
@@ -13367,6 +13413,7 @@ about page
   color: #7D7D7D;
   line-height: 24px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .about-values .value-card.first .value-img-box {
@@ -13374,15 +13421,15 @@ about page
 }
 
 .about-values .value-card.first .value-content-box h4 {
-  color: #153365;
+  color: #804D98;
 }
 
 .about-values .value-card.second .value-img-box {
-  background-color: rgba(46, 182, 125, 0.1);
+  background-color: rgba(66, 167, 198, 0.1);
 }
 
 .about-values .value-card.second .value-content-box h4 {
-  color: #2EB67D;
+  color: #42A7C6;
 }
 
 .about-values .value-card.third .value-img-box {
@@ -13692,8 +13739,8 @@ ul.share li.share-title img {
 }
 
 .list-with-search .list-items .news-list-item {
-  padding-bottom: 36px;
-  margin-bottom: 24px;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
   position: relative;
 }
 
@@ -13722,10 +13769,11 @@ ul.share li.share-title img {
   position: absolute;
   width: 272px;
   height: 216px;
-  right: -40px;
-  bottom: -37px;
+  right: -30px;
+  bottom: -27px;
   background-image: url(../images/dotted-bg.svg);
   background-repeat: no-repeat;
+  z-index: -1;
 }
 
 .list-with-search .list-items .news-list-item .news-img-box img {
@@ -13771,6 +13819,7 @@ ul.share li.share-title img {
   color: #1B222C;
   line-height: 34px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .list-with-search .list-items .news-list-item .news-content-box p {
@@ -13779,6 +13828,7 @@ ul.share li.share-title img {
   color: #7D7D7D;
   line-height: 29px;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .list-with-search .list-items .news-list-item .news-content-box a.more {
@@ -13944,6 +13994,7 @@ ul.share li.share-title img {
   font-weight: 700;
   color: #1B222C;
   margin-bottom: 48px;
+  text-align: justify;
 }
 
 .details-page .details-img {
@@ -14005,6 +14056,7 @@ ul.share li.share-title img {
   font-weight: 500;
   color: #192946;
   margin-bottom: 43px;
+  text-align: justify;
 }
 
 .first-inner .about-content-box p {
@@ -14270,6 +14322,7 @@ ul.share li.share-title img {
   width: 100%;
   max-height: calc(30px * 8);
   overflow: hidden;
+  text-align: justify;
 }
 
 .our-programs .program-card .content-hidden .btns-prog {
@@ -14774,7 +14827,7 @@ meeeeeeeedia for bootstrap col
   font-size: 20px;
   font-weight: 400;
   color: #7D7D7D;
-  text-align: right;
+  text-align: justify;
 }
 
 .itps-list .itp-card .content-box a.more {
@@ -15035,7 +15088,7 @@ meeeeeeeedia for bootstrap col
 ***************** programs-inner *******************
 */
 .first-inner.programs-inner .about-content-box p.with-arrow {
-  margin-top: 10px;
+  margin-top: 17px;
   margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15479,8 +15532,8 @@ meeeeeeeedia for bootstrap col
 }
 
 .Achievements-results .Achievements .list-Achievements ul li .icon-box {
-  background: #f8b64c;
-  background: linear-gradient(160deg, #f8b64c 0%, #ffd15c 100%);
+  background: gold;
+  background: linear-gradient(160deg, gold 0%, #ffd15c 100%);
   margin-left: 29px;
 }
 
@@ -15678,6 +15731,10 @@ meeeeeeeedia for bootstrap col
   margin-bottom: 0;
 }
 
+.our-programs.our-services .program-card .plus-prog a {
+  background-color: #804D98;
+}
+
 .our-programs.our-services .program-card .card-visable-content .card-content .icon-box::after {
   position: relative;
   z-index: -1;
@@ -15691,6 +15748,14 @@ meeeeeeeedia for bootstrap col
   transition: all 0.4s ease;
   margin: -5px auto 0;
   display: block;
+}
+
+.our-programs.our-services .program-card .content-hidden .btns-prog .back-btn {
+  background-color: #804D98;
+}
+
+.our-programs.our-services .program-card:hover .plus-prog a {
+  background-color: #804D98;
 }
 
 .our-programs.our-services .program-card:hover .card-visable-content .card-content .icon-box img {
@@ -16008,6 +16073,7 @@ meeeeeeeedia for bootstrap col
 .event-list .events-list .download-card .content-area .content-box p {
   margin-top: 26px;
   margin-bottom: 21px;
+  text-align: justify;
 }
 
 .event-list .events-list .download-card:hover .img-box img {
@@ -16056,6 +16122,7 @@ meeeeeeeedia for bootstrap col
   font-weight: 500;
   color: #7D7D7D;
   margin-bottom: 24px;
+  text-align: justify;
 }
 
 .privacy .privacy-content .content-box p:last-child {
@@ -16229,6 +16296,14 @@ meeeeeeeedia for bootstrap col
 
 .contact-first .about-content-box .links a.linkedin-link:hover {
   background-color: rgba(10, 102, 194, 0.66);
+}
+
+.contact-first .about-content-box .share {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0;
+  padding: 0;
 }
 
 .contact-first .first-img-box {
@@ -17454,6 +17529,506 @@ meeeeeeeedia for bootstrap col
   margin-bottom: 120px;
 }
 
+.Advantages-with-us .col-lg-4:nth-child(1n) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(2n) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(3n) {
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(4n) {
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(5n) {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(6n) {
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(7n) {
+  -webkit-transition-delay: 1.4s;
+          transition-delay: 1.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(8n) {
+  -webkit-transition-delay: 1.6s;
+          transition-delay: 1.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(9n) {
+  -webkit-transition-delay: 1.8s;
+          transition-delay: 1.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(10n) {
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(11n) {
+  -webkit-transition-delay: 2.2s;
+          transition-delay: 2.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(12n) {
+  -webkit-transition-delay: 2.4s;
+          transition-delay: 2.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(13n) {
+  -webkit-transition-delay: 2.6s;
+          transition-delay: 2.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(14n) {
+  -webkit-transition-delay: 2.8s;
+          transition-delay: 2.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(15n) {
+  -webkit-transition-delay: 3s;
+          transition-delay: 3s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(16n) {
+  -webkit-transition-delay: 3.2s;
+          transition-delay: 3.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(17n) {
+  -webkit-transition-delay: 3.4s;
+          transition-delay: 3.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(18n) {
+  -webkit-transition-delay: 3.6s;
+          transition-delay: 3.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(19n) {
+  -webkit-transition-delay: 3.8s;
+          transition-delay: 3.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(20n) {
+  -webkit-transition-delay: 4s;
+          transition-delay: 4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(21n) {
+  -webkit-transition-delay: 4.2s;
+          transition-delay: 4.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(22n) {
+  -webkit-transition-delay: 4.4s;
+          transition-delay: 4.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(23n) {
+  -webkit-transition-delay: 4.6s;
+          transition-delay: 4.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(24n) {
+  -webkit-transition-delay: 4.8s;
+          transition-delay: 4.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(25n) {
+  -webkit-transition-delay: 5s;
+          transition-delay: 5s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(26n) {
+  -webkit-transition-delay: 5.2s;
+          transition-delay: 5.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(27n) {
+  -webkit-transition-delay: 5.4s;
+          transition-delay: 5.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(28n) {
+  -webkit-transition-delay: 5.6s;
+          transition-delay: 5.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(29n) {
+  -webkit-transition-delay: 5.8s;
+          transition-delay: 5.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(30n) {
+  -webkit-transition-delay: 6s;
+          transition-delay: 6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(31n) {
+  -webkit-transition-delay: 6.2s;
+          transition-delay: 6.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(32n) {
+  -webkit-transition-delay: 6.4s;
+          transition-delay: 6.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(33n) {
+  -webkit-transition-delay: 6.6s;
+          transition-delay: 6.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(34n) {
+  -webkit-transition-delay: 6.8s;
+          transition-delay: 6.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(35n) {
+  -webkit-transition-delay: 7s;
+          transition-delay: 7s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(36n) {
+  -webkit-transition-delay: 7.2s;
+          transition-delay: 7.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(37n) {
+  -webkit-transition-delay: 7.4s;
+          transition-delay: 7.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(38n) {
+  -webkit-transition-delay: 7.6s;
+          transition-delay: 7.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(39n) {
+  -webkit-transition-delay: 7.8s;
+          transition-delay: 7.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(40n) {
+  -webkit-transition-delay: 8s;
+          transition-delay: 8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(41n) {
+  -webkit-transition-delay: 8.2s;
+          transition-delay: 8.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(42n) {
+  -webkit-transition-delay: 8.4s;
+          transition-delay: 8.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(43n) {
+  -webkit-transition-delay: 8.6s;
+          transition-delay: 8.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(44n) {
+  -webkit-transition-delay: 8.8s;
+          transition-delay: 8.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(45n) {
+  -webkit-transition-delay: 9s;
+          transition-delay: 9s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(46n) {
+  -webkit-transition-delay: 9.2s;
+          transition-delay: 9.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(47n) {
+  -webkit-transition-delay: 9.4s;
+          transition-delay: 9.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(48n) {
+  -webkit-transition-delay: 9.6s;
+          transition-delay: 9.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(49n) {
+  -webkit-transition-delay: 9.8s;
+          transition-delay: 9.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(50n) {
+  -webkit-transition-delay: 10s;
+          transition-delay: 10s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(51n) {
+  -webkit-transition-delay: 10.2s;
+          transition-delay: 10.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(52n) {
+  -webkit-transition-delay: 10.4s;
+          transition-delay: 10.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(53n) {
+  -webkit-transition-delay: 10.6s;
+          transition-delay: 10.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(54n) {
+  -webkit-transition-delay: 10.8s;
+          transition-delay: 10.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(55n) {
+  -webkit-transition-delay: 11s;
+          transition-delay: 11s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(56n) {
+  -webkit-transition-delay: 11.2s;
+          transition-delay: 11.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(57n) {
+  -webkit-transition-delay: 11.4s;
+          transition-delay: 11.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(58n) {
+  -webkit-transition-delay: 11.6s;
+          transition-delay: 11.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(59n) {
+  -webkit-transition-delay: 11.8s;
+          transition-delay: 11.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(60n) {
+  -webkit-transition-delay: 12s;
+          transition-delay: 12s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(61n) {
+  -webkit-transition-delay: 12.2s;
+          transition-delay: 12.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(62n) {
+  -webkit-transition-delay: 12.4s;
+          transition-delay: 12.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(63n) {
+  -webkit-transition-delay: 12.6s;
+          transition-delay: 12.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(64n) {
+  -webkit-transition-delay: 12.8s;
+          transition-delay: 12.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(65n) {
+  -webkit-transition-delay: 13s;
+          transition-delay: 13s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(66n) {
+  -webkit-transition-delay: 13.2s;
+          transition-delay: 13.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(67n) {
+  -webkit-transition-delay: 13.4s;
+          transition-delay: 13.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(68n) {
+  -webkit-transition-delay: 13.6s;
+          transition-delay: 13.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(69n) {
+  -webkit-transition-delay: 13.8s;
+          transition-delay: 13.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(70n) {
+  -webkit-transition-delay: 14s;
+          transition-delay: 14s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(71n) {
+  -webkit-transition-delay: 14.2s;
+          transition-delay: 14.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(72n) {
+  -webkit-transition-delay: 14.4s;
+          transition-delay: 14.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(73n) {
+  -webkit-transition-delay: 14.6s;
+          transition-delay: 14.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(74n) {
+  -webkit-transition-delay: 14.8s;
+          transition-delay: 14.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(75n) {
+  -webkit-transition-delay: 15s;
+          transition-delay: 15s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(76n) {
+  -webkit-transition-delay: 15.2s;
+          transition-delay: 15.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(77n) {
+  -webkit-transition-delay: 15.4s;
+          transition-delay: 15.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(78n) {
+  -webkit-transition-delay: 15.6s;
+          transition-delay: 15.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(79n) {
+  -webkit-transition-delay: 15.8s;
+          transition-delay: 15.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(80n) {
+  -webkit-transition-delay: 16s;
+          transition-delay: 16s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(81n) {
+  -webkit-transition-delay: 16.2s;
+          transition-delay: 16.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(82n) {
+  -webkit-transition-delay: 16.4s;
+          transition-delay: 16.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(83n) {
+  -webkit-transition-delay: 16.6s;
+          transition-delay: 16.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(84n) {
+  -webkit-transition-delay: 16.8s;
+          transition-delay: 16.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(85n) {
+  -webkit-transition-delay: 17s;
+          transition-delay: 17s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(86n) {
+  -webkit-transition-delay: 17.2s;
+          transition-delay: 17.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(87n) {
+  -webkit-transition-delay: 17.4s;
+          transition-delay: 17.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(88n) {
+  -webkit-transition-delay: 17.6s;
+          transition-delay: 17.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(89n) {
+  -webkit-transition-delay: 17.8s;
+          transition-delay: 17.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(90n) {
+  -webkit-transition-delay: 18s;
+          transition-delay: 18s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(91n) {
+  -webkit-transition-delay: 18.2s;
+          transition-delay: 18.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(92n) {
+  -webkit-transition-delay: 18.4s;
+          transition-delay: 18.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(93n) {
+  -webkit-transition-delay: 18.6s;
+          transition-delay: 18.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(94n) {
+  -webkit-transition-delay: 18.8s;
+          transition-delay: 18.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(95n) {
+  -webkit-transition-delay: 19s;
+          transition-delay: 19s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(96n) {
+  -webkit-transition-delay: 19.2s;
+          transition-delay: 19.2s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(97n) {
+  -webkit-transition-delay: 19.4s;
+          transition-delay: 19.4s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(98n) {
+  -webkit-transition-delay: 19.6s;
+          transition-delay: 19.6s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(99n) {
+  -webkit-transition-delay: 19.8s;
+          transition-delay: 19.8s;
+}
+
+.Advantages-with-us .col-lg-4:nth-child(100n) {
+  -webkit-transition-delay: 20s;
+          transition-delay: 20s;
+}
+
 .Advantages-with-us h2 {
   font-size: 30px;
   font-weight: 500;
@@ -17585,6 +18160,7 @@ meeeeeeeedia for bootstrap col
 .specialties ul {
   padding: 0;
   list-style: none;
+  margin-bottom: 0;
 }
 
 .specialties ul li {
@@ -18017,6 +18593,37 @@ this UI is made desktop first.
   .customers-opinions .cust-op-slider .owl-dots {
     right: calc(100% / 2 + 60px);
     top: calc(100% /2 + 160px);
+  }
+  .specialties .content-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .specialties .content-box p {
+    font-size: 18px;
+  }
+  .specialties ul li .icon-box {
+    width: 40px;
+    height: 40px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+    padding: 7px;
+  }
+  .specialties ul li .icon-box img {
+    max-height: 100%;
+  }
+  .specialties ul li span {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .life-join .content-box h2 {
+    font-size: 35px;
+  }
+  .life-join .content-box p {
+    font-size: 18px;
+  }
+  .life-join .content-box a {
+    font-size: 16px;
   }
 }
 
@@ -19238,6 +19845,72 @@ this UI is made desktop first.
     bottom: -5px;
     left: 0;
   }
+  .life-first .about-content-box a.join-us {
+    margin-top: 0;
+    padding: 4px 7px;
+    font-size: 16px;
+    height: 35px;
+    width: 120px;
+  }
+  .blue-section .blue-container {
+    width: 840px;
+  }
+  .blue-section .blue-container div p {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .Advantages-with-us h2 {
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+  .Advantages-with-us .Adv-with-us-card {
+    padding: 30px 15px;
+  }
+  .Advantages-with-us .Adv-with-us-card .img-box {
+    width: 40px;
+    height: 40px;
+  }
+  .Advantages-with-us .Adv-with-us-card .content-box {
+    margin-top: 10px;
+  }
+  .Advantages-with-us .Adv-with-us-card .content-box h4 {
+    margin-bottom: 7px;
+    font-size: 22px;
+  }
+  .Advantages-with-us .Adv-with-us-card .content-box p {
+    font-size: 16px;
+  }
+  .Advantages-with-us .Adv-with-us-card:hover {
+    padding: 28px 13px;
+  }
+  .specialties {
+    padding: 70px 0;
+    margin-bottom: 50px;
+  }
+  .specialties .content-box h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .specialties .content-box p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .specialties ul li span {
+    font-size: 14px;
+  }
+  .life-join {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+  }
+  .life-join .content-box h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .life-join .content-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -19605,6 +20278,56 @@ this UI is made desktop first.
   .media-inner .media-inner-list .media-list-cards {
     -webkit-column-count: 2;
             column-count: 2;
+  }
+  .blue-section {
+    padding: 50px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .blue-section .blue-container {
+    width: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  .blue-section .blue-container div p {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .Advantages-with-us {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .Advantages-with-us h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .Advantages-with-us .Adv-with-us-card {
+    margin-bottom: 20px;
+  }
+  .Advantages-with-us .Adv-with-us-card .content-box h4 {
+    font-size: 20px;
+  }
+  .specialties .content-box h2 {
+    font-size: 22px;
+  }
+  .specialties ul {
+    margin-top: 20px;
+  }
+  .specialties ul li {
+    margin-bottom: 15px;
+  }
+  .life-join {
+    padding: 40px 40px;
+  }
+  .life-join .content-box h2 {
+    font-size: 22px;
+  }
+  .life-join .content-box p {
+    font-size: 16px;
+  }
+  .life-join .content-box a {
+    font-size: 14px;
+    width: 115px;
   }
 }
 

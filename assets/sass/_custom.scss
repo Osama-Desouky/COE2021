@@ -519,6 +519,12 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 150px;
+  .share{
+    margin: 0;
+    li{
+      margin-bottom: 0;
+    }
+  }
 }
 .copySection{
  margin-top: 40px;
@@ -1597,15 +1603,16 @@ index
         position: relative;
         display: inline-block;
         margin-bottom: 32px;
+        width: fit-content;
         &::before{
           content: "";
           position: absolute;
           background-color:  rgba($color: #42A7C6, $alpha: 0.09);
           // width: calc(100% + 15px );
-          width: 50%;
+          width: calc(100% + 15px);
           height: 21px;
           #{$start-direction}:0;
-          bottom: -22px;
+          bottom: -15px;
           border-radius: 4px;
         }
       }
@@ -1717,10 +1724,14 @@ index
 .customers-opinions{
   padding-top: 135px;
   padding-bottom: 70px;
+  background-image: url(../images/cust-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: center bottom;
   .top-desc{
     margin: 0 auto;
     max-width: 1080px;
-    margin-bottom: 55px;
+    margin-bottom: 100px;
     h2{
       font-size: 35px;
       font-weight: $w-medium;
@@ -1746,45 +1757,47 @@ index
         justify-content: center;
         max-width: 1545px;
         margin: 0 auto;
-        .img-box{
-          position: relative;
-          max-width: 534px;
-          flex: 0 0 534px;
-          border-radius: 40px;
-          overflow: hidden;
-          margin-#{$end-direction}:94px ;
-          padding-#{$start-direction}: 76px;
-          &::before{
-            content: "";
-            position: absolute;
-            top: 20px;
-            #{$start-direction}:0;
-            width: 115px;
-            height: 158px;
-            background-image: url(../images/cust-art.svg);
-            background-repeat: no-repeat;
-          }
-        }
+        // .img-box{
+        //   position: relative;
+        //   max-width: 534px;
+        //   flex: 0 0 534px;
+        //   border-radius: 40px;
+        //   overflow: hidden;
+        //   margin-#{$end-direction}:94px ;
+        //   padding-#{$start-direction}: 76px;
+        //   &::before{
+        //     content: "";
+        //     position: absolute;
+        //     top: 20px;
+        //     #{$start-direction}:0;
+        //     width: 115px;
+        //     height: 158px;
+        //     background-image: url(../images/cust-art.svg);
+        //     background-repeat: no-repeat;
+        //   }
+        // }
         .content-box{
-          
+          text-align: center;
+          padding-top: 80px;
+          padding-bottom: 120px;
           .details{
             position: relative;
             font-size: 28px;
             font-weight: $w-medium;
             color: $black-text;
             line-height: 34px;
-            padding-bottom: 52px;
-            padding-top: 42px;
-            padding-#{$start-direction}: 37px;
-            padding-#{$end-direction}: 37px;
-            margin-bottom: 0;
+            padding-bottom: 35px;
+            padding-top: 35px;
+            padding-#{$start-direction}: 45px;
+            padding-#{$end-direction}: 45px;
+            margin-bottom: 55px;
             &::before{
               content: "";
               position: absolute;
               top: 0%;
-              #{$start-direction}:0;
-              width: 74px;
-              height: 47px;
+              #{$start-direction}:2px;
+              width: 38px;
+              height: 25px;
               background-image: url(../images/double-right.svg);
               background-repeat: no-repeat;
               z-index: -1;
@@ -1794,8 +1807,8 @@ index
               position: absolute;
               bottom: 0%;
               #{$end-direction}:0;
-              width: 74px;
-              height: 47px;
+              width: 38px;
+              height: 25px;
               background-image: url(../images/double-left.svg);
               background-repeat: no-repeat;
               z-index: -1;
@@ -1823,8 +1836,9 @@ index
     }
     .owl-dots {
       position: absolute;
-      right: calc(100% / 2 - 110px);
-      top: calc(100% /2 + 125px);
+      #{$start-direction}: calc(100% / 2);
+      transform: translateX(50%);
+      top: calc(100% /2 + 130px);
       margin-top: 0 !important;
       .owl-dot {
         span{
@@ -1835,6 +1849,41 @@ index
           span{
             background-color: $violet-text2;
           }
+        }
+      }
+    }
+    .owl-nav{
+      margin-top: 0;
+      top: calc(30%);
+      right: 50%;
+      position: absolute;
+      transform: translateX(50%);
+      width: 100%;
+      button{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        // background-color: $violet-text2 ;
+        background-color: transparent !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        &.disabled{
+          opacity: .8;
+          filter: grayscale(1);
+        }
+        &.owl-prev{
+          background-image: url(../images/cust-arrow-circle-right.svg);
+          #{$start-direction}: -15%;
+
+        }
+        &.owl-next{
+          background-image: url(../images/cust-arrow-circle-left.svg);
+          #{$end-direction}: -15%;
+        }
+
+        span{
+          display: none;
         }
       }
     }
@@ -1999,6 +2048,7 @@ about page
       font-weight: $w-medium;
       color: $dark-blue-text;
       margin-bottom: 24px;
+      text-align: justify;
 
     }
     p{
@@ -2006,6 +2056,8 @@ about page
       font-weight: $w-medium;
       color: $dark-blue-text;
       margin-bottom: 10px;
+      text-align: justify;
+
       &:last-child{
         margin-bottom: 0;
       }
@@ -2054,6 +2106,7 @@ about page
       font-weight: $w-medium;
       color: $dark-blue-text;
       margin-bottom: 10px;
+      text-align: justify;
       &:last-child{
         margin-bottom: 0;
       }
@@ -2113,6 +2166,7 @@ about page
       font-size: 25px;
       font-weight: $w-medium;
       color: $dark-blue-text;
+      text-align: justify;
     }
   }
   .msg-img-box{
@@ -2167,6 +2221,7 @@ about page
       font-size: 25px;
       font-weight: $w-medium;
       color: $dark-blue-text;
+      text-align: justify;
     }
   }
   .vision-img-box{
@@ -2216,6 +2271,7 @@ about page
     background-color: transparent;
     border-radius: 4px;
     padding: 12px 12px 23px;
+    padding-#{$end-direction}: 20px;
     &:hover{
       box-shadow: 0px 15px 25px rgba($color: $darkBlue-bg , $alpha: 0.10);
       background-color: #fff;
@@ -2246,6 +2302,7 @@ about page
         color: $gray-text;
         line-height: 24px;
         margin-bottom: 0;
+        text-align: justify;
       }
     }
     &.first{
@@ -2254,17 +2311,17 @@ about page
       }
       .value-content-box{
         h4{
-          color: #153365;
+          color: $violet-text2;
         }
       }
     }
     &.second{
       .value-img-box{
-        background-color:  rgba($color: #2EB67D , $alpha: 0.10);
+        background-color:  rgba($color: #42A7C6 , $alpha: 0.10);
       }
       .value-content-box{
         h4{
-          color: #2EB67D;
+          color: #42A7C6;
         }
       }
     }
@@ -2529,8 +2586,8 @@ ul.share{
   .list-items{
     margin-bottom: 111px;
     .news-list-item{
-      padding-bottom: 36px;
-      margin-bottom: 24px;
+      padding-bottom: 25px;
+      margin-bottom: 10px;
       position: relative;
       // z-index: -1;
       .news-img-box{
@@ -2555,10 +2612,11 @@ ul.share{
           position: absolute;
           width: 272px;
           height: 216px;
-          #{$start-direction}: -40px;
-          bottom: -37px;
+          #{$start-direction}: -30px;
+          bottom: -27px;
           background-image: url(../images/dotted-bg.svg);
           background-repeat: no-repeat;
+          z-index: -1;
         }
         img{
           border-radius: 16px;
@@ -2592,6 +2650,7 @@ ul.share{
           color: $black-text;
           line-height: 34px;
           margin-bottom: 0;
+          text-align: justify;
         }
         p{
           font-size: 24px;
@@ -2599,6 +2658,7 @@ ul.share{
           color: $gray-text;
           line-height: 29px;
           margin-bottom: 0;
+          text-align: justify;
         }
         a.more{
           height: 51px;
@@ -2738,6 +2798,7 @@ ul.share{
       font-weight: $w-bold;
       color: $black-text;
       margin-bottom: 48px;
+      text-align: justify;
     }
     
   }
@@ -2789,6 +2850,7 @@ ul.share{
       font-weight: $w-medium;
       color: $dark-blue-text;
       margin-bottom: 43px;
+      text-align: justify;
 
     }
     p{
@@ -2988,6 +3050,7 @@ ul.share{
           width: 100%;
           max-height: calc(30px * 8);
           overflow: hidden;
+          text-align: justify;
         }
         .btns-prog{
           margin-top: auto;
@@ -3400,7 +3463,7 @@ meeeeeeeedia for bootstrap col
         font-weight: $w-normal;
         color: $gray-text;
         // margin-bottom: 61px;
-        text-align: #{$start-direction};
+        text-align: justify;
       }
       a.more{
         height: 43px;
@@ -3620,7 +3683,7 @@ meeeeeeeedia for bootstrap col
 .first-inner.programs-inner{
   .about-content-box{
    p.with-arrow{
-     margin-top: 10px;
+     margin-top: 17px;
      margin-#{$start-direction}: 10px;
      display: flex;
      img{
@@ -3926,8 +3989,8 @@ meeeeeeeedia for bootstrap col
       ul{
         li{
           .icon-box{
-            background: rgb(248,182,76);
-            background: linear-gradient(160deg, rgba(248,182,76,1) 0%, rgba(255,209,92,1) 100%);
+            background: rgb(255,215,0);
+            background: linear-gradient(160deg, rgba(255,215,0,1) 0%, rgba(255,209,92,1) 100%);
             margin-#{$end-direction}: 29px ;
 
           }
@@ -4129,6 +4192,11 @@ meeeeeeeedia for bootstrap col
 }
 .our-programs.our-services{
   .program-card {
+    .plus-prog {
+      a{
+        background-color: $violet-text2;
+      }
+    }
     .card-visable-content{
       .card-content{
         .icon-box{
@@ -4150,7 +4218,19 @@ meeeeeeeedia for bootstrap col
         }
       }
     }
+    .content-hidden {
+      .btns-prog {
+        .back-btn{
+          background-color: $violet-text2;
+        }
+      }
+    }
     &:hover{
+      .plus-prog {
+        a{
+          background-color: $violet-text2;
+        }
+      }
       .card-visable-content{
         .card-content{
           .icon-box{
@@ -4410,6 +4490,7 @@ meeeeeeeedia for bootstrap col
           p{
             margin-top: 26px;
             margin-bottom: 21px;
+            text-align: justify;
           }
         }
       }
@@ -4464,6 +4545,7 @@ meeeeeeeedia for bootstrap col
         font-weight: $w-medium;
         color: $gray-text;
         margin-bottom: 24px;
+        text-align: justify;
         &:last-child{
           margin-bottom: 0;
         }
@@ -4606,6 +4688,11 @@ meeeeeeeedia for bootstrap col
           }
         }
       }
+    }
+    .share{
+      justify-content: flex-start;
+      margin: 0;
+      padding: 0;
     }
   }
   .first-img-box{
@@ -5593,6 +5680,14 @@ meeeeeeeedia for bootstrap col
 .Advantages-with-us{
   margin-top: 50px;
   margin-bottom: 120px;
+  // .col-lg-4:nth-child(1n+1){
+  //   transition-delay: calc(100ms * (1n+1)  );
+  // }
+  @for $i from 1 through 100 {
+    .col-lg-4:nth-child(#{$i}n) {
+      transition-delay: #{$i * 0.2}s;
+    }
+  }
   h2{
     font-size: 30px;
     font-weight: $w-medium;
@@ -5694,6 +5789,7 @@ meeeeeeeedia for bootstrap col
   ul{
     padding: 0;
     list-style: none;
+    margin-bottom: 0;
     li{
       display: flex;
       justify-content: flex-start;

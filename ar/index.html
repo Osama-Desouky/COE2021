@@ -965,15 +965,12 @@
     <div class="cust-op-slider">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="col-lg-8 offset-lg-2">
             <div class="slider-wrapper">
               <div class="owl-carousel owl-theme">
                 <div class="item">
                   <div class="customer-op-card">
-                    <div class="img-box" data-aos="fade-right" data-aos-delay="150">
-                      <img src="../assets/images/cust-person.svg" alt="">
-                    </div>
-                    <div class="content-box" data-aos="fade-left" data-aos-delay="150">
+                    <div class="content-box" data-aos="fade-in" data-aos-delay="150">
                       <p class="details">
                         تشرفت فعلا بما رأيت، إنه لمدعاة للفخر أن نصل إلى هذه المراحل المتقدمة من التدريب والتعليم والتأهيل
                       </p>
@@ -988,9 +985,9 @@
                 </div>
                 <div class="item">
                   <div class="customer-op-card">
-                    <div class="img-box">
+                    <!-- <div class="img-box">
                       <img src="../assets/images/cust-person.svg" alt="">
-                    </div>
+                    </div> -->
                     <div class="content-box">
                       <p class="details">
                         تشرفت فعلا بما رأيت، إنه لمدعاة للفخر أن نصل إلى هذه المراحل المتقدمة من التدريب والتعليم والتأهيل
@@ -1006,9 +1003,9 @@
                 </div>
                 <div class="item">
                   <div class="customer-op-card">
-                    <div class="img-box">
+                    <!-- <div class="img-box">
                       <img src="../assets/images/cust-person.svg" alt="">
-                    </div>
+                    </div> -->
                     <div class="content-box">
                       <p class="details">
                         تشرفت فعلا بما رأيت، إنه لمدعاة للفخر أن نصل إلى هذه المراحل المتقدمة من التدريب والتعليم والتأهيل
@@ -1292,17 +1289,34 @@
               الشروط والأحكام
             </a>
           </div>
-          <div class="social-media"  data-aos="fade-in" data-aos-delay="1000">
-            <a href="#">
-             <img src="../assets/images/linkedin-outline.svg" alt="logo">
+          <div class="social-media" data-aos="fade-in" data-aos-delay="1000">
+            <!-- <a href="#">
+              <img src="../assets/images/linkedin-outline.svg" alt="logo" />
             </a>
             <a href="#">
-              <img src="../assets/images/facebook-outline.svg" alt="logo">
-             </a>
-             <a href="#">
-              <img src="../assets/images/twitter-outline.svg" alt="logo">
-             </a>
-         </div>
+              <img src="../assets/images/facebook-outline.svg" alt="logo" />
+            </a>
+            <a href="#">
+              <img src="../assets/images/twitter-outline.svg" alt="logo" />
+            </a> -->
+            <ul class="share">
+              <li>
+                <a href="#">
+                  <img src="../assets/images/bxl-linkedin.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../assets/images/bxl-facebook.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../assets/images/twitter.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
        
       </div>
@@ -1407,7 +1421,7 @@
       // customerSlider
       var customerSlider = $('.cust-op-slider .owl-carousel');
       customerSlider.owlCarousel({
-        nav: false,
+        nav: true,
         dots: true,
         items: 1,
         autoplay: false,

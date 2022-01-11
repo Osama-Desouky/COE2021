@@ -1,4 +1,6 @@
-<svg id="double-left" xmlns="http://www.w3.org/2000/svg" width="74.47" height="47.633" viewBox="0 0 74.47 47.633">
-  <path id="Path_58279" data-name="Path 58279" d="M32.357,47.633H0V15.275L11.406,0,24.863.048,13.472,15.275H32.357Z" fill="#f2eff3"/>
-  <path id="Path_58280" data-name="Path 58280" d="M46.761,47.633H14.4V15.275L25.81,0,39.266.048,27.875,15.275H46.761Z" transform="translate(27.709)" fill="#f2eff3"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="38.522" height="25.001" viewBox="0 0 38.522 25.001">
+  <g id="double-left" transform="translate(0.5 0.501)">
+    <path id="Path_58279" data-name="Path 58279" d="M16.3,24H0V7.7L5.747,0l6.78.024L6.788,7.7H16.3Z" fill="#1d4487" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="Path_58280" data-name="Path 58280" d="M30.707,24H14.4V7.7L20.151,0l6.78.024L21.191,7.7h9.516Z" transform="translate(6.815)" fill="#1d4487" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+  </g>
 </svg>

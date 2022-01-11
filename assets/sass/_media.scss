@@ -365,6 +365,49 @@ this UI is made desktop first.
       }
     }
   }
+
+  // life of ceo
+  .specialties {
+    .content-box {
+      h2{
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+    ul{
+      li{
+        .icon-box{
+          width: 40px;
+          height: 40px;
+          flex: 0 0 40px;
+          padding: 7px;
+          img{
+           max-height: 100%;
+          }
+        }
+        span{
+          font-size: 17px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  .life-join {
+    .content-box {
+      h2{
+        font-size: 35px;
+      }
+      p{
+        font-size: 18px;
+      }
+      a{
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 
@@ -1923,6 +1966,91 @@ this UI is made desktop first.
       }
     }
   }
+
+  .life-first {
+    .about-content-box {
+      a.join-us{
+        margin-top: 0;
+        padding: 4px 7px;
+        font-size: 16px;
+        height: 35px;
+        width: 120px;
+      }
+    }
+  }
+  .blue-section {
+    .blue-container{
+      width: 840px;
+      div {
+        p{
+          font-size: 28px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .Advantages-with-us {
+    h2{
+      font-size: 25px;
+      margin-bottom: 35px;
+    }
+    .Adv-with-us-card{
+      padding: 30px 15px;
+      .img-box{
+        width: 40px;
+        height: 40px;
+      }
+      .content-box{
+        margin-top: 10px;
+        h4{
+          margin-bottom: 7px;
+          font-size: 22px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+      &:hover{
+        padding: 28px 13px;
+      }
+    }
+  }
+  .specialties {
+    padding: 70px 0;
+    margin-bottom: 50px;
+    .content-box {
+      h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    ul {
+      li {
+        span{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .life-join{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+    .content-box {
+      h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 
 
@@ -2371,6 +2499,66 @@ this UI is made desktop first.
     }
   }
 
+  .blue-section {
+    padding: 50px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .blue-container{
+      width: auto;
+      padding-left: 55px;
+      padding-right: 55px;
+      div {
+        p{
+          font-size: 22px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+  .Advantages-with-us {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    h2{
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+    .Adv-with-us-card{
+      margin-bottom: 20px;
+      .content-box {
+        h4{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .specialties {
+    .content-box {
+      h2{
+        font-size: 22px;
+      }
+    }
+    ul {
+      margin-top: 20px;
+      li{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .life-join{
+    padding: 40px 40px;
+    .content-box {
+      h2{
+        font-size: 22px;
+      }
+      p{
+        font-size: 16px;
+      }
+      a{
+        font-size: 14px;
+        width: 115px;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
