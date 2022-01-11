@@ -18334,6 +18334,19 @@ meeeeeeeedia for bootstrap col
   margin-bottom: 0;
 }
 
+.serv-first .first-img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.serv-first .first-img-box::before {
+  display: none;
+}
+
 /*
 this UI is made desktop first.
 */

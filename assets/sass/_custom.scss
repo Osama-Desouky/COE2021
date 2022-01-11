@@ -5922,7 +5922,15 @@ meeeeeeeedia for bootstrap col
   }
 }
 
-
+.serv-first{
+  .first-img-box{
+    display: flex;
+    justify-content: flex-end;
+    &::before{
+      display: none;
+    }
+  }
+}
 
 // LTR
 // html[dir="ltr"] {
