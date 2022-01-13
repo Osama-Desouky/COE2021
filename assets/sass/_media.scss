@@ -408,6 +408,29 @@ this UI is made desktop first.
       }
     }
   }
+
+  .job-form {
+    .white-card {
+      .form-group {
+        label{
+          font-size: 16px;
+          padding-left: 15px;
+          width: 35%;
+        }
+        input , select , .file-input{
+          width: 65%;
+        }
+        .file-input{
+          &::before{
+            right: 40%
+          }
+          &::after{
+            background-position: 60% center;
+          }
+        }
+      }
+    }
+  }
 }
 
 
@@ -1034,6 +1057,43 @@ this UI is made desktop first.
         img{
           margin-#{$end-direction}: 10px;
           width: 40px;
+        }
+      }
+    }
+
+    .careers-top {
+      .content-box {
+        h2{
+          font-size: 28px;
+          margin-bottom: 25px;
+        }
+        p{
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+      }
+      .img-box{
+        img{
+          max-height: 500px;
+        }
+      }
+    }
+    .text-on-right , .text-on-left {
+      margin-top: 30px;
+      .content-box {
+        h2{
+          font-size: 28px;
+          margin-bottom: 20px;
+        }
+        p{
+          font-size: 18px;
+          margin-bottom: 15px;
+        }
+        a{
+          width: 100px;
+          height: 40px;
+          font-size: 16px;
+          padding: 5px;
         }
       }
     }
@@ -2051,6 +2111,159 @@ this UI is made desktop first.
       }
     }
   }
+
+  .recruitment-stages {
+    .recruitment-item {
+      .content-box {
+        span{
+          width: 40px;
+          height: 40px;
+          font-size: 22px;
+          margin-bottom: 15px;
+        }
+        h3{
+          font-size: 25px;
+          margin-bottom: 20px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .job-details-top {
+    .top-details {
+      .title-with-share{
+        margin-bottom: 35px !important;
+      }
+    }
+  }
+    .top-details {
+      .title-with-share{
+        // margin-bottom: 35px !important;
+        h3{
+          font-size: 25px !important;
+        }
+      }
+      .more-details{
+        flex-wrap: wrap;
+        .right-det {
+          div{
+            font-size: 16px !important;
+            margin-#{$end-direction}: 15px !important;
+            img{
+              margin-left: 5px !important;
+              max-height: 23px !important;
+            }
+          }
+        }
+        .category{
+          font-size: 16px !important;
+          padding: 10px 18px !important;
+          margin-#{$start-direction}: auto !important;
+        }
+      }
+      a.sign{
+        font-size: 16px !important;
+        width: 100px !important;
+        height: 40px !important;
+        margin: 0 auto !important;
+        margin-top: 15px !important;
+      }
+    }
+  // }
+  .job-details{
+    padding: 35px 24px 48px;
+    margin-bottom: 60px;
+    h4{
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    ul{
+      li{
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .job-form {
+    .white-card {
+      .form-group {
+        label{
+          width: 100%;
+        }
+        input , select , .file-input{
+          width: 100%;
+        }
+      }
+      a.send{
+        height: 40px;
+        padding: 6px 35px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .careers-top {
+    .content-box {
+      h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+      a{
+        width: 130px;
+        height: 35px;
+        font-size: 14px;
+      }
+    }
+    .img-box{
+      img{
+        max-height: 400px;
+      }
+    }
+  }
+  .text-on-right , .text-on-left {
+    margin-top: 30px;
+    .content-box {
+      h2{
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      a{
+        width: 90px;
+        height: 35px;
+        font-size: 14px;
+        padding: 5px;
+      }
+    }
+  }
+  .jobs-list {
+    .jobs-top {
+      margin-bottom: 30px;
+      h2 {
+        font-size: 25px;
+      }
+      a.more{
+        font-size: 14px;
+        height: 35px;
+        width: 90px;
+        padding: 5px
+      }
+    }
+  }
 }
 
 
@@ -2559,6 +2772,117 @@ this UI is made desktop first.
       }
     }
   }
+
+  .recruitment-stages {
+    .recruitment-item{
+      margin-bottom: 50px;
+      .img-box{
+        margin-top: 20px;
+      }
+      .content-box{
+        h3{
+          font-size: 22px;
+        }
+      }
+    }
+    .left-text {
+      .col-lg-5{
+        order: 1;
+      }
+      .col-lg-6{
+        order: 2;
+      }
+    }
+  }
+
+  // .job-details-top {
+    .top-details {
+      .title-with-share{
+        margin-bottom: 25px !important;
+        h3{
+          font-size: 22px !important;
+        }
+      }
+      .more-details{
+        .right-det {
+          div{
+            font-size: 14px !important;
+          }
+        }
+        .category{
+          font-size: 14px !important;
+          padding: 7px 14px !important;
+          margin-top: 7px !important;
+        }
+      }
+    }
+  // }
+  .job-details{
+    padding: 35px 24px 48px;
+    h4{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    ul{
+      li{
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .jobs-list {
+    .job-card {
+      .top-details {
+        .title-with-share{
+          ul.share{
+            
+            li{
+              margin-#{$end-direction}: 10px;
+              &.share-title{
+                font-size: 16px;
+                img{
+                  margin-#{$end-direction}: 2px;
+                }
+              }
+            }
+          }
+        }
+        .more-details {
+          .right-det{
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+  .main-navbar {
+    .navbar {
+      .nav-div {
+        .nav-div-one {
+          margin-bottom: 10px;
+          .nav-item{
+            margin: 3px 0px;
+            padding: 5px 0;
+            .nav-link {
+              font-size: 16px;
+              text-align: center;
+              &.active{
+                &::before{
+                  bottom: -2px;
+                  #{$start-direction}: 50%;
+                  transform: translateX(50%);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -3047,6 +3371,160 @@ this UI is made desktop first.
       }
     }
   }
+
+  .blue-section {
+    padding: 35px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .blue-container{
+      div {
+        p{
+          font-size: 18px;
+          line-height: 20px;
+          &.plus{
+            margin-#{$end-direction}: 7px;
+          }
+        }
+      }
+    }
+  }
+  .Advantages-with-us {
+    .Adv-with-us-card {
+      .content-box {
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .specialties {
+    .content-box{
+      padding-#{$end-direction}: 0;
+      h2{
+        font-size: 20px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+  .life-join {
+    .content-box {
+      h2{
+        font-size: 20px;
+      }
+      p{
+        font-size: 14px;
+      }
+      a{
+        font-size: 12px;
+        width: 100px;
+      }
+    }
+  }
+  .recruitment-stages {
+    .recruitment-item {
+      .content-box {
+        h3{
+          font-size: 20px;
+          margin-bottom: 15px
+        }
+        p{
+          font-size: 14px;
+        }
+        span{
+          width: 35px;
+          height: 35px;
+          font-size: 18px;
+          margin-bottom: 7px;
+        }
+      }
+    }
+  }
+  .sign-in {
+    .not-found-content {
+      margin-top: -125px;
+    }
+  }
+
+  .top-details {
+    .title-with-share {
+      h3{
+        font-size: 20px !important;
+      }
+    }
+    .more-details {
+      .right-det{
+        flex-direction: column !important;
+        div{
+          margin-#{$end-direction}: 0 !important;
+          margin-bottom: 7px !important;
+        }
+      }
+    }
+    a.sign{
+      font-size: 14px !important;
+      height: 35px !important;
+    }
+  }
+  .job-details-top {
+    .job-form {
+      .white-card {
+        a.send{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .text-on-right , .text-on-left {
+    .img-box{
+      margin: 10px 0;
+    }
+  }
+  .jobs-list {
+    .job-card{
+      padding: 15px;
+      .top-details {
+        .title-with-share{
+          flex-wrap: wrap;
+          ul.share{
+            padding-right: 0;
+            margin-top: 5px;
+            margin-#{$start-direction}: auto;
+            margin-#{$end-direction}: 0;
+          }
+
+        }
+      }
+    }
+  }
+  .text-on-right.mb-130, .text-on-left.mb-130 {
+    margin-bottom: 50px;
+  }
+
+  .sub-menu {
+    .subMenu-area {
+      ul{
+        max-width: inherit;
+        justify-content: center;
+        li{
+          padding-top: 15px;
+          padding-bottom: 10px;
+          margin-#{$end-direction}: 15px;
+          // a{
+          //   font-size: 14px;
+          // }
+        }
+      }
+    }
+  }
+  .main-navbar {
+    .navbar {
+      .navbar-brand{
+        flex: 0 0 90px;
+      }
+    }
+  }
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -3073,9 +3551,9 @@ this UI is made desktop first.
   .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item > .nav-link.dropdown-toggle::before{
     width: 35%;
   }
-  .main-navbar .navbar-brand{
-    flex: 0 0 135px;
-  }
+  // .main-navbar .navbar-brand{
+  //   flex: 0 0 135px;
+  // }
   .main-navbar .navbar-toggler{
     #{$end-direction}: 20px;
     top: 25px;
@@ -3176,7 +3654,11 @@ this UI is made desktop first.
     padding-bottom: 15px;
   }
 
-
+  .sign-in {
+    .not-found-content {
+      margin-top: -70px;
+    }
+  }
 }
 
 
