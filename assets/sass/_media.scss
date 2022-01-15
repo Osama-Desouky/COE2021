@@ -824,7 +824,7 @@ this UI is made desktop first.
         .icon-box{          
           width: 65px;
           height: 65px;
-          margin-bottom: 20px
+          margin-bottom: 20px;
           img{
             max-height: 25px;
           }
@@ -866,8 +866,10 @@ this UI is made desktop first.
           h4{
             font-size: 22px;
             line-height: initial;
+            margin-bottom: 20px;
             &::before{
               height: 12px;
+              bottom: -7px;
             }
           }
           p{
@@ -2883,6 +2885,272 @@ this UI is made desktop first.
       }
     }
   }
+
+
+  // index
+  .main-slider {
+    .scroll-mouse{
+      top: 670px;
+    }
+    .item {
+      .caption {
+        h2{
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+        }
+        a.more{
+          width: 100px;
+          img{
+            width: 10px;
+          }
+        }
+      }
+      .left-slider-imgs{
+        top: 50px;
+        width: 70%;
+        margin: 0 auto;
+        .person-image{
+          top: -22px;
+          width: 261px;
+          #{$start-direction}: 145px;
+        }
+        .shape1 {
+          width: 335px;
+          #{$start-direction}: 75px;
+          top: 220px;
+        }
+        .shape2 {
+          width: 390px;
+          #{$end-direction}: 0;
+        }
+
+        .main-slider-card{
+          font-size: 12px;
+          .slider-card-img {
+            img{
+              width: 35px;
+            }
+          }
+          &.card2{
+            top: -35px;
+          }
+          &.card1{
+            top: -15px;
+          }
+          &.card3{}
+          &.card4{
+            #{$start-direction}:0
+          }
+        }
+      }
+    }
+  }
+  .our-advantages {
+    background-position-y: bottom;
+    background-size: 22.3%;
+    background-repeat: repeat-y;
+    .advantages-top {
+      margin-bottom: 20px;
+      h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    .advantages-card {
+      margin-bottom: 15px;
+      .img-box{
+        max-width: 60px;
+      }
+      .content-box {
+        max-width: 80%;
+        h4{
+          font-size: 20px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .who-we-are {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    .who-we-content {
+      h2{
+        font-size: 22px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    .who-we-main-img{
+      width: 65%;
+      margin-top: 100px;
+      top: auto;
+    }
+  }
+  .tour {
+    .top-desc{
+      margin-bottom: 60px;
+      h2{
+        font-size: 22px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+  .our-services {
+    .top-desc {
+      h2{
+        font-size: 22px;
+      }
+      p{
+        font-size: 16px
+      }
+    }
+    .details-sec {
+      height: 630px;
+      background-position: -25% bottom;
+      background-size: 1000px;
+      .details-content{
+        padding:50px;
+        h4{
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+      }
+      .service-image{
+        width: 50%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .our-program {
+    .top-desc {
+      margin-bottom: 30px;
+      h2{
+        font-size: 22px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    .details-sec {
+      .details-content {
+        h4{
+          font-size: 20px;
+          &::before{
+            bottom: -7px;
+          }
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+    }
+    .program-images {
+      div.prog3-img{
+        #{$start-direction}: 25px;
+      }
+      div.prog2-img {
+        top: 75px;
+        #{$end-direction}: 50px;
+      }
+      div.prog1-img {
+        top: 10px;
+        #{$end-direction}: 265px;
+    }
+    div.prog4-img {
+      bottom: 5px;
+      #{$end-direction}: 130px;
+    }
+  }
+
+  }
+  .customers-opinions {
+    background-size: cover;
+    .top-desc {
+      margin-bottom: 30px;
+      h2 {
+        font-size: 22px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    .cust-op-slider {
+      .item {
+        .customer-op-card {
+          .content-box {
+            padding-top: 50px;
+            padding-bottom: 65px;
+            .details{
+              font-size: 18px;
+              line-height: 26px;
+              padding-top: 32px;
+              padding-bottom: 32px;
+              margin-bottom: 20px;
+              &::after , &::before{
+                width: 45px;
+                height: 30px;
+              }
+            }
+            .name , .job{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .owl-nav{
+        display: none;
+      }
+    }
+  }
+  .strategic-partners {
+    .top-desc {
+      h2{
+        font-size: 22px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    a.be-one {
+      width: 170px;
+      height: 46px;
+      font-size: 14px;
+      margin-top: 35px;
+      img{
+        margin-#{$end-direction}: 6px;
+        width: 30px;
+      }
+    }
+    .strategic-partners-slider {
+      .item {
+        .strategic-partners-card{
+          .content-box {
+            margin-bottom: 20px;
+            h4{
+              font-size: 20px;
+            }
+            p{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -3507,10 +3775,14 @@ this UI is made desktop first.
       ul{
         max-width: inherit;
         justify-content: center;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
         li{
           padding-top: 15px;
           padding-bottom: 10px;
           margin-#{$end-direction}: 15px;
+          white-space: nowrap;
           // a{
           //   font-size: 14px;
           // }
@@ -3525,6 +3797,353 @@ this UI is made desktop first.
       }
     }
   }
+  .breadcrumb-area {
+    justify-content: center;
+    .breadcrumb{
+      display: none;
+    }
+    ul.share{
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+
+
+
+    // index
+    .main-slider {
+      .scroll-mouse{
+        top: 670px;
+      }
+      .item {
+        .caption {
+          h2{
+            font-size: 18px;
+          }
+          p{
+            font-size: 14px;
+          }
+          a.more{
+            width: 85px;
+            font-size: 12px;
+            height: 30px;
+            padding: 3px;
+          }
+        }
+        .left-slider-imgs{
+          width: 95%;
+          .person-image{
+            top: -22px;
+            width: 261px;
+            #{$start-direction}: 145px;
+          }
+          .shape1 {
+            width: 335px;
+            #{$start-direction}: 75px;
+            top: 220px;
+          }
+          .shape2 {
+            width: 390px;
+            #{$end-direction}: 0;
+          }
+  
+          .main-slider-card{
+            font-size: 12px;
+            .slider-card-img {
+              img{
+                width: 35px;
+              }
+            }
+            &.card2{
+              top: -35px;
+            }
+            &.card1{
+              top: -15px;
+            }
+            &.card3{}
+            &.card4{
+              #{$start-direction}:0
+            }
+          }
+        }
+      }
+    }
+
+    .our-partners {
+      .heading {
+        h2{
+          font-size: 18px;
+        }
+      }
+    }
+    .our-advantages {
+      background-position-y: bottom;
+      background-size: 22.3%;
+      background-repeat: repeat-y;
+      .advantages-top {
+        h2{
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+      .advantages-card {
+        .img-box{
+          margin-bottom: 10px;
+        }
+        .content-box {
+          max-width: 80%;
+          h4{
+            font-size: 18px;
+            margin-bottom: 4px;
+          }
+          p{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .who-we-are {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      .who-we-content {
+        h2{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+        a.more {
+          font-size: 12px;
+          width: 90px;
+          height: 30px;
+          padding: 3px;
+          img{
+            width: 10px;
+          }
+        }
+      }
+      .who-we-main-img{
+        width: 95%;
+      }
+    }
+    .tour {
+      .top-desc{
+        h2{
+          font-size: 18px;
+          margin-bottom: 5px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+      .item{
+        margin-top: 20px;
+        &.item2{
+        margin-top: 80px;
+        }
+        .details{
+          padding: 40px;
+          width: 240px;
+          height: 195px;      
+        }
+        .icon-box{
+          width: 55px;
+          height: 55px;
+          margin-bottom: 15px;
+        }
+        .item-marker {
+          margin-bottom: 15px;
+          .marker-img{
+            width: 25px;
+            height: 25px;
+          }
+          span.mark-line{
+            display: none;
+          }
+        }
+        .year-name{
+          font-size: 16px;
+          span{
+            font-size: 18px;
+          }
+        }
+        .number{
+          font-size: 40px;
+          line-height: 40px;
+        }
+      }
+      .Floated-icons {
+        .floated-icon.chart-up{
+          #{$start-direction}: calc(100% / 2 - 225px);
+          width: 65px;
+        }
+        .floated-icon.chart-fav{
+          width: 55px;
+        }
+        .floated-icon.graph{
+          #{$start-direction}: calc(100% / 2 + 100px);
+          width: 45px;
+        }
+      }
+    }
+    .our-services {
+      .top-desc {
+        h2{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px
+        }
+      }
+      .details-sec {
+        background-position: -5% bottom;
+        .details-content{
+          padding:25px;
+          h4{
+            font-size: 18px;
+          }
+          p{
+            font-size: 14px;
+          }
+          a{
+            width: 90px;
+            height: 30px;
+            padding: 4px;
+            font-size: 12px;
+          }
+        }
+        .service-image{
+          width: 70%;
+        }
+      }
+    }
+  
+    .our-program {
+      .top-desc {
+        margin-bottom: 30px;
+        h2{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+      .details-sec {
+        .details-content {
+          h4{
+            font-size: 18px;
+            &::before{
+              bottom: -7px;
+            }
+          }
+          p{
+            font-size: 14px;
+          }
+        }
+      }
+      .program-images {
+        div.prog3-img{
+          #{$start-direction}: -15px;
+        }
+        div.prog2-img {
+          top: 75px;
+          #{$end-direction}: 20px;
+        }
+        div.prog1-img {
+          top: 20px;
+          #{$end-direction}: 200px;
+      }
+      div.prog4-img {
+        bottom: 5px;
+        #{$end-direction}: 30px;
+      }
+    }
+  
+    }
+    .customers-opinions {
+      background-size: cover;
+      .top-desc {
+        margin-bottom: 30px;
+        h2 {
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+      .cust-op-slider {
+        .item {
+          .customer-op-card {
+            .content-box {
+              padding-top: 50px;
+              padding-bottom: 65px;
+              .details{
+                font-size: 16px;
+                line-height: 20px;
+                &::after , &::before{
+                  width: 35px;
+                  height: 25px;
+                }
+              }
+              .name , .job{
+                font-size: 14px;
+              }
+            }
+          }
+        }
+        .owl-nav{
+          display: none;
+        }
+      }
+    }
+    .strategic-partners {
+      .top-desc {
+        h2{
+          font-size: 18px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+      a.be-one {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+        padding: 7px 10px;
+        img{
+          margin-#{$end-direction}: 6px;
+          width: 25px;
+        }
+      }
+      .strategic-partners-slider {
+        .item {
+          .strategic-partners-card{
+            .content-box {
+              margin-bottom: 20px;
+              h4{
+                font-size: 18px;
+              }
+              p{
+                font-size: 14px;
+              }
+              a.more{
+                font-size: 12px;
+                width: 80px;
+                height: 30px;
+                padding: 5px;
+                img{
+                  width: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -3657,6 +4276,102 @@ this UI is made desktop first.
   .sign-in {
     .not-found-content {
       margin-top: -70px;
+    }
+  }
+
+  // index
+  .main-slider {
+    .item {
+      .left-slider-imgs {
+        width: 100%;
+        .ellipse-image{
+          #{$end-direction}: 50%;
+          transform: translateX(-50%);
+        }
+        .person-image{
+          #{$start-direction}: 50%;
+          transform: translateX(50%);
+        }
+        .shape1{
+          #{$start-direction}: auto;
+        }
+        .shape2{
+          #{$end-direction}: auto;
+        }
+        .main-slider-card {
+          font-size: 10px;
+          .slider-card-img {
+            img{
+              width: 25px;
+            }
+          }
+        }
+      }
+    }
+    .actions{
+      #{$start-direction}: auto;
+      #{$end-direction}: 0;
+      bottom: 75px;
+
+    }
+  }
+  .who-we-are {
+    .who-we-main-img {
+      .who-we-sub-img1{
+        top: -75px;
+        width: 90px;
+      }
+      .who-we-sub-img2 {
+        top: -85px;
+        #{$start-direction}: 50%;
+        transform: translateX(50%);
+        width: 90px;
+      }
+      .who-we-sub-img3 {
+        top: -75px;
+        width: 100px;
+      }    
+    }
+  }
+  .our-services {
+    .details-sec {
+      background-position: 5% bottom;
+      .service-image{
+        width: 90%;
+      }
+    }
+  }
+  .our-program {
+    .program-images {
+      height: 420px;
+      background-position: right 70%;
+      div.prog3-img{
+        #{$start-direction}: 0px;
+        top: 130px;
+        width: 220px;
+      }
+      div.prog4-img{
+        width: 165px;
+        bottom: 0px;
+      }
+      div.prog2-img{
+        width: 140px;
+        #{$end-direction}:50px
+      }
+      div.prog1-img{
+        top: 35px;
+        width: 120px;
+      }
+    }
+  }
+  .tour {
+    .item {
+      .item-marker {
+        .marker-img{
+          width: 100%;
+          height: 100%;
+        }
+      }
     }
   }
 }
