@@ -276,7 +276,7 @@ this UI is made desktop first.
         p{
           font-size: 16px;
           line-height: 20px;
-          max-height: calc(20px * 3);
+          height: calc(20px * 3);
         }
       }
     }
@@ -431,6 +431,13 @@ this UI is made desktop first.
       }
     }
   }
+  .our-services .details-sec{
+    background-position: 80% center;
+    }
+    .our-services .details-sec .service-image{
+      width: 100%;
+      padding-#{$end-direction}: 20px;
+    }
 }
 
 
@@ -1586,7 +1593,7 @@ this UI is made desktop first.
         p{
           font-size: 16px;
           line-height: 20px;
-          max-height: calc(21px * 3);
+          height: calc(21px * 3);
         }
       }
       .download-btn {

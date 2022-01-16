@@ -2957,7 +2957,7 @@ ul.share{
     }
     .icon-box{
       max-width: 100%;
-      max-height: 300px;
+      max-height: 230px;
       img{
         transition: 500ms;
       }
@@ -3329,7 +3329,7 @@ ul.share{
       font-weight: $w-normal;
       color: $gray-text;
       line-height: 28px;
-      max-height: calc(28px * 3);
+      height: calc(28px * 3);
       overflow: hidden;
       margin-bottom: 0;
     }
@@ -3559,7 +3559,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .important-specialties{
-  min-height: 650px;
+  // min-height: 650px;
   background-color: #F5F7FA;
   padding-top: 62px;
   padding-bottom: 95px;
@@ -5582,7 +5582,7 @@ meeeeeeeedia for bootstrap col
         }
       }
     }
-    a.send{
+    .send{
       background-color: $violet-text2;
       border-radius: 4px;
       text-align: center;

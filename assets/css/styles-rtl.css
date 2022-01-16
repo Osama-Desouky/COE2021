@@ -14196,7 +14196,7 @@ ul.share li.share-title img {
 
 .our-programs .program-card .icon-box {
   max-width: 100%;
-  max-height: 300px;
+  max-height: 230px;
 }
 
 .our-programs .program-card .icon-box img {
@@ -14668,7 +14668,7 @@ ul.share li.share-title img {
   font-weight: 400;
   color: #7D7D7D;
   line-height: 28px;
-  max-height: calc(28px * 3);
+  height: calc(28px * 3);
   overflow: hidden;
   margin-bottom: 0;
 }
@@ -14935,7 +14935,6 @@ meeeeeeeedia for bootstrap col
 }
 
 .important-specialties {
-  min-height: 650px;
   background-color: #F5F7FA;
   padding-top: 62px;
   padding-bottom: 95px;
@@ -17410,7 +17409,7 @@ meeeeeeeedia for bootstrap col
   padding-top: 5px;
 }
 
-.job-form .white-card a.send {
+.job-form .white-card .send {
   background-color: #804D98;
   border-radius: 4px;
   text-align: center;
@@ -18547,7 +18546,7 @@ this UI is made desktop first.
   .download-center .download-card .content-box p {
     font-size: 16px;
     line-height: 20px;
-    max-height: calc(20px * 3);
+    height: calc(20px * 3);
   }
   .event-list .events-list .download-card {
     min-height: auto;
@@ -18652,6 +18651,13 @@ this UI is made desktop first.
   }
   .job-form .white-card .form-group .file-input::after {
     background-position: 60% center;
+  }
+  .our-services .details-sec {
+    background-position: 80% center;
+  }
+  .our-services .details-sec .service-image {
+    width: 100%;
+    padding-left: 20px;
   }
 }
 
@@ -19561,7 +19567,7 @@ this UI is made desktop first.
   .download-center .download-card .content-box p {
     font-size: 16px;
     line-height: 20px;
-    max-height: calc(21px * 3);
+    height: calc(21px * 3);
   }
   .download-center .download-card .download-btn a {
     height: 40px;
