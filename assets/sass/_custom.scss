@@ -439,6 +439,9 @@ body.header-popup-open {
       display: none;
     }
     .navbar {
+      padding-bottom: 5px;
+      margin-top: 10px;
+      border: none;
       > .d-flex {
         width: 100%;
       }
@@ -453,6 +456,26 @@ body.header-popup-open {
         }
         > .nav-link {
           padding: 25px 0;
+        }
+      }
+      .nav-div{
+        width: 100%;
+        .nav-div-one {
+          .nav-item {
+            .nav-link{
+              &.active{
+                &::before{
+                  bottom: -14px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .nav-div-two{
+        align-items: center;
+        .search-box{
+          top: 62px !important;
         }
       }
     }
@@ -2140,9 +2163,9 @@ about page
 }
 
 .our-msg{
-  margin-top: 200px;
-  padding-top: 113px;
-  padding-bottom: 113px;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 75px;
   .msg-content-box{
     display: flex;
     flex-direction: column;
@@ -2194,7 +2217,7 @@ about page
   }
 }
 .about-vision{
-  margin-top: 202px;
+  margin-top: 30px;
   margin-bottom: 154px;
   // padding-top: 103px;
   padding-bottom: 48px;
@@ -2808,7 +2831,7 @@ ul.share{
     img{
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: cover !important;
     }
   }
   .details-content{
@@ -3177,13 +3200,13 @@ ul.share{
   // background: linear-gradient(180deg, rgba(252,253,255,1) 0%, rgba(245,247,250,1) 100%);
   margin-top: 77px;
   padding-top: 50px;
-  margin-bottom: 123px;
+  padding-bottom: 123px;
   position: relative;
   z-index: 0;
   &::before{
     content: "";
     width: 100%;
-    height: 605px;
+    height: 100%;
     position: absolute;
     right: 0;
     top: 0;
@@ -5023,17 +5046,17 @@ meeeeeeeedia for bootstrap col
   .media-inner-list{
     padding-bottom: 124px;
     .media-list-cards{
-      column-gap: 30px;
-      orphans: 1;
-      widows: 1;
-      column-count: 3;
+      // column-gap: 30px;
+      // orphans: 1;
+      // widows: 1;
+      // column-count: 3;
       .media-card{
         position: relative;
         border-radius: 16px;
         overflow: hidden;
         // width: calc(100% / 3 - 20px);
-        width: 100%;
-        height: 100%;
+        // width: 100%;
+        // height: 100%;
         margin-bottom: 30px;
         // float: #{$start-direction};
         // margin-#{$end-direction}: 30px;

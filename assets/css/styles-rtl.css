@@ -11367,6 +11367,12 @@ body.header-popup-open {
   display: none;
 }
 
+.main-navbar.fixed .navbar {
+  padding-bottom: 5px;
+  margin-top: 10px;
+  border: none;
+}
+
 .main-navbar.fixed .navbar > .d-flex {
   width: 100%;
 }
@@ -11388,6 +11394,24 @@ body.header-popup-open {
 
 .main-navbar.fixed #navbarSupportedContent > .navbar-nav > .nav-item > .nav-link {
   padding: 25px 0;
+}
+
+.main-navbar.fixed #navbarSupportedContent > .navbar-nav .nav-div {
+  width: 100%;
+}
+
+.main-navbar.fixed #navbarSupportedContent > .navbar-nav .nav-div .nav-div-one .nav-item .nav-link.active::before {
+  bottom: -14px;
+}
+
+.main-navbar.fixed #navbarSupportedContent > .navbar-nav .nav-div-two {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-navbar.fixed #navbarSupportedContent > .navbar-nav .nav-div-two .search-box {
+  top: 62px !important;
 }
 
 .main-navbar .nav-wrapper {
@@ -13171,9 +13195,9 @@ about page
 }
 
 .our-msg {
-  margin-top: 200px;
-  padding-top: 113px;
-  padding-bottom: 113px;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 75px;
 }
 
 .our-msg .msg-content-box {
@@ -13249,7 +13273,7 @@ about page
 }
 
 .about-vision {
-  margin-top: 202px;
+  margin-top: 30px;
   margin-bottom: 154px;
   padding-bottom: 48px;
 }
@@ -14005,8 +14029,8 @@ ul.share li.share-title img {
 .details-page .details-img img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
 }
 
 .details-page .details-content {
@@ -14468,7 +14492,7 @@ ul.share li.share-title img {
 .Government-partners {
   margin-top: 77px;
   padding-top: 50px;
-  margin-bottom: 123px;
+  padding-bottom: 123px;
   position: relative;
   z-index: 0;
 }
@@ -14476,7 +14500,7 @@ ul.share li.share-title img {
 .Government-partners::before {
   content: "";
   width: 100%;
-  height: 605px;
+  height: 100%;
   position: absolute;
   right: 0;
   top: 0;
@@ -16722,21 +16746,10 @@ meeeeeeeedia for bootstrap col
   padding-bottom: 124px;
 }
 
-.media-inner .media-inner-list .media-list-cards {
-  -webkit-column-gap: 30px;
-          column-gap: 30px;
-  orphans: 1;
-  widows: 1;
-  -webkit-column-count: 3;
-          column-count: 3;
-}
-
 .media-inner .media-inner-list .media-list-cards .media-card {
   position: relative;
   border-radius: 16px;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
   margin-bottom: 30px;
 }
 
