@@ -12729,7 +12729,7 @@ ul.share li.share-title img {
   width: calc(100% / 5 - 44px);
   height: 198px;
   margin: 0 27.5px 55px;
-  flex: 1 1 auto;
+  flex: 0 0 auto;
   position: relative;
 }
 .Government-partners .partners-list .partner-card .img-box {
