@@ -303,7 +303,7 @@ const controller1 = new ScrollMagic.Controller();
 const scene1 = new ScrollMagic.Scene({
 
   triggerElement: ".our-program",
-  duration: 2500,
+  duration: 1250,
   triggerHook:0
 })
 .setTween(tween1)
@@ -327,7 +327,7 @@ const controller2 = new ScrollMagic.Controller();
 const scene2 = new ScrollMagic.Scene({
 
   triggerElement: ".our-program",
-  duration: 2800,
+  duration: 1400,
   triggerHook:0
 })
 .setTween(tween2)
@@ -346,7 +346,7 @@ var tween3 = new TimelineMax()
 const controller3 = new ScrollMagic.Controller();
 const scene3 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 2800,
+  duration: 1400,
   triggerHook:0
 })
 .setTween(tween3)
@@ -365,7 +365,7 @@ var tween4 = new TimelineMax()
 const controller4 = new ScrollMagic.Controller();
 const scene4 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 2800,
+  duration: 1400,
   triggerHook:0
 })
 .setTween(tween4)
@@ -383,7 +383,7 @@ var tween5 = new TimelineMax()
 const controller5 = new ScrollMagic.Controller();
 const scene5 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 2800,
+  duration: 1400,
   triggerHook:0
 })
 .setTween(tween5)
@@ -402,7 +402,7 @@ var tween6 = new TimelineMax()
 const controller6 = new ScrollMagic.Controller();
 const scene6 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 2200,
+  duration: 1100,
   triggerHook:0
 })
 .setTween(tween6)
@@ -428,7 +428,7 @@ tween7.from(before, 0.5 , {
 const controller7 = new ScrollMagic.Controller();
 const scene7 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 1000,
+  duration: 500,
   triggerHook:0
 })
 .setTween(tween7)
@@ -453,7 +453,7 @@ var Animation2 = new TimelineMax()
 		new ScrollMagic.Scene({
 				triggerElement: ".our-program",
 				triggerHook: "onLeave",
-				duration: 3000,
+				duration: 1500,
         // offset: 80
 				// duration: "300%"
 			})
@@ -471,7 +471,7 @@ const controller10 = new ScrollMagic.Controller();
 const scene10 = new ScrollMagic.Scene({
 
   triggerElement: ".our-program",
-  duration: 3200,
+  duration: 1600,
   triggerHook:0
 })
 .setTween(tween10)
@@ -493,7 +493,7 @@ const controller11 = new ScrollMagic.Controller();
 const scene11 = new ScrollMagic.Scene({
 
   triggerElement: ".our-program",
-  duration: 3500,
+  duration: 1750,
   triggerHook:0
 })
 .setTween(tween11)
@@ -512,7 +512,7 @@ var tween12 = new TimelineMax()
 const controller12 = new ScrollMagic.Controller();
 const scene12 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 3500,
+  duration: 1750,
   triggerHook:0
 })
 .setTween(tween12)
@@ -530,7 +530,7 @@ var tween13 = new TimelineMax()
 const controller13 = new ScrollMagic.Controller();
 const scene13 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 3500,
+  duration: 1750,
   triggerHook:0
 })
 .setTween(tween13)
@@ -548,7 +548,7 @@ var tween14 = new TimelineMax()
 const controller14 = new ScrollMagic.Controller();
 const scene14 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 3500,
+  duration: 1750,
   triggerHook:0
 })
 .setTween(tween14)
@@ -567,7 +567,7 @@ var tween15 = new TimelineMax()
 const controller15 = new ScrollMagic.Controller();
 const scene15 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
-  duration: 3000,
+  duration: 1500,
   triggerHook:0
 })
 .setTween(tween15)
@@ -587,71 +587,71 @@ start ------ our-advantages ---------- animate
 /*
  ------- advantages card 1
 */
-const advTween1 = gsap.timeline();
-advTween1.from(".advantages1", 1 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [{x: 800, y: -500 , opacity:0}],
-    curviness: 1,
-  }
-});
-const advController1 = new ScrollMagic.Controller();
-const advScene1 = new ScrollMagic.Scene({
-  triggerElement: ".our-advantages",
-  duration: 700,
-  triggerHook:0.2
-})
-.setTween(advTween1)
-// .addIndicators()
-.addTo(advController1);
+// const advTween1 = gsap.timeline();
+// advTween1.from(".advantages1", 1 , {
+//   duration: 1,
+//   ease: "power1.inOut",
+//   motionPath: {
+//     path: [{x: 800, y: -500 , opacity:0}],
+//     curviness: 1,
+//   }
+// });
+// const advController1 = new ScrollMagic.Controller();
+// const advScene1 = new ScrollMagic.Scene({
+//   triggerElement: ".our-advantages",
+//   duration: 100,
+//   triggerHook:0.2
+// })
+// .setTween(advTween1)
+// // .addIndicators()
+// .addTo(advController1);
 
 
 /*
  ------- advantages card 2
 */
-const advTween2 = gsap.timeline();
-advTween2.from(".advantages2", 2 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [{x: 0, y: -500 , opacity:0}],
-    curviness: 1,
-  }
-});
-const advController2 = new ScrollMagic.Controller();
-const advScene2 = new ScrollMagic.Scene({
-  triggerElement: ".our-advantages",
-  duration: 1100,
-  triggerHook:0.2
-})
-.setTween(advTween2)
-// .addIndicators()
-.addTo(advController2);
+// const advTween2 = gsap.timeline();
+// advTween2.from(".advantages2", 2 , {
+//   duration: 1,
+//   ease: "power1.inOut",
+//   motionPath: {
+//     path: [{x: 0, y: -500 , opacity:0}],
+//     curviness: 1,
+//   }
+// });
+// const advController2 = new ScrollMagic.Controller();
+// const advScene2 = new ScrollMagic.Scene({
+//   triggerElement: ".our-advantages",
+//   duration: 150,
+//   triggerHook:0.2
+// })
+// .setTween(advTween2)
+// // .addIndicators()
+// .addTo(advController2);
 
 
 /*
  ------- advantages card 3
 */
-const advTween3 = gsap.timeline();
-advTween3.from(".advantages3", 3 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [{x: -800, y: -500 , opacity:0}],
-    curviness: 1,
-  }
-});
-const advController3 = new ScrollMagic.Controller();
-const advScene3 = new ScrollMagic.Scene({
-  triggerElement: ".our-advantages",
-  duration: 1500,
-  triggerHook:0.2
-})
-.setTween(advTween3)
-// .addIndicators()
-.setPin(".our-advantages")
-.addTo(advController3);
+// const advTween3 = gsap.timeline();
+// advTween3.from(".advantages3", 3 , {
+//   duration: 1,
+//   ease: "power1.inOut",
+//   motionPath: {
+//     path: [{x: -800, y: -500 , opacity:0}],
+//     curviness: 1,
+//   }
+// });
+// const advController3 = new ScrollMagic.Controller();
+// const advScene3 = new ScrollMagic.Scene({
+//   triggerElement: ".our-advantages",
+//   duration: 200,
+//   triggerHook:0.2
+// })
+// .setTween(advTween3)
+// // .addIndicators()
+// .setPin(".our-advantages")
+// .addTo(advController3);
 
 
 
@@ -662,123 +662,123 @@ const advScene3 = new ScrollMagic.Scene({
 start ------ who-we-are ---------- animate
 */
 
-/*
- ------- who-we-are content
-*/
-const whoTween1 = gsap.timeline();
-whoTween1.from(".who-we-content", 1 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [{x: 1500, y: 700 , scale:1.5}],
-    curviness: 1,
-  }
-});
-const whoController1 = new ScrollMagic.Controller();
-const whoScene1 = new ScrollMagic.Scene({
-  triggerElement: ".who-we-are",
-  duration: 800,
-  triggerHook:0
-})
-.setTween(whoTween1)
-// .addIndicators()
+// /*
+//  ------- who-we-are content
+// */
+// const whoTween1 = gsap.timeline();
+// whoTween1.from(".who-we-content", 1 , {
+//   duration: 1,
+//   ease: "power1.inOut",
+//   motionPath: {
+//     path: [{x: 400, y: 0 , opacity:0, scale:1}],
+//     curviness: 1,
+//   }
+// });
+// const whoController1 = new ScrollMagic.Controller();
+// const whoScene1 = new ScrollMagic.Scene({
+//   triggerElement: ".who-we-are",
+//   duration: 300,
+//   triggerHook:0
+// })
+// .setTween(whoTween1)
+// // .addIndicators()
+// // .setPin(".who-we-are")
+// .addTo(whoController1);
+
+
+// /*
+//  ------- who-we-are main img
+// */
+// const whoTween2 = gsap.timeline();
+// whoTween2.from(".who-we-main-img", 1 , {
+//   duration: 1,
+//   ease: "power1.inOut",
+//   motionPath: {
+//     path: [{x:-0 , y:-0 , scale:0.0}],
+//     curviness: 1,
+//   }
+// });
+// const whoController2 = new ScrollMagic.Controller();
+// const whoScene2 = new ScrollMagic.Scene({
+//   triggerElement: ".who-we-are",
+//   duration: 300,
+//   triggerHook:0
+// })
+// .setTween(whoTween2)
+// // .addIndicators()
+// // .setPin(".who-we-are")
+// .addTo(whoController2);
+
+// /*
+//  ------- who-we-are img1
+// */
+// const whoTween3 = gsap.timeline();
+// whoTween3.from(".who-we-sub-img1", 1 , {
+//   duration: 1,
+//   ease: "power1.inOut",
+//   motionPath: {
+//     path: [{x: -100, y: -50 , opacity:0 ,  scale:.1}],
+//     curviness: 1,
+//   }
+// });
+// const whoController3 = new ScrollMagic.Controller();
+// const whoScene3 = new ScrollMagic.Scene({
+//   triggerElement: ".who-we-are",
+//   duration: 400,
+//   triggerHook:0
+// })
+// .setTween(whoTween3)
+// // .addIndicators()
+// // .setPin(".who-we-are")
+// .addTo(whoController3);
+
+// /*
+//  ------- who-we-are img2
+// */
+// const whoTween4 = gsap.timeline();
+// whoTween4.from(".who-we-sub-img2", 1 , {
+//   duration: 1,
+//   ease: "power1.inOut",
+//   motionPath: {
+//     path: [{x: -100, y: -50 ,  opacity:0 ,  scale:.1}],
+//     curviness: 1,
+//   }
+// });
+// const whoController4 = new ScrollMagic.Controller();
+// const whoScene4 = new ScrollMagic.Scene({
+//   triggerElement: ".who-we-are",
+//   duration: 400,
+//   triggerHook:0
+// })
+// .setTween(whoTween4)
+// // .addIndicators()
+// // .setPin(".who-we-are")
+// .addTo(whoController4);
+
+// /*
+//  ------- who-we-are img3
+// */
+// const whoTween5 = gsap.timeline();
+// whoTween5.from(".who-we-sub-img3", 1 , {
+//   duration: 1,
+//   ease: "power1.inOut",
+//   motionPath: {
+//     path: [
+//       {x: -100, y: -50 ,  opacity:0,  scale:.1}
+//     ],
+//     curviness: 1,
+//   }
+// });
+// const whoController5 = new ScrollMagic.Controller();
+// const whoScene5 = new ScrollMagic.Scene({
+//   triggerElement: ".who-we-are",
+//   duration: 400,
+//   triggerHook:0
+// })
+// .setTween(whoTween5)
+// // .addIndicators()
 // .setPin(".who-we-are")
-.addTo(whoController1);
-
-
-/*
- ------- who-we-are main img
-*/
-const whoTween2 = gsap.timeline();
-whoTween2.from(".who-we-main-img", 1 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [{x: -1000, y: 300 , scale:1.5}],
-    curviness: 1,
-  }
-});
-const whoController2 = new ScrollMagic.Controller();
-const whoScene2 = new ScrollMagic.Scene({
-  triggerElement: ".who-we-are",
-  duration: 500,
-  triggerHook:0
-})
-.setTween(whoTween2)
-// .addIndicators()
-// .setPin(".who-we-are")
-.addTo(whoController2);
-
-/*
- ------- who-we-are img1
-*/
-const whoTween3 = gsap.timeline();
-whoTween3.from(".who-we-sub-img1", 1 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [{x: -500, y: -50 , opacity:0 ,  scale:.2}],
-    curviness: 1,
-  }
-});
-const whoController3 = new ScrollMagic.Controller();
-const whoScene3 = new ScrollMagic.Scene({
-  triggerElement: ".who-we-are",
-  duration: 1200,
-  triggerHook:0
-})
-.setTween(whoTween3)
-// .addIndicators()
-// .setPin(".who-we-are")
-.addTo(whoController3);
-
-/*
- ------- who-we-are img2
-*/
-const whoTween4 = gsap.timeline();
-whoTween4.from(".who-we-sub-img2", 1 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [{x: -500, y: -150 ,  opacity:0 ,  scale:.2}],
-    curviness: 1,
-  }
-});
-const whoController4 = new ScrollMagic.Controller();
-const whoScene4 = new ScrollMagic.Scene({
-  triggerElement: ".who-we-are",
-  duration: 1400,
-  triggerHook:0
-})
-.setTween(whoTween4)
-// .addIndicators()
-// .setPin(".who-we-are")
-.addTo(whoController4);
-
-/*
- ------- who-we-are img3
-*/
-const whoTween5 = gsap.timeline();
-whoTween5.from(".who-we-sub-img3", 1 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [
-      {x: -500, y: -500 ,  opacity:0,  scale:.2}
-    ],
-    curviness: 1,
-  }
-});
-const whoController5 = new ScrollMagic.Controller();
-const whoScene5 = new ScrollMagic.Scene({
-  triggerElement: ".who-we-are",
-  duration: 1600,
-  triggerHook:0
-})
-.setTween(whoTween5)
-// .addIndicators()
-.setPin(".who-we-are")
-.addTo(whoController5);
+// .addTo(whoController5);
 
 
 
@@ -804,7 +804,7 @@ var serTween = new TimelineMax()
 const serController = new ScrollMagic.Controller();
 const serScene = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 1000,
+  duration: 400,
   triggerHook:0,
   offset: 100
 })
@@ -824,7 +824,7 @@ var serTween2 = new TimelineMax()
 const serController2 = new ScrollMagic.Controller();
 const serScene2 = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 1500,
+  duration: 400,
   triggerHook:0,
   offset: 100
 })
@@ -845,7 +845,7 @@ var serTween3 = new TimelineMax()
 const serController3 = new ScrollMagic.Controller();
 const serScene3 = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 1300,
+  duration: 400,
   triggerHook:0,
   offset: 100
 })
@@ -868,7 +868,7 @@ var wipeAnimation1 = new TimelineMax()
 		new ScrollMagic.Scene({
 				triggerElement: ".our-services",
 				triggerHook: "onLeave",
-				duration: 1000,
+				duration: 400,
         offset: 80
 				// duration: "300%"
 			})
@@ -891,7 +891,7 @@ var serTween22 = new TimelineMax()
 const serController22 = new ScrollMagic.Controller();
 const serScene22 = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 2200,
+  duration: 600,
   triggerHook:0,
   offset: 100
 })
@@ -913,7 +913,7 @@ var serTween32 = new TimelineMax()
 const serController32 = new ScrollMagic.Controller();
 const serScene32 = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 2000,
+  duration: 600,
   triggerHook:0,
   offset: 100
 })
@@ -942,7 +942,7 @@ tourTween1.fromTo(".tour .item2" ,
 const tourController1 = new ScrollMagic.Controller();
 const tourScene1 = new ScrollMagic.Scene({
   triggerElement: ".tour",
-  duration: 2000,
+  duration: 600,
   triggerHook:0,
   offset: 100
 })
@@ -970,7 +970,7 @@ tourTween2.to(".tour .item1", 1 , {
 const tourController2 = new ScrollMagic.Controller();
 const tourScene2 = new ScrollMagic.Scene({
   triggerElement: ".tour",
-  duration: 1000,
+  duration: 300,
   triggerHook:0,
   offset: 100
 })
