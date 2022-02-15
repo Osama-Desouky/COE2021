@@ -489,11 +489,10 @@ this UI is made desktop first.
       padding-top: 60px;
       padding-bottom: 60px;
       .list-qualifications {
-        ul {
-          li {
-            span{
-              font-size: 18px;
-            }
+        &-content{
+
+          p{
+            font-size: 18px;
           }
         }
       }
@@ -1735,23 +1734,25 @@ this UI is made desktop first.
     padding-top: 60px;
     padding-bottom: 60px;
     .list-qualifications {
-      ul {
-        li {
-          margin-bottom: 15px;
-          .icon-box{
-            width: 40px;
-            height: 40px;
-            flex: 0 0 40px;
-            img{
-              max-width: 25px;
-            }
-          }
-          span{
-            font-size: 16px;
-            line-height: 20px;
+
+
+      &-content{
+
+        .icon-box{
+          width: 40px;
+          height: 40px;
+          flex: 0 0 40px;
+          margin-top: 0;
+          img{
+            max-width: 25px;
           }
         }
+        p{
+          font-size: 16px;
+          line-height: 20px;
+        }
       }
+
     }
   }
   .Benefits {
@@ -3384,6 +3385,7 @@ this UI is made desktop first.
     .results , .Achievements{
       h2{
         font-size: 20px;
+        margin-bottom: 30px;
         img{
           width: 30px;
           height: 30px;

@@ -15794,7 +15794,7 @@ this UI is made desktop first.
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .Qualifications .list-qualifications ul li span {
+  .Qualifications .list-qualifications-content p {
     font-size: 18px;
   }
 
@@ -16798,18 +16798,16 @@ this UI is made desktop first.
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .Qualifications .list-qualifications ul li {
-    margin-bottom: 15px;
-  }
-  .Qualifications .list-qualifications ul li .icon-box {
+  .Qualifications .list-qualifications-content .icon-box {
     width: 40px;
     height: 40px;
     flex: 0 0 40px;
+    margin-top: 0;
   }
-  .Qualifications .list-qualifications ul li .icon-box img {
+  .Qualifications .list-qualifications-content .icon-box img {
     max-width: 25px;
   }
-  .Qualifications .list-qualifications ul li span {
+  .Qualifications .list-qualifications-content p {
     font-size: 16px;
     line-height: 20px;
   }
@@ -18065,6 +18063,7 @@ this UI is made desktop first.
   }
   .Achievements-results .results h2, .Achievements-results .Achievements h2 {
     font-size: 20px;
+    margin-bottom: 30px;
   }
   .Achievements-results .results h2 img, .Achievements-results .Achievements h2 img {
     width: 30px;
