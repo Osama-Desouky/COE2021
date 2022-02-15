@@ -13322,6 +13322,88 @@ meeeeeeeedia for bootstrap col
   font-weight: 500;
   color: #804D98;
 }
+.Achievements-results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.Achievements-results ul li {
+  display: flex;
+  margin-bottom: 36px;
+}
+.Achievements-results ul li:last-child {
+  margin-bottom: 0;
+}
+.Achievements-results ul li .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 6px #d1d1d1;
+  display: none;
+}
+.Achievements-results ul li .icon-box img {
+  width: 36px;
+  height: 36px;
+  display: none;
+}
+.Achievements-results ul li .content-box {
+  display: flex;
+  flex-direction: column;
+}
+.Achievements-results ul li .content-box .number {
+  font-size: 24px;
+  font-weight: 500;
+  color: #804D98;
+}
+.Achievements-results ul li .content-box .title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1B222C;
+}
+.Achievements-results ul li .content-box .title-1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #804D98;
+}
+.Achievements-results .results {
+  display: flex;
+  flex-direction: column;
+}
+.Achievements-results .results h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 35px;
+  font-weight: 500;
+  color: #1B222C;
+  margin-bottom: 0;
+}
+.Achievements-results .results h2 img {
+  width: 52px;
+  height: 52px;
+  margin-left: 15px;
+}
+.Achievements-results .results .list-results {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 63px;
+  position: relative;
+}
+.Achievements-results .results .list-results::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -15px;
+  background-color: #D2D2D2;
+}
 .Achievements-results .Achievements {
   display: flex;
   flex-direction: column;
@@ -13335,12 +13417,27 @@ meeeeeeeedia for bootstrap col
   font-size: 35px;
   font-weight: 500;
   color: #1B222C;
-  margin-bottom: 48px;
+  margin-bottom: 63px;
 }
 .Achievements-results .Achievements h2 img {
   width: 52px;
   height: 52px;
   margin-left: 15px;
+}
+.Achievements-results .Achievements .list-Achievements {
+  display: flex;
+  height: 100%;
+}
+.Achievements-results .Achievements .list-Achievements ul {
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap;
+}
+.Achievements-results .Achievements .list-Achievements ul li {
+  margin-bottom: 36px;
+  width: 50%;
 }
 
 /*
