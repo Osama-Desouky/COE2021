@@ -11017,8 +11017,8 @@ body.header-popup-open {
 .main-navbar .navbar {
   position: static;
   padding: 0;
-  padding-bottom: 24px;
-  margin-top: 35px;
+  padding-bottom: 15px;
+  margin-top: 20px;
   border-bottom: 2px solid rgba(210, 210, 210, 0.25);
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -11029,8 +11029,8 @@ body.header-popup-open {
   padding: 0;
   margin: 0;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 125px;
-          flex: 0 0 125px;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
   position: relative;
 }
 
@@ -11068,7 +11068,7 @@ body.header-popup-open {
 }
 
 .main-navbar .nav-div .nav-div-one .nav-item .nav-link {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #7D7D7D;
   -webkit-transition: 300ms;
@@ -11091,7 +11091,7 @@ body.header-popup-open {
   width: 100%;
   height: 2px;
   background-color: rgba(128, 77, 152, 0.77);
-  bottom: -34px;
+  bottom: -25px;
 }
 
 .main-navbar .nav-div .nav-div-one .nav-item:last-child {
@@ -11119,7 +11119,7 @@ body.header-popup-open {
   padding-left: 24px;
   padding-right: 24px;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 19px;
   -webkit-transition: 300ms;
   transition: 300ms;
@@ -11136,15 +11136,15 @@ body.header-popup-open {
 
 .main-navbar .nav-div .nav-div-two .language button {
   color: #192946;
-  width: 49px;
-  height: 46px;
+  width: 45px;
+  height: 38px;
   background-color: #F8F8F8;
   border-radius: 4px;
   line-height: 19px;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='11.687' height='5.836' viewBox='0 0 11.687 5.836'%3e%3cpath id='Path_102293' data-name='Path 102293' d='M10.833,14.833a.833.833,0,0,1-.533-.192l-5-4.167A.834.834,0,1,1,6.366,9.191l4.467,3.733,4.467-3.6a.854.854,0,1,1,1.058,1.342l-5,4.025a.833.833,0,0,1-.525.142Z' transform='translate(-4.999 -8.999)' fill='%23192946'/%3e%3c/svg%3e ");
   background-repeat: no-repeat;
   background-position: 14px center;
-  padding: 10px 9px;
+  padding: 5px;
   border: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11411,7 +11411,7 @@ body.header-popup-open {
 }
 
 .main-navbar.fixed #navbarSupportedContent > .navbar-nav .nav-div-two .search-box {
-  top: 62px !important;
+  top: 57px !important;
 }
 
 .main-navbar .nav-wrapper {
@@ -11434,11 +11434,11 @@ footer {
 }
 
 footer h5 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 34px;
   color: #7566A0;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 footer ul {
@@ -11448,12 +11448,12 @@ footer ul {
 }
 
 footer ul li {
-  margin-bottom: 14px;
+  margin-bottom: 10px;
 }
 
 footer ul li a {
   color: #7D7D7D !important;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   -webkit-transition: 400ms;
   transition: 400ms;
@@ -11465,7 +11465,7 @@ footer ul li a:hover {
 }
 
 footer .about-us-footer ul li {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 footer .about-us-footer ul li a {
@@ -11518,8 +11518,8 @@ footer .copySection {
 
 footer .copySection .copy-rights .copy {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 28px;
   color: #7D7D7D;
   display: inline-block;
   padding-right: 31px;
@@ -11535,8 +11535,8 @@ footer .copySection .copy-rights .copy span {
 footer .copySection .copy-rights a {
   color: #7D7D7D;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 18px;
   margin-right: 21px;
 }
 
@@ -11669,6 +11669,10 @@ footer .copySection .copy-rights a:hover {
   background-color: #F9FAFD;
 }
 
+.m-end-15 {
+  margin-right: 15px;
+}
+
 @media (min-width: 992px) {
   .offset-lg-1 {
     margin-left: 8.33333%;
@@ -11744,17 +11748,17 @@ footer .copySection .copy-rights a:hover {
 index
 */
 .main-slider {
-  margin-top: 50px;
-  min-height: 890px;
+  min-height: 835px;
   background-image: url(../images/main--sec-bg.svg);
   background-repeat: no-repeat;
+  background-position: bottom;
   position: relative;
 }
 
 .main-slider .scroll-mouse {
   display: inline-block;
-  position: relative;
-  top: 795px;
+  position: absolute;
+  top: 750px;
   right: calc(50% - 25px);
   z-index: 9;
 }
@@ -11775,8 +11779,8 @@ index
 
 .main-slider .actions {
   position: absolute;
-  left: 150px;
-  bottom: 320px;
+  left: 300px;
+  bottom: 220px;
   z-index: 5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11849,7 +11853,7 @@ index
 
 .main-slider .item {
   position: relative;
-  min-height: 940px;
+  min-height: 760px;
 }
 
 .main-slider .item .caption {
@@ -11860,7 +11864,7 @@ index
 
 .main-slider .item .caption h2 {
   color: #192946;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   margin-bottom: 21px;
 }
@@ -11871,7 +11875,7 @@ index
 
 .main-slider .item .caption p {
   color: #7D7D7D;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -11879,7 +11883,7 @@ index
 .main-slider .item .caption a.more {
   background-color: #804D98;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   width: 137px;
   height: 41px;
@@ -11899,39 +11903,39 @@ index
 .main-slider .item .left-slider-imgs {
   position: relative;
   top: 158px;
-  right: 0;
+  right: 35px;
 }
 
 .main-slider .item .left-slider-imgs .ellipse-image {
   position: absolute;
-  width: 566px;
-  height: 412px;
+  width: 420px;
+  height: 350px;
   top: 46px;
-  right: 106px;
+  right: 46px;
   z-index: -2;
 }
 
 .main-slider .item .left-slider-imgs .person-image {
   position: relative;
-  top: -158px;
-  left: 204px;
-  width: 437px;
+  top: -152px;
+  left: 211px;
+  width: 354px;
 }
 
 .main-slider .item .left-slider-imgs .shape2 {
-  width: 670px;
+  width: 550px;
   position: absolute;
-  right: -24px;
-  top: -22px;
+  right: -35px;
+  top: -60px;
   z-index: -1;
 }
 
 .main-slider .item .left-slider-imgs .shape1 {
-  width: 648px;
+  width: 500px;
   position: absolute;
-  left: -10px;
-  top: 225px;
-  z-index: 1;
+  left: 75px;
+  top: 170px;
+  z-index: 0;
 }
 
 .main-slider .item .left-slider-imgs .main-slider-card {
@@ -11951,18 +11955,19 @@ index
   padding: 6px;
   padding-right: 12px;
   position: absolute;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 400;
   border-radius: 4px;
 }
 
 .main-slider .item .left-slider-imgs .main-slider-card .slider-card-img {
   margin-right: 10px;
+  max-width: 40px;
 }
 
 .main-slider .item .left-slider-imgs .main-slider-card.card1 {
   right: 0;
-  top: -45px;
+  top: -20px;
   color: #2EB67D;
   -webkit-animation: sliderCard 5s linear;
           animation: sliderCard 5s linear;
@@ -11973,8 +11978,8 @@ index
 }
 
 .main-slider .item .left-slider-imgs .main-slider-card.card2 {
-  left: 130px;
-  top: -100px;
+  left: 180px;
+  top: -60px;
   color: #F8B64C;
   -webkit-animation: sliderCard 5s linear;
           animation: sliderCard 5s linear;
@@ -11985,8 +11990,8 @@ index
 }
 
 .main-slider .item .left-slider-imgs .main-slider-card.card3 {
-  left: 0px;
-  top: 60px;
+  left: 60px;
+  top: 85px;
   color: #42A7C6;
   -webkit-animation: sliderCard 5s linear;
           animation: sliderCard 5s linear;
@@ -11997,8 +12002,8 @@ index
 }
 
 .main-slider .item .left-slider-imgs .main-slider-card.card4 {
-  left: -70px;
-  top: 205px;
+  left: 10px;
+  top: 250px;
   color: #804D98;
   -webkit-animation: sliderCard 5s linear;
           animation: sliderCard 5s linear;
@@ -12018,7 +12023,7 @@ index
 .our-partners .heading h2 {
   text-align: center;
   margin-bottom: 48px;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   line-height: 49px;
   color: #1B222C;
@@ -12070,7 +12075,7 @@ index
 }
 
 .our-advantages .advantages-top h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   line-height: 49px;
@@ -12079,7 +12084,7 @@ index
 }
 
 .our-advantages .advantages-top p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   line-height: 28px;
@@ -12104,12 +12109,12 @@ index
 }
 
 .our-advantages .advantages-card .img-box {
-  margin-bottom: 24px;
-  max-width: 110px;
+  margin-bottom: 15px;
+  max-width: 95px;
 }
 
 .our-advantages .advantages-card .content-box h4 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 28px;
   margin-bottom: 12px;
@@ -12129,17 +12134,17 @@ index
 }
 
 .our-advantages .advantages-card .content-box p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 21px;
   color: #66738A;
   text-align: center;
   margin-bottom: 0;
 }
 
 .who-we-are {
-  padding-top: 273px;
-  padding-bottom: 262px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   overflow: hidden;
   background-repeat: no-repeat;
   background-image: url(../images/lineZ2.svg);
@@ -12148,9 +12153,9 @@ index
 
 .who-we-are .who-we-content h2 {
   color: #804D98;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
-  line-height: 47px;
+  line-height: 32px;
   margin-bottom: 28px;
   position: relative;
   display: inline-block;
@@ -12168,9 +12173,9 @@ index
 }
 
 .who-we-are .who-we-content p {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 22px;
   color: #192946;
   margin-bottom: 24px;
   display: block;
@@ -12179,12 +12184,12 @@ index
 .who-we-are .who-we-content a.more {
   background-color: #1D4487;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
-  width: 137px;
-  height: 41px;
+  width: 120px;
+  height: 38px;
   display: inline-block;
-  padding: 7px 20px 12px;
+  padding: 5px 10px;
   border-radius: 4px;
   text-align: center;
   -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
@@ -12198,27 +12203,30 @@ index
 
 .who-we-are .who-we-main-img {
   position: relative;
-  width: 525px;
-  margin: 0 auto;
-  top: 70px;
+  width: 445px;
+  top: 40px;
+  margin-left: auto;
 }
 
 .who-we-are .who-we-main-img .who-we-sub-img1 {
   position: absolute;
-  top: -138px;
+  top: -125px;
   left: 65px;
+  width: 120px;
 }
 
 .who-we-are .who-we-main-img .who-we-sub-img2 {
   position: absolute;
-  top: -164px;
-  left: 235px;
+  top: -150px;
+  left: 210px;
+  width: 120px;
 }
 
 .who-we-are .who-we-main-img .who-we-sub-img3 {
   position: absolute;
-  top: -153px;
+  top: -125px;
   right: -35px;
+  width: 130px;
 }
 
 .tour {
@@ -12287,7 +12295,7 @@ index
 }
 
 .tour .top-desc h2 {
-  font-size: 35px;
+  font-size: 28px;
   line-height: 49px;
   font-weight: 500;
   color: #FFFFFF;
@@ -12296,7 +12304,7 @@ index
 }
 
 .tour .top-desc p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 23px;
   font-weight: 400;
   color: #FFFFFF;
@@ -12407,7 +12415,7 @@ index
 
 .tour .item .year-name {
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 20px;
@@ -12417,12 +12425,12 @@ index
 .tour .item .year-name span {
   display: block;
   opacity: .55;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 8px;
 }
 
 .tour .item .number {
-  font-size: 95px;
+  font-size: 75px;
   font-weight: 500;
   line-height: 80px;
   color: #F2EFF3;
@@ -12441,7 +12449,7 @@ index
 }
 
 .our-services {
-  padding-top: 127px;
+  padding-top: 180px;
   padding-bottom: 131px;
   overflow: hidden;
 }
@@ -12449,20 +12457,20 @@ index
 .our-services .top-desc {
   margin: 0 auto;
   max-width: 1082px;
-  margin-bottom: 127px;
+  margin-bottom: 70px;
 }
 
 .our-services .top-desc h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
-  line-height: 49px;
-  margin-bottom: 28px;
+  line-height: 32px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .our-services .top-desc p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   line-height: 28px;
@@ -12479,7 +12487,9 @@ index
   border-radius: 16px;
   background-image: url(../images/service-ellipse-bg1.svg);
   background-repeat: no-repeat;
-  height: 570px;
+  background-position: 40%;
+  background-size: contain;
+  height: 450px;
 }
 
 .our-services .details-sec .details-content {
@@ -12488,12 +12498,12 @@ index
 }
 
 .our-services .details-sec .details-content h4 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   color: #1D4487;
   position: relative;
   display: inline-block;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .our-services .details-sec .details-content h4::before {
@@ -12503,34 +12513,34 @@ index
   width: calc(100% + 15px);
   height: 21px;
   left: 0;
-  bottom: -22px;
+  bottom: -11px;
   border-radius: 4px;
 }
 
 .our-services .details-sec .details-content p {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 500;
   color: #7D7D7D;
   margin-bottom: 25px;
-  line-height: 32px;
+  line-height: 24px;
 }
 
 .our-services .details-sec .details-content a {
   color: #fff;
   background-color: #804D98;
-  width: 170px;
-  height: 60px;
-  padding: 16px;
+  width: 115px;
+  height: 42px;
+  padding: 6px;
   text-align: center;
   display: inline-block;
   border-radius: 4px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .our-services .details-sec .service-image {
   position: relative;
-  width: 554px;
+  width: 485px;
   top: -60px;
 }
 
@@ -12564,7 +12574,7 @@ index
 }
 
 .our-program .top-desc h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   line-height: 49px;
@@ -12573,7 +12583,7 @@ index
 }
 
 .our-program .top-desc p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   line-height: 28px;
@@ -12602,7 +12612,7 @@ index
 }
 
 .our-program .details-sec .details-content h4 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   color: #1D4487;
   position: relative;
@@ -12625,7 +12635,7 @@ index
 }
 
 .our-program .details-sec .details-content p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 26px;
   margin-bottom: 0;
   font-weight: 500;
@@ -12637,7 +12647,7 @@ index
 }
 
 .our-program .details-sec .details-content .about-prog h5 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 26px;
@@ -12681,7 +12691,7 @@ index
 }
 
 .our-program .details-sec .details-content .about-prog .prog-cards .prog-card .content-box .number {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   color: #804D98;
   line-height: 24px;
@@ -12689,7 +12699,7 @@ index
 }
 
 .our-program .details-sec .details-content .about-prog .prog-cards .prog-card .content-box .text {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #1B222C;
   line-height: 24px;
@@ -12717,8 +12727,8 @@ index
 
 .our-program .program-images {
   position: relative;
-  width: 617px;
-  height: 581px;
+  width: 490px;
+  height: 470px;
   position: relative;
   background-image: url(../images/dotted-bg.svg);
   background-repeat: no-repeat;
@@ -12734,21 +12744,25 @@ index
 .our-program .program-images div.prog1-img {
   top: -23px;
   right: 245px;
+  width: 150px;
 }
 
 .our-program .program-images div.prog2-img {
   top: 45px;
   right: 0;
+  width: 200px;
 }
 
 .our-program .program-images div.prog3-img {
-  top: 125px;
+  top: 95px;
   left: -25px;
+  width: 370px;
 }
 
 .our-program .program-images div.prog4-img {
   bottom: -60px;
   right: -45px;
+  width: 250px;
 }
 
 .customers-opinions {
@@ -12767,7 +12781,7 @@ index
 }
 
 .customers-opinions .top-desc h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   line-height: 49px;
@@ -12776,7 +12790,7 @@ index
 }
 
 .customers-opinions .top-desc p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   line-height: 28px;
@@ -12806,7 +12820,7 @@ index
 
 .customers-opinions .cust-op-slider .item .customer-op-card .content-box .details {
   position: relative;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
   color: #1B222C;
   line-height: 34px;
@@ -12842,7 +12856,7 @@ index
 }
 
 .customers-opinions .cust-op-slider .item .customer-op-card .content-box .name {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   color: #1D4487;
   margin-bottom: 0;
@@ -12851,7 +12865,7 @@ index
 }
 
 .customers-opinions .cust-op-slider .item .customer-op-card .content-box .job {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 0;
@@ -12919,7 +12933,7 @@ index
 
 .strategic-partners {
   padding-top: 135px;
-  padding-bottom: 300px;
+  padding-bottom: 150px;
 }
 
 .strategic-partners .top-desc {
@@ -12929,19 +12943,19 @@ index
 }
 
 .strategic-partners .top-desc h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
-  line-height: 49px;
-  margin-bottom: 24px;
+  line-height: 32px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .strategic-partners .top-desc p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
-  line-height: 28px;
+  line-height: 20px;
   margin-bottom: 0;
   text-align: center;
 }
@@ -12962,7 +12976,7 @@ index
       -ms-flex-pack: start;
           justify-content: flex-start;
   padding-left: 107px;
-  height: 447px;
+  height: 350px;
 }
 
 .strategic-partners .strategic-partners-slider .item .strategic-partners-card .img-box img {
@@ -12986,10 +13000,10 @@ index
 
 .strategic-partners .strategic-partners-slider .item .strategic-partners-card .content-box h4 {
   color: #1D4487;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   position: relative;
-  line-height: 31px;
+  line-height: 26px;
   margin-bottom: 42px;
 }
 
@@ -13000,13 +13014,13 @@ index
   width: 309px;
   height: 21px;
   right: 0;
-  bottom: -26px;
+  bottom: -14px;
   border-radius: 4px;
 }
 
 .strategic-partners .strategic-partners-slider .item .strategic-partners-card .content-box p {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 500;
   color: #7D7D7D;
   margin-bottom: 24px;
 }
@@ -13018,7 +13032,7 @@ index
 .strategic-partners .strategic-partners-slider .item .strategic-partners-card .content-box a.more {
   background-color: #1D4487;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 18px;
   width: 109px;
   height: 38px;
@@ -13049,11 +13063,11 @@ index
 }
 
 .strategic-partners a.be-one {
-  width: 350px;
-  height: 80px;
+  width: 205px;
+  height: 50px;
   color: #fff;
   background-color: #804D98;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   margin: 0 auto;
@@ -13073,7 +13087,8 @@ index
 }
 
 .strategic-partners a.be-one img {
-  margin-right: 18px;
+  margin-right: 10px;
+  max-width: 40px;
 }
 
 /*
@@ -13094,7 +13109,7 @@ about page
 }
 
 .about-first .about-content-box h2 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 24px;
@@ -13102,7 +13117,7 @@ about page
 }
 
 .about-first .about-content-box p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 10px;
@@ -13145,14 +13160,14 @@ about page
 }
 
 .about-ro2ya-2020 .ro2ya-content-box h2 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 48px;
 }
 
 .about-ro2ya-2020 .ro2ya-content-box p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 10px;
@@ -13195,7 +13210,7 @@ about page
 }
 
 .our-msg {
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 75px;
 }
@@ -13218,7 +13233,7 @@ about page
 }
 
 .our-msg .msg-content-box span {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
   color: #1D4487;
   line-height: 28px;
@@ -13238,7 +13253,7 @@ about page
 }
 
 .our-msg .msg-content-box p {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
   color: #192946;
   text-align: justify;
@@ -13260,21 +13275,21 @@ about page
 .our-msg .msg-img-box::before {
   content: "";
   position: absolute;
-  width: 408px;
-  height: 318px;
-  right: 0px;
+  width: 320px;
+  height: 250px;
+  right: -65px;
   background: #f2eff3;
   background: linear-gradient(75deg, #f2eff3 0%, white 65%);
   border-radius: 159px 20px 20px 159px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   z-index: -1;
-  top: 0;
+  top: -15px;
 }
 
 .about-vision {
   margin-top: 30px;
-  margin-bottom: 154px;
+  margin-bottom: 90px;
   padding-bottom: 48px;
 }
 
@@ -13296,7 +13311,7 @@ about page
 }
 
 .about-vision .vision-content-box span {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
   color: #7566A0;
   line-height: 28px;
@@ -13316,7 +13331,7 @@ about page
 }
 
 .about-vision .vision-content-box p {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
   color: #192946;
   text-align: justify;
@@ -13340,9 +13355,9 @@ about page
 .about-vision .vision-img-box::before {
   content: "";
   position: absolute;
-  width: 408px;
-  height: 318px;
-  left: 0px;
+  width: 290px;
+  height: 250px;
+  left: -30px;
   background: #7566a0;
   background: linear-gradient(100deg, #7566a0 0%, rgba(117, 102, 160, 0) 85%);
   border-radius: 159px 20px 20px 159px;
@@ -13360,10 +13375,10 @@ about page
 
 .about-values h2 {
   text-align: center;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   color: #192946;
-  line-height: 48px;
+  line-height: 38px;
   margin-bottom: 54px;
 }
 
@@ -13425,14 +13440,14 @@ about page
 }
 
 .about-values .value-card .value-content-box h4 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 24px;
   margin-bottom: 14px;
 }
 
 .about-values .value-card .value-content-box p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #7D7D7D;
   line-height: 24px;
@@ -13573,7 +13588,7 @@ ul.share li a:hover {
 }
 
 ul.share li.share-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #B1B1B1;
   line-height: 27px;
@@ -13589,7 +13604,7 @@ ul.share li.share-title img {
 .list-with-search h2.main-h2 {
   margin-top: 38px;
   margin-bottom: 49px;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   text-align: center;
@@ -13826,7 +13841,7 @@ ul.share li.share-title img {
 }
 
 .list-with-search .list-items .news-list-item .news-content-box .date {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #7D7D7D;
   line-height: 17px;
@@ -13835,37 +13850,38 @@ ul.share li.share-title img {
 
 .list-with-search .list-items .news-list-item .news-content-box .date img {
   margin-right: 10px;
+  vertical-align: sub;
 }
 
 .list-with-search .list-items .news-list-item .news-content-box h4 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
   color: #1B222C;
-  line-height: 34px;
+  line-height: 27px;
   margin-bottom: 0;
   text-align: justify;
 }
 
 .list-with-search .list-items .news-list-item .news-content-box p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #7D7D7D;
-  line-height: 29px;
+  line-height: 22px;
   margin-bottom: 0;
   text-align: justify;
 }
 
 .list-with-search .list-items .news-list-item .news-content-box a.more {
-  height: 51px;
-  width: 115px;
+  height: 36px;
+  width: 100px;
   background-color: #1D4487;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   display: inline-block;
   text-align: center;
   border-radius: 4px;
-  padding: 9px;
+  padding: 5px;
 }
 
 /*
@@ -13962,10 +13978,10 @@ ul.share li.share-title img {
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
   font-weight: 500;
-  font-size: 20px;
-  margin: 0 12px;
-  width: 51px;
-  height: 48px;
+  font-size: 16px;
+  margin: 0 10px;
+  width: 41px;
+  height: 38px;
   border-radius: 5px;
   text-align: center;
   padding: 5px;
@@ -13981,8 +13997,8 @@ ul.share li.share-title img {
 }
 
 .pagination-section .pagination a.arr {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   padding: 0;
   background-color: transparent !important;
   border: 0 !important;
@@ -14014,7 +14030,7 @@ ul.share li.share-title img {
 }
 
 .details-page .details-title h2 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   color: #1B222C;
   margin-bottom: 48px;
@@ -14038,7 +14054,7 @@ ul.share li.share-title img {
 }
 
 .details-page .details-content p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #5E5E5E;
   margin-bottom: 35px;
@@ -14076,7 +14092,7 @@ ul.share li.share-title img {
 }
 
 .first-inner .about-content-box h2 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 43px;
@@ -14084,7 +14100,7 @@ ul.share li.share-title img {
 }
 
 .first-inner .about-content-box p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 15px;
@@ -14127,7 +14143,7 @@ ul.share li.share-title img {
 }
 
 .title-with-p .content-main h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   margin-bottom: 20px;
@@ -14140,7 +14156,7 @@ ul.share li.share-title img {
 }
 
 .title-with-p .content-main p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 0px;
@@ -14165,23 +14181,36 @@ ul.share li.share-title img {
 }
 
 .our-programs .program-card {
-  background-color: #EFF2F5;
-  border: 1px solid #EFF2F5;
-  border-radius: 16px;
   width: calc(100% /3 - 30px);
-  padding: 30px;
   position: relative;
   margin-bottom: 30px;
-  overflow: hidden;
   -webkit-transition: 300ms;
   transition: 300ms;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   margin-top: -65px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.our-programs .program-card .inner-prog-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
 .our-programs .program-card .card-visable-content {
+  background-color: #EFF2F5;
+  border: 1px solid #EFF2F5;
+  border-radius: 16px;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14196,9 +14225,14 @@ ul.share li.share-title img {
           align-items: center;
   height: 100%;
   width: 100%;
-  opacity: 1;
-  -webkit-transition: 300ms;
-  transition: 300ms;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .our-programs .program-card .card-content {
@@ -14233,7 +14267,7 @@ ul.share li.share-title img {
 }
 
 .our-programs .program-card .content-1 h4 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   color: #192946;
   line-height: 30px;
@@ -14246,8 +14280,8 @@ ul.share li.share-title img {
 }
 
 .our-programs .program-card .plus-prog a {
-  width: 52px;
-  height: 52px;
+  width: 45px;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14263,6 +14297,10 @@ ul.share li.share-title img {
           box-shadow: 0px 4px 6px rgba(209, 209, 209, 0.61);
   -webkit-transition: 500ms;
   transition: 500ms;
+}
+
+.our-programs .program-card .plus-prog a img {
+  max-width: 20px;
 }
 
 .our-programs .program-card:hover .icon-box img {
@@ -14291,13 +14329,13 @@ ul.share li.share-title img {
   background-color: #fff;
   top: 0;
   left: 0;
-  opacity: 0;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
-  -webkit-transition: 300ms;
-  transition: 300ms;
+  border: 1px solid #EFF2F5;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .our-programs .program-card .content-hidden .hidden-content-box {
@@ -14318,7 +14356,7 @@ ul.share li.share-title img {
 }
 
 .our-programs .program-card .content-hidden h4 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   color: #192946;
   line-height: 30px;
@@ -14339,7 +14377,7 @@ ul.share li.share-title img {
 }
 
 .our-programs .program-card .content-hidden p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   line-height: 30px;
@@ -14367,7 +14405,7 @@ ul.share li.share-title img {
   display: inline-block;
   background-color: transparent;
   color: #1D4487;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -14376,8 +14414,8 @@ ul.share li.share-title img {
 }
 
 .our-programs .program-card .content-hidden .btns-prog .back-btn {
-  width: 52px;
-  height: 52px;
+  width: 45px;
+  height: 45px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -14401,24 +14439,18 @@ ul.share li.share-title img {
   background-color: #214C98;
 }
 
-.our-programs .program-card.show-content {
-  border: 1px solid #EFF2F5;
-  -webkit-box-shadow: 0px 8px 15px rgba(126, 134, 146, 0.08);
-          box-shadow: 0px 8px 15px rgba(126, 134, 146, 0.08);
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-}
-
-.our-programs .program-card.show-content .card-visable-content {
-  opacity: 0;
+.our-programs .program-card .content-hidden .btns-prog .back-btn img {
+  max-height: 20px;
 }
 
 .our-programs .program-card.show-content .content-hidden {
+  -webkit-box-shadow: 0px 8px 15px rgba(126, 134, 146, 0.08);
+          box-shadow: 0px 8px 15px rgba(126, 134, 146, 0.08);
+}
+
+.our-programs .program-card.show-content .inner-prog-card {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
-  -webkit-backface-visibility: visible;
-          backface-visibility: visible;
-  opacity: 1;
 }
 
 .our-programs .program-card:nth-child(odd) {
@@ -14456,10 +14488,10 @@ ul.share li.share-title img {
   border-radius: 6px;
   background-color: #EDEFF1;
   color: #192946;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   width: 92px;
-  height: 44px;
+  height: 38px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14543,13 +14575,14 @@ ul.share li.share-title img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: calc(100% / 5 - 44px);
-  height: 198px;
-  margin: 0 27.5px 55px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  width: calc(100% / 5 - 25px);
+  height: 180px;
+  margin: 0 15px 40px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   position: relative;
+  padding: 10px;
 }
 
 .Government-partners .partners-list .partner-card .img-box {
@@ -14560,6 +14593,7 @@ ul.share li.share-title img {
 .Government-partners .partners-list .partner-card .img-box img {
   width: 100%;
   height: 100%;
+  max-height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -14640,7 +14674,7 @@ ul.share li.share-title img {
 }
 
 .download-center .download-card .top-area .date {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #7D7D7D;
   line-height: 17px;
@@ -14678,7 +14712,7 @@ ul.share li.share-title img {
 }
 
 .download-center .download-card .content-box h4 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 41px;
   color: #192946;
@@ -14688,7 +14722,7 @@ ul.share li.share-title img {
 }
 
 .download-center .download-card .content-box p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   line-height: 28px;
@@ -14705,8 +14739,8 @@ ul.share li.share-title img {
   border-radius: 31px;
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.16);
-  height: 61px;
-  width: 61px;
+  height: 50px;
+  width: 50px;
   padding: 19px;
   overflow: hidden;
   -webkit-transition: 400ms;
@@ -14714,14 +14748,14 @@ ul.share li.share-title img {
 }
 
 .download-center .download-card .download-btn a img {
-  max-width: 22px;
+  max-width: 25px;
 }
 
 .download-center .download-card .download-btn a div {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
-  line-height: 19px;
+  line-height: 12px;
   -webkit-transform: translateX(200px);
           transform: translateX(200px);
   opacity: 0;
@@ -14730,7 +14764,7 @@ ul.share li.share-title img {
 }
 
 .download-center .download-card .download-btn a:hover {
-  width: 161px;
+  width: 135px;
   background-color: #2755A5;
 }
 
@@ -14739,17 +14773,20 @@ ul.share li.share-title img {
           transform: translateX(0);
   opacity: 1;
   display: inline-block;
-  margin-left: 31px;
+  margin-left: 25px;
 }
 
 /*
 meeeeeeeedia for bootstrap col
 */
-@media (min-width: 992px) {
+@media (min-width: 1650px) {
   .download-center .col-lg-4:nth-of-type(3n + 2) {
     padding-right: 0px;
     padding-left: 0px;
   }
+}
+
+@media (min-width: 992px) {
   .first-inner .col-lg-5 {
     padding-left: 0px;
   }
@@ -14826,7 +14863,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .itps-list .itp-card .content-box h4 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   color: #192946;
   position: relative;
@@ -14848,7 +14885,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .itps-list .itp-card .content-box p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   text-align: justify;
@@ -14859,7 +14896,7 @@ meeeeeeeedia for bootstrap col
   width: 115px;
   background-color: #1D4487;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   display: inline-block;
   text-align: center;
@@ -14905,7 +14942,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .join .itps-join h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   margin-bottom: 43px;
@@ -14918,7 +14955,7 @@ meeeeeeeedia for bootstrap col
   color: #fff;
   background-color: #804D98;
   border-radius: 4px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   display: -webkit-inline-box;
@@ -14950,12 +14987,22 @@ meeeeeeeedia for bootstrap col
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: left;
 }
 
 .itp-inner .first-img-box img {
-  border: 1px solid #E3E7EC;
-  -webkit-box-shadow: 0px 8px 15px rgba(126, 134, 146, 0.08);
-          box-shadow: 0px 8px 15px rgba(126, 134, 146, 0.08);
+  width: 80%;
 }
 
 .important-specialties {
@@ -14978,7 +15025,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .important-specialties .head-top h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
 }
@@ -15044,13 +15091,13 @@ meeeeeeeedia for bootstrap col
 }
 
 .important-specialties .list-sections ul li span {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: #434951;
 }
 
 .another-partners h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   margin-bottom: 0px;
@@ -15102,7 +15149,7 @@ meeeeeeeedia for bootstrap col
 .another-partners .show-all a {
   display: block;
   background-color: transparent;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
   color: #804D98;
 }
@@ -15132,12 +15179,22 @@ meeeeeeeedia for bootstrap col
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 40px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  float: left;
 }
 
 .first-inner.programs-inner .first-img-box img {
-  border: 1px solid #E3E7EC;
-  -webkit-box-shadow: 0px 8px 15px rgba(126, 134, 146, 0.08);
-          box-shadow: 0px 8px 15px rgba(126, 134, 146, 0.08);
+  width: 80%;
 }
 
 .tamayoz-role {
@@ -15189,9 +15246,10 @@ meeeeeeeedia for bootstrap col
 
 .tamayoz-role .list-roles ul li .number {
   background-image: url(../images/circle-list-bg.svg);
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 54px;
-  height: 51px;
+  width: 53px;
+  height: 53px;
   margin-right: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15205,14 +15263,14 @@ meeeeeeeedia for bootstrap col
   -webkit-box-flex: 0;
       -ms-flex: 0 0 54px;
           flex: 0 0 54px;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   color: #27C4F5;
 }
 
 .tamayoz-role .list-roles ul li span {
   min-height: 70px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: #fff;
 }
@@ -15238,25 +15296,23 @@ meeeeeeeedia for bootstrap col
   margin-top: 60px;
 }
 
-.Qualifications .list-qualifications ul {
-  padding: 0;
-  list-style: none;
-}
-
-.Qualifications .list-qualifications ul li {
+.Qualifications .list-qualifications-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 25px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-.Qualifications .list-qualifications ul li .icon-box {
+.Qualifications .list-qualifications-content p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #434951;
+}
+
+.Qualifications .list-qualifications-content .icon-box {
   width: 52px;
   height: 52px;
   border-radius: 26px;
@@ -15276,12 +15332,7 @@ meeeeeeeedia for bootstrap col
           flex: 0 0 52px;
   -webkit-box-shadow: 0px 4px 6px rgba(209, 209, 209, 0.61);
           box-shadow: 0px 4px 6px rgba(209, 209, 209, 0.61);
-}
-
-.Qualifications .list-qualifications ul li span {
-  font-size: 22px;
-  font-weight: 500;
-  color: #434951;
+  margin-top: 12px;
 }
 
 .Benefits .title-with-p {
@@ -15331,10 +15382,8 @@ meeeeeeeedia for bootstrap col
 }
 
 .Benefits .list-Benefits ul li .number {
-  background-image: url(../images/circle-z.svg);
-  background-repeat: no-repeat;
   width: 54px;
-  height: 51px;
+  height: 54px;
   margin-right: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15348,22 +15397,52 @@ meeeeeeeedia for bootstrap col
   -webkit-box-flex: 0;
       -ms-flex: 0 0 54px;
           flex: 0 0 54px;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   color: #2758AE;
+  background-color: #e8ecf3;
+  border-radius: 50%;
+  padding-bottom: 5px;
 }
 
 .Benefits .list-Benefits ul li span {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: #434951;
 }
 
 .Achievements-results {
   background-color: #F9FAFD;
-  padding-top: 63px;
-  padding-bottom: 68px;
+  padding: 160px 0px;
   margin-bottom: 131px;
+}
+
+.Achievements-results .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Achievements-results .content-box .number {
+  font-size: 24px;
+  font-weight: 700;
+  color: #804D98;
+}
+
+.Achievements-results .content-box .title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1B222C;
+}
+
+.Achievements-results .content-box .title-1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #804D98;
 }
 
 .Achievements-results ul {
@@ -15376,9 +15455,6 @@ meeeeeeeedia for bootstrap col
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 36px;
 }
 
@@ -15401,11 +15477,13 @@ meeeeeeeedia for bootstrap col
   border-radius: 4px;
   -webkit-box-shadow: 0px 4px 6px #d1d1d1;
           box-shadow: 0px 4px 6px #d1d1d1;
+  display: none;
 }
 
 .Achievements-results ul li .icon-box img {
   width: 36px;
   height: 36px;
+  display: none;
 }
 
 .Achievements-results ul li .content-box {
@@ -15419,19 +15497,19 @@ meeeeeeeedia for bootstrap col
 }
 
 .Achievements-results ul li .content-box .number {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   color: #804D98;
 }
 
 .Achievements-results ul li .content-box .title {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #1B222C;
 }
 
 .Achievements-results ul li .content-box .title-1 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   color: #804D98;
 }
@@ -15444,7 +15522,6 @@ meeeeeeeedia for bootstrap col
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
 }
 
 .Achievements-results .results h2 {
@@ -15461,7 +15538,7 @@ meeeeeeeedia for bootstrap col
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   margin-bottom: 0;
@@ -15500,12 +15577,6 @@ meeeeeeeedia for bootstrap col
   background-color: #D2D2D2;
 }
 
-.Achievements-results .results .list-results ul li .icon-box {
-  background: #804d98;
-  background: linear-gradient(169deg, #804d98 0%, #1d4487 100%);
-  margin-right: 9px;
-}
-
 .Achievements-results .Achievements {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15531,10 +15602,10 @@ meeeeeeeedia for bootstrap col
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
-  margin-bottom: 0;
+  margin-bottom: 63px;
 }
 
 .Achievements-results .Achievements h2 img {
@@ -15548,16 +15619,27 @@ meeeeeeeedia for bootstrap col
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 63px;
 }
 
-.Achievements-results .Achievements .list-Achievements ul li .icon-box {
-  background: gold;
-  background: linear-gradient(160deg, gold 0%, #ffd15c 100%);
-  margin-right: 29px;
+.Achievements-results .Achievements .list-Achievements ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100% !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Achievements-results .Achievements .list-Achievements ul li {
+  margin-bottom: 36px;
+  width: 50%;
 }
 
 /*
@@ -15601,7 +15683,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .event-details-page .details-content .event-details div {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #804D98;
   margin-right: 24px;
@@ -15625,7 +15707,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .event-details-page .details-content .event-details div span {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #804D98;
 }
@@ -15641,7 +15723,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .event-details-page .details-content .event-description h2 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 24px;
@@ -15649,7 +15731,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .event-details-page .details-content .event-description p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #5E5E5E;
   margin-bottom: 38px;
@@ -15663,7 +15745,7 @@ meeeeeeeedia for bootstrap col
   margin: 0 auto;
   text-align: center;
   background-color: #2755A5;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
   line-height: 19px;
@@ -15681,7 +15763,7 @@ meeeeeeeedia for bootstrap col
 
 .event-details-page .details-content .event-description .note {
   margin-top: 14px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #192946;
   text-align: center;
@@ -15709,7 +15791,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .about-event .about-event-details h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #804D98;
   margin-bottom: 24px;
@@ -15717,7 +15799,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .about-event .about-event-details p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 24px;
@@ -15738,7 +15820,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .about-event .partner-section h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #804D98;
   margin-bottom: 24px;
@@ -15754,13 +15836,18 @@ meeeeeeeedia for bootstrap col
   margin-bottom: 0;
 }
 
+.our-programs.our-services {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
 .our-programs.our-services .program-card .plus-prog a {
   background-color: #804D98;
 }
 
 .our-programs.our-services .program-card .card-visable-content .card-content .icon-box::after {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   content: "";
   margin: -22px auto;
   width: 100%;
@@ -15798,7 +15885,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .events-main .main-h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
   text-align: center;
@@ -15901,7 +15988,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .events-main .events-slider .item .event-banner .caption .event-details div span {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #fff;
 }
@@ -15929,7 +16016,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .events-main .events-slider .item .event-banner .caption .content-box h2 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 24px;
@@ -15937,7 +16024,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .events-main .events-slider .item .event-banner .caption .content-box p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 24px;
@@ -15945,16 +16032,16 @@ meeeeeeeedia for bootstrap col
 }
 
 .events-main .events-slider .item .event-banner .caption .content-box a.more {
-  width: 160px;
-  height: 46px;
+  width: 130px;
+  height: 37px;
   display: block;
   margin: 0 auto;
   text-align: center;
   background-color: #804D98;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   color: #fff;
-  line-height: 19px;
+  line-height: 16px;
   border-radius: 4px;
   padding: 10px;
   -webkit-transition: 300ms;
@@ -16072,7 +16159,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .event-list .events-list .download-card .content-area .top-area .location {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #7D7D7D;
   line-height: 17px;
@@ -16134,14 +16221,14 @@ meeeeeeeedia for bootstrap col
 }
 
 .privacy .privacy-content .content-box h4 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
   color: #153365;
   margin-bottom: 20px;
 }
 
 .privacy .privacy-content .content-box p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #7D7D7D;
   margin-bottom: 24px;
@@ -16196,7 +16283,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .not-found .not-found-content h2 {
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 24px;
@@ -16204,7 +16291,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .not-found .not-found-content p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 0px;
@@ -16216,10 +16303,10 @@ meeeeeeeedia for bootstrap col
 }
 
 .not-found .not-found-content .btns-div a {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   border-radius: 4px;
-  height: 46px;
+  height: 37px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -16259,7 +16346,7 @@ meeeeeeeedia for bootstrap col
 
 */
 .contact-first {
-  padding-top: 240px;
+  padding-top: 120px;
   padding-bottom: 113px;
 }
 
@@ -16268,7 +16355,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .contact-first .about-content-box p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 21px;
@@ -16370,14 +16457,14 @@ meeeeeeeedia for bootstrap col
 }
 
 .contact-mid .contactUs-details h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 12px;
 }
 
 .contact-mid .contactUs-details p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 36px;
@@ -16401,7 +16488,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .contact-mid .contactUs-details .details div span {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #153365;
   margin-left: 24px;
@@ -16418,14 +16505,14 @@ meeeeeeeedia for bootstrap col
 }
 
 .contact-mid .contactUs-form h2 {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
   color: #1D4487;
   margin-bottom: 12px;
 }
 
 .contact-mid .contactUs-form p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 24px;
@@ -16519,14 +16606,14 @@ meeeeeeeedia for bootstrap col
 }
 
 .map-location .content-box h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 12px;
 }
 
 .map-location .content-box p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 36px;
@@ -16545,7 +16632,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .map-location span.our-time {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   color: #153365;
   margin-top: 24px;
@@ -16568,7 +16655,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .media-list .main-h h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   color: #1B222C;
 }
@@ -16687,7 +16774,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .media-inner .top-details .media-details div {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #804D98;
   margin-right: 24px;
@@ -16711,7 +16798,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .media-inner .top-details .media-details div span {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #804D98;
 }
@@ -16727,7 +16814,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .media-inner .top-details .media-description h2 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   color: #192946;
   margin-bottom: 37px;
@@ -16735,7 +16822,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .media-inner .top-details .media-description p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 59px;
@@ -16876,7 +16963,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .jobs-list .job-card .top-details .title-with-share h3 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   color: #153365;
   margin-bottom: 0;
@@ -16908,10 +16995,13 @@ meeeeeeeedia for bootstrap col
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .jobs-list .job-card .top-details .more-details .right-det div {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #7D7D7D;
   margin-right: 24px;
@@ -16926,7 +17016,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .jobs-list .job-card .top-details .more-details .category {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 19px;
   font-weight: 500;
   color: #1D4487;
@@ -16956,7 +17046,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .jobs-list .job-card .qualifications h3 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 16px;
@@ -17025,7 +17115,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .jobs-list .jobs-top h2 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   color: #804D98;
   margin-bottom: 0;
@@ -17037,12 +17127,12 @@ meeeeeeeedia for bootstrap col
   border-radius: 4px;
   background-color: #804D98;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
-  height: 43px;
-  width: 113px;
+  height: 38px;
+  width: 100px;
   text-align: center;
-  padding: 6px;
+  padding: 5px;
 }
 
 /*
@@ -17074,14 +17164,14 @@ meeeeeeeedia for bootstrap col
 }
 
 .careers-top .content-box h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 700;
   color: #804D98;
   margin-bottom: 42px;
 }
 
 .careers-top .content-box p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 54px;
@@ -17091,8 +17181,8 @@ meeeeeeeedia for bootstrap col
   background-color: #1D4487;
   border-radius: 4px;
   width: 148px;
-  height: 46px;
-  font-size: 18px;
+  height: 37px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
   padding: 5px;
@@ -17135,7 +17225,7 @@ meeeeeeeedia for bootstrap col
 
 .text-on-right .content-box h2,
 .text-on-left .content-box h2 {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 700;
   color: #192946;
   margin-bottom: 40px;
@@ -17143,7 +17233,7 @@ meeeeeeeedia for bootstrap col
 
 .text-on-right .content-box p,
 .text-on-left .content-box p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 35px;
@@ -17154,8 +17244,8 @@ meeeeeeeedia for bootstrap col
   background-color: #1D4487;
   border-radius: 4px;
   width: 112px;
-  height: 46px;
-  font-size: 18px;
+  height: 37px;
+  font-size: 16px;
   font-weight: 400;
   color: #fff;
   padding: 5px;
@@ -17203,7 +17293,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .job-details-top .top-details .title-with-share h3 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   color: #153365;
   margin-bottom: 0;
@@ -17238,7 +17328,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .job-details-top .top-details .more-details .right-det div {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #7D7D7D;
   margin-right: 24px;
@@ -17253,7 +17343,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .job-details-top .top-details .more-details .category {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 19px;
   font-weight: 500;
   color: #1D4487;
@@ -17269,10 +17359,10 @@ meeeeeeeedia for bootstrap col
   display: block;
   border-radius: 4px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   padding: 5px;
   width: 108px;
-  height: 46px;
+  height: 37px;
   margin-top: 24px;
 }
 
@@ -17285,14 +17375,14 @@ meeeeeeeedia for bootstrap col
 }
 
 .job-details h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   color: #192946;
   margin-bottom: 24px;
 }
 
 .job-details p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
   margin-bottom: 24px;
@@ -17306,7 +17396,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .job-details ul li {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   color: #7D7D7D;
   margin-bottom: 27px;
@@ -17321,7 +17411,7 @@ meeeeeeeedia for bootstrap col
   color: #192946;
   font-weight: 500;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   margin: auto;
   margin-bottom: 48px;
 }
@@ -17340,7 +17430,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .job-form .white-card .form-group label {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #192946;
   padding-right: 24px;
@@ -17389,7 +17479,7 @@ meeeeeeeedia for bootstrap col
   font-size: 16px;
   font-weight: 400;
   color: #7D7D7D;
-  width: 50%;
+  width: 45%;
   position: absolute;
   background-color: #f8f8f8;
   z-index: 2;
@@ -17411,7 +17501,7 @@ meeeeeeeedia for bootstrap col
   text-decoration: underline;
   background-image: url(../images/document-upload-outline.svg);
   background-repeat: no-repeat;
-  background-position: 70% center;
+  background-position: 65% center;
   background-color: #f8f8f8;
   width: 50%;
   z-index: 2;
@@ -17429,9 +17519,9 @@ meeeeeeeedia for bootstrap col
   font-weight: 400;
   display: block;
   color: #fff;
-  height: 46px;
-  padding: 7px 48px;
-  font-size: 18px;
+  height: 37px;
+  padding: 5px 48px;
+  font-size: 16px;
 }
 
 .sign-in {
@@ -17460,8 +17550,8 @@ meeeeeeeedia for bootstrap col
   text-align: center;
   margin-top: 18px;
   padding: 7px 10px;
-  font-size: 18px;
-  height: 46px;
+  font-size: 16px;
+  height: 37px;
   width: 140px;
 }
 
@@ -17515,7 +17605,7 @@ meeeeeeeedia for bootstrap col
 .blue-section .blue-container div p {
   color: #fff;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 28px;
   margin-bottom: 0;
   line-height: 40px;
 }
@@ -18043,7 +18133,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .Advantages-with-us h2 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
   color: #804D98;
   margin-bottom: 60px;
@@ -18085,7 +18175,7 @@ meeeeeeeedia for bootstrap col
 
 .Advantages-with-us .Adv-with-us-card .content-box h4 {
   margin-bottom: 24px;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
   color: #153365;
   -webkit-transition: 300ms;
@@ -18094,7 +18184,7 @@ meeeeeeeedia for bootstrap col
 
 .Advantages-with-us .Adv-with-us-card .content-box p {
   color: #66738A;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 0;
 }
@@ -18144,7 +18234,7 @@ meeeeeeeedia for bootstrap col
 .specialties .content-box h2 {
   font-weight: 700;
   color: #804D98;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 30px;
   position: relative;
   width: -webkit-fit-content;
@@ -18165,7 +18255,7 @@ meeeeeeeedia for bootstrap col
 .specialties .content-box p {
   font-weight: 400;
   color: #7D7D7D;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 0px;
   text-align: justify;
 }
@@ -18212,7 +18302,7 @@ meeeeeeeedia for bootstrap col
 }
 
 .specialties ul li span {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: #434951;
 }
@@ -18249,14 +18339,14 @@ meeeeeeeedia for bootstrap col
 .life-join .content-box h2 {
   color: #fff;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 38px;
   margin-bottom: 24px;
 }
 
 .life-join .content-box p {
   color: #D2D2D2;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 33px;
 }
 
@@ -18268,7 +18358,7 @@ meeeeeeeedia for bootstrap col
   color: #1D4487;
   font-weight: 500;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   width: 145px;
   padding: 7px;
   display: block;
@@ -18310,7 +18400,7 @@ meeeeeeeedia for bootstrap col
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 500;
   color: #804D98;
   padding-top: 5px;
@@ -18321,7 +18411,7 @@ meeeeeeeedia for bootstrap col
   position: relative;
   color: #804D98;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 30px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -18343,7 +18433,7 @@ meeeeeeeedia for bootstrap col
   color: #7D7D7D;
   font-weight: 400;
   text-align: justify;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -18363,15 +18453,15 @@ meeeeeeeedia for bootstrap col
 /*
 this UI is made desktop first.
 */
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 1260px;
+    max-width: 1005px;
   }
 }
 
 @media (min-width: 1650px) {
   .container {
-    max-width: 1640px;
+    max-width: 1310px;
     padding: 0;
   }
 }
@@ -18388,8 +18478,8 @@ this UI is made desktop first.
     top: 89px !important;
   }
   .main-navbar .navbar {
-    margin-top: 25px;
-    padding-bottom: 10px;
+    margin-top: 15px;
+    padding-bottom: 9px;
   }
   .main-navbar .navbar .nav-div .nav-div-one {
     width: auto;
@@ -18398,7 +18488,7 @@ this UI is made desktop first.
     margin-right: 25px;
   }
   .main-navbar .navbar .nav-div .nav-div-one .nav-item .nav-link {
-    font-size: 17px;
+    font-size: 14px;
   }
   .main-navbar .navbar .nav-div .nav-div-one .nav-item .nav-link.active::before {
     bottom: -20px;
@@ -18407,19 +18497,23 @@ this UI is made desktop first.
     margin-right: 15px;
   }
   .main-navbar .navbar .nav-div .nav-div-two .contact-us a {
-    height: 39px;
-    width: 85px;
+    height: 34px;
+    width: 80px;
     font-size: 14px;
-    padding: 10px 10px 12px;
+    padding: 7px 10px;
   }
   .main-navbar .navbar .nav-div .nav-div-two .language {
-    margin-right: 15px;
+    margin-right: 10px;
   }
   .main-navbar .navbar .nav-div .nav-div-two .language button {
-    width: 39px;
-    height: 39px;
-    background-position: 9px center;
+    width: 35px;
+    height: 35px;
+    background-position: 6px center;
+    background-size: 10px;
     padding: 5px 6px;
+  }
+  .main-navbar .navbar .nav-div .nav-div-two .search-toggle {
+    max-width: 30px;
   }
   .sub-menu .subMenu-area ul li {
     padding-top: 7px;
@@ -18430,11 +18524,8 @@ this UI is made desktop first.
     margin-right: 0;
   }
   .about-first .about-content-box h2 {
-    font-size: 40px;
-    margin-bottom: 15px;
-  }
-  .about-first .about-content-box p {
-    font-size: 17px;
+    font-size: 34px;
+    margin-bottom: 10px;
   }
   .about-ro2ya-2020 {
     padding-top: 65px;
@@ -18454,11 +18545,8 @@ this UI is made desktop first.
             justify-content: center;
   }
   .about-ro2ya-2020 .ro2ya-content-box h2 {
-    font-size: 40px;
-    margin-bottom: 15px;
-  }
-  .about-ro2ya-2020 .ro2ya-content-box p {
-    font-size: 17px;
+    font-size: 34px;
+    margin-bottom: 10px;
   }
   .our-msg {
     margin-top: 50px;
@@ -18466,18 +18554,13 @@ this UI is made desktop first.
     padding-bottom: 75px;
   }
   .our-msg .msg-img-box::before {
-    width: 360px;
-    height: 280px;
-    right: -12px;
-    top: 15px;
+    width: 230px;
+    height: 200px;
   }
   .our-msg .msg-content-box span {
-    font-size: 25px;
-    padding: 10px 20px 5px;
+    font-size: 22px;
+    padding: 5px 12px 0px;
     margin-bottom: 15px;
-  }
-  .our-msg .msg-content-box p {
-    font-size: 20px;
   }
   .about-vision {
     margin-top: 75px;
@@ -18488,16 +18571,13 @@ this UI is made desktop first.
     margin-top: 20px;
   }
   .about-vision .vision-img-box::before {
-    width: 310px;
-    height: 270px;
+    width: 210px;
+    height: 180px;
   }
   .about-vision .vision-content-box span {
-    font-size: 25px;
-    padding: 10px 20px 5px;
+    font-size: 22px;
+    padding: 5px 12px 0px;
     margin-bottom: 15px;
-  }
-  .about-vision .vision-content-box p {
-    font-size: 20px;
   }
   .about-values {
     padding-top: 75px;
@@ -18505,32 +18585,44 @@ this UI is made desktop first.
     margin-bottom: 75px;
   }
   .about-values h2 {
-    font-size: 40px;
-    margin-bottom: 25px;
-    line-height: 40px;
+    font-size: 34px;
+    margin-bottom: 20px;
+    line-height: 35px;
+  }
+  .about-values .value-card .value-img-box {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80px;
+            flex: 0 0 80px;
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+    padding: 15px;
   }
   .about-values .value-card .value-content-box h4 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 24px;
     margin-bottom: 7px;
   }
   .about-values .value-card .value-content-box p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 18px;
+    text-align: left;
   }
   .list-with-search .list-items .news-list-item .news-content-box h4 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
   }
   .list-with-search .list-items .news-list-item .news-content-box p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
   }
   .list-with-search .list-items .news-list-item .news-content-box a.more {
-    height: 40px;
-    width: 100px;
-    font-size: 16px;
-    padding: 7px;
+    height: 34px;
+    width: 90px;
+    font-size: 14px;
+    padding: 5px;
   }
   .first-inner .about-content-box h2 {
     font-size: 35px;
@@ -18548,76 +18640,96 @@ this UI is made desktop first.
   .Government-partners .partners-list .partner-card {
     height: 160px;
   }
+  .download-center .download-card {
+    min-height: 340px;
+  }
   .download-center .download-card .top-area .date {
     font-size: 13px !important;
   }
   .download-center .download-card .content-box h4 {
-    font-size: 25px;
-    line-height: 25px;
-    height: calc(27px * 2);
-  }
-  .download-center .download-card .content-box p {
-    font-size: 16px;
-    line-height: 20px;
-    height: calc(20px * 3);
+    font-size: 22px;
+    line-height: 22px;
+    height: calc(24px * 2);
   }
   .event-list .events-list .download-card {
     min-height: auto;
   }
+  .event-list .events-list .download-card .img-box {
+    height: 200px;
+  }
+  .event-list .events-list .download-card .content-area {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+  }
   .event-list .events-list .download-card .content-area .top-area .date {
-    font-size: 13px !important;
+    font-size: 12px !important;
+  }
+  .event-list .events-list .download-card .content-area .top-area .date img {
+    width: 15px;
+    margin-right: 3px;
   }
   .event-list .events-list .download-card .content-area .top-area .location {
-    font-size: 13px;
+    font-size: 12px;
     margin-left: auto;
+  }
+  .event-list .events-list .download-card .content-area .top-area .location img {
+    width: 15px;
+    margin-right: 3px;
+  }
+  .event-list .events-list .download-card .content-area .content-box p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 24px;
+    height: calc(24px * 3);
   }
   .contact-first {
     padding-top: 100px;
     padding-bottom: 60px;
   }
   .main-slider .item .caption h2 {
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 15px;
   }
   .main-slider .item .caption p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
   }
   .main-slider .item .caption a.more {
     font-size: 16px;
   }
+  .main-slider .item .left-slider-imgs {
+    right: 0px;
+  }
   .main-slider .item .left-slider-imgs .main-slider-card {
-    font-size: 16px;
+    font-size: 13px;
   }
   .main-slider .item .left-slider-imgs .main-slider-card .slider-card-img {
     margin-right: 5px;
   }
   .main-slider .item .left-slider-imgs .main-slider-card .slider-card-img img {
-    width: 40px;
+    width: 30px;
   }
   .main-slider .item .left-slider-imgs .ellipse-image {
     position: absolute;
-    width: 450px;
-    height: 359px;
-    right: 50px;
+    right: 0px;
   }
   .main-slider .item .left-slider-imgs .person-image {
-    top: -97px;
-    left: 162px;
-    width: 335px;
+    top: -90px;
+    left: 110px;
+    width: 315px;
   }
   .main-slider .item .left-slider-imgs .shape2 {
-    width: 550px;
-    right: -50px;
+    width: 460px;
+    right: -20px;
     top: -15px;
   }
   .main-slider .item .left-slider-imgs .shape1 {
-    width: 495px;
+    width: 450px;
     right: 0px;
     top: 200px;
   }
   .customers-opinions .cust-op-slider .owl-dots {
-    left: calc(100% / 2 + 60px);
     top: calc(100% /2 + 160px);
   }
   .specialties .content-box h2 {
@@ -18672,28 +18784,39 @@ this UI is made desktop first.
     width: 100%;
     padding-right: 20px;
   }
+  .text-on-right .content-box h2,
+  .text-on-left .content-box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .text-on-right .content-box p,
+  .text-on-left .content-box p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .jobs-list .job-card .top-details .more-details .right-det div {
+    font-size: 14px;
+    margin-right: 15px;
+  }
+  .jobs-list .job-card .top-details .more-details .right-det div img {
+    margin-right: 5px;
+  }
+  .jobs-list .job-card .top-details .more-details .category {
+    line-height: 17px;
+    padding: 7px 15px 5px;
+  }
+  .careers-top .content-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .careers-top .content-box p {
+    margin-bottom: 25px;
+  }
 }
 
 @media (max-width: 1399.97px) {
   .main-navbar #navbarSupportedContent > .navbar-nav > .nav-item {
     margin-left: auto;
-  }
-  .list-with-search .list-items .news-list-item .news-content-box .date {
-    font-size: 14px;
-  }
-  .list-with-search .list-items .news-list-item .news-content-box h4 {
-    font-size: 20px;
-    line-height: 25px;
-  }
-  .list-with-search .list-items .news-list-item .news-content-box p {
-    font-size: 16px;
-    line-height: 20px;
-  }
-  .list-with-search .list-items .news-list-item .news-content-box a.more {
-    height: 35px;
-    width: 85px;
-    font-size: 14px;
-    padding: 5px;
   }
   .tamayoz-role {
     padding-top: 45px;
@@ -18706,7 +18829,7 @@ this UI is made desktop first.
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .Qualifications .list-qualifications ul li span {
+  .Qualifications .list-qualifications-content p {
     font-size: 18px;
   }
   .Benefits .list-Benefits ul li span {
@@ -18750,22 +18873,28 @@ this UI is made desktop first.
   .event-details-page .details-content .event-description .note {
     font-size: 18px;
   }
+  .first-inner.contact-first .about-content-box h2 {
+    font-size: 30px;
+  }
+  .first-inner.contact-first .about-content-box p {
+    font-size: 16px;
+  }
   .contact-mid .contactUs-details h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
   .contact-mid .contactUs-details p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .contact-mid .contactUs-details .details div span {
-    font-size: 18px;
-    margin-left: 15px;
+    font-size: 16px;
+    margin-left: 10px;
   }
   .contact-mid .contactUs-form h2 {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 10px;
   }
   .contact-mid .contactUs-form p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 15px;
   }
   .contact-mid .contactUs-form .formGroup.InputStyle {
@@ -18838,23 +18967,33 @@ this UI is made desktop first.
   }
   .main-slider .item .left-slider-imgs .ellipse-image {
     position: absolute;
-    width: 400px;
+    width: 397px;
     height: 330px;
+    right: 53px;
   }
   .main-slider .item .left-slider-imgs .person-image {
     top: -97px;
     width: 308px;
-    left: 140px;
+    left: 72px;
   }
   .main-slider .item .left-slider-imgs .shape2 {
-    width: 500px;
-    right: -40px;
-    top: -25px;
+    width: 455px;
+    right: -5px;
+    top: -40px;
   }
   .main-slider .item .left-slider-imgs .shape1 {
     width: 415px;
-    right: 30px;
+    left: -20px;
     top: 180px;
+  }
+  .main-slider .item .left-slider-imgs .main-slider-card.card2 {
+    left: 85px;
+  }
+  .main-slider .item .left-slider-imgs .main-slider-card.card3 {
+    left: -10px;
+  }
+  .main-slider .item .left-slider-imgs .main-slider-card.card4 {
+    left: -30px;
   }
   .main-slider .actions {
     left: 50px;
@@ -19189,14 +19328,6 @@ this UI is made desktop first.
     margin-right: 10px;
     width: 40px;
   }
-  .careers-top .content-box h2 {
-    font-size: 28px;
-    margin-bottom: 25px;
-  }
-  .careers-top .content-box p {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
   .careers-top .img-box img {
     max-height: 500px;
   }
@@ -19204,22 +19335,40 @@ this UI is made desktop first.
   .text-on-left {
     margin-top: 30px;
   }
-  .text-on-right .content-box h2,
-  .text-on-left .content-box h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  .text-on-right .content-box p,
-  .text-on-left .content-box p {
-    font-size: 18px;
-    margin-bottom: 15px;
-  }
   .text-on-right .content-box a,
   .text-on-left .content-box a {
     width: 100px;
-    height: 40px;
+  }
+  .download-center .download-card {
+    min-height: 320px;
+  }
+  .download-center .download-card .content-box h4 {
+    font-size: 20px;
+  }
+  .download-center .download-card .content-box p {
     font-size: 16px;
+  }
+  .itps-list .itp-card {
+    padding: 15px;
+    min-height: 450px;
+  }
+  .itps-list .itp-card .content-box a.more {
+    height: 35px;
+    width: 100px;
     padding: 5px;
+    font-size: 14px;
+  }
+  .join .itps-join {
+    height: 230px;
+  }
+  .join .itps-join h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .join .itps-join .join-a a {
+    width: 165px;
+    height: 44px;
+    padding: 7px 30px;
   }
 }
 
@@ -19343,12 +19492,6 @@ this UI is made desktop first.
     padding-top: 45px;
     padding-bottom: 45px;
   }
-  .our-msg .msg-img-box::before {
-    width: 300px;
-    height: 246px;
-    right: -41px;
-    top: 45px;
-  }
   .our-msg .msg-content-box span {
     font-size: 20px;
   }
@@ -19361,10 +19504,6 @@ this UI is made desktop first.
   }
   .about-vision .vision-img-box {
     margin-left: 0;
-  }
-  .about-vision .vision-img-box::before {
-    width: 285px;
-    height: 245px;
   }
   .about-vision .vision-content-box span {
     font-size: 20px;
@@ -19695,20 +19834,18 @@ this UI is made desktop first.
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .Qualifications .list-qualifications ul li {
-    margin-bottom: 15px;
-  }
-  .Qualifications .list-qualifications ul li .icon-box {
+  .Qualifications .list-qualifications-content .icon-box {
     width: 40px;
     height: 40px;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 40px;
             flex: 0 0 40px;
+    margin-top: 0;
   }
-  .Qualifications .list-qualifications ul li .icon-box img {
+  .Qualifications .list-qualifications-content .icon-box img {
     max-width: 25px;
   }
-  .Qualifications .list-qualifications ul li span {
+  .Qualifications .list-qualifications-content p {
     font-size: 16px;
     line-height: 20px;
   }
@@ -20010,25 +20147,12 @@ this UI is made desktop first.
   .job-details-top .top-details .title-with-share {
     margin-bottom: 35px !important;
   }
-  .top-details .title-with-share h3 {
-    font-size: 25px !important;
-  }
   .top-details .more-details {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .top-details .more-details .right-det div {
-    font-size: 16px !important;
-    margin-right: 15px !important;
-  }
   .top-details .more-details .right-det div img {
-    margin-left: 5px !important;
     max-height: 23px !important;
-  }
-  .top-details .more-details .category {
-    font-size: 16px !important;
-    padding: 10px 18px !important;
-    margin-left: auto !important;
   }
   .top-details a.sign {
     font-size: 16px !important;
@@ -20065,12 +20189,12 @@ this UI is made desktop first.
     font-size: 16px;
   }
   .careers-top .content-box h2 {
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 22px;
+    margin-bottom: 15px;
   }
   .careers-top .content-box p {
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .careers-top .content-box a {
     width: 130px;
@@ -20086,12 +20210,12 @@ this UI is made desktop first.
   }
   .text-on-right .content-box h2,
   .text-on-left .content-box h2 {
-    font-size: 25px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
   .text-on-right .content-box p,
   .text-on-left .content-box p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
   }
   .text-on-right .content-box a,
@@ -20103,9 +20227,6 @@ this UI is made desktop first.
   }
   .jobs-list .jobs-top {
     margin-bottom: 30px;
-  }
-  .jobs-list .jobs-top h2 {
-    font-size: 25px;
   }
   .jobs-list .jobs-top a.more {
     font-size: 14px;
@@ -20287,8 +20408,11 @@ this UI is made desktop first.
   }
   .our-msg .msg-img-box::before {
     right: 50%;
-    -webkit-transform: translateX(-60%) rotate(-45deg);
-            transform: translateX(-60%) rotate(-45deg);
+    -webkit-transform: translateX(-70%) rotate(-45deg);
+            transform: translateX(-70%) rotate(-45deg);
+    width: 250px;
+    height: 225px;
+    top: 66px;
   }
   .about-vision .vision-img-box {
     -webkit-box-pack: start;
@@ -20299,6 +20423,7 @@ this UI is made desktop first.
   }
   .about-vision .vision-img-box::before {
     height: 200px;
+    width: 280px;
   }
   .list-with-search .list-items .news-list-item {
     -webkit-box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
@@ -20550,19 +20675,13 @@ this UI is made desktop first.
         -ms-flex-order: 2;
             order: 2;
   }
-  .top-details .title-with-share {
-    margin-bottom: 25px !important;
-  }
-  .top-details .title-with-share h3 {
-    font-size: 22px !important;
+  .top-details .more-details .right-det {
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
   }
   .top-details .more-details .right-det div {
-    font-size: 14px !important;
-  }
-  .top-details .more-details .category {
-    font-size: 14px !important;
-    padding: 7px 14px !important;
-    margin-top: 7px !important;
+    margin-bottom: 5px;
   }
   .job-details {
     padding: 35px 24px 48px;
@@ -20971,6 +21090,7 @@ this UI is made desktop first.
   }
   .Achievements-results .results h2, .Achievements-results .Achievements h2 {
     font-size: 20px;
+    margin-bottom: 30px;
   }
   .Achievements-results .results h2 img, .Achievements-results .Achievements h2 img {
     width: 30px;
