@@ -18779,6 +18779,10 @@ html[dir="ltr"] .who-we-are {
   background-position-x: calc(100% - 40px);
 }
 
+html[dir="ltr"] .mark-line {
+  display: none;
+}
+
 /*
 this UI is made desktop first.
 */
