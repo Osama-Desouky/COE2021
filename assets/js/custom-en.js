@@ -239,6 +239,9 @@ $( "a.collapse-btn" ).click(function() {
 
 
 
+
+
+
 // sliders
 
 $(function () {
@@ -250,7 +253,7 @@ $(function () {
     items: 1,
     dotsContainer: '#carousel-custom-dots',
     autoplay: false,
-    rtl: true,
+    rtl: false,
     // autoplayTimeout: 7500,
     // autoplayHoverPause:true
   });
@@ -265,7 +268,7 @@ $(function () {
     autoplayTimeout: 1500,
     autoplayHoverPause:true,
     margin: 90,
-    rtl: true,
+    rtl: false,
     responsive: {
       0: {
         items: 1
@@ -290,7 +293,7 @@ $(function () {
     dots: true,
     items: 1,
     autoplay: false,
-    rtl: true,
+    rtl: false
   });
 
   // strategic-partners
@@ -300,7 +303,7 @@ $(function () {
     dots: true,
     items: 1,
     autoplay: false,
-    rtl: true,
+    rtl: false
   });
 
    // event-slider
@@ -310,7 +313,7 @@ $(function () {
      dots: true,
      items: 1,
      autoplay: false,
-     rtl: true,
+     rtl: false
    })
 
 
@@ -334,7 +337,6 @@ $(function () {
 });
 
  
-
 
 
 
@@ -401,7 +403,7 @@ start ------ programs ---------- animate
 //     curviness: 1,
 //   }
 // });
-TweenMax.set(".program-det-one .program-images", {x: -800, y: 0});
+TweenMax.set(".program-det-one .program-images", {x: 800, y: 0});
 var tween1 = new TimelineMax()
 		.to(".program-det-one .program-images", 5, {y: "0", x:0 , delay:2 }	)
 		.to(".program-det-one .program-images", 3, {y: "-150" , delay:3 , opacity:0 , scale:0,ease: Linear.easeNone}	)
@@ -425,10 +427,10 @@ const scene1 = new ScrollMagic.Scene({
 --------- start image itc
 */
 
-TweenMax.set(".program-det-one .program-images .prog1-img ", {x: -700,y:-350,rotate:-80 });
+TweenMax.set(".program-det-one .program-images .prog1-img ", {x: 700,y:-350,rotate:-80 });
 var tween2 = new TimelineMax()
 		.to(".program-det-one .program-images .prog1-img", 1, {x: 0 ,y:0 ,rotate:0 , delay:1.2 }	)
-		.to(".program-det-one .program-images .prog1-img", 1, {x: -700,y:-350, rotate:-80  ,delay:1 ,ease: Linear.easeNone}	)
+		.to(".program-det-one .program-images .prog1-img", 1, {x: 700,y:-350, rotate:-80  ,delay:1 ,ease: Linear.easeNone}	)
 
 const controller2 = new ScrollMagic.Controller();
 const scene2 = new ScrollMagic.Scene({
@@ -445,10 +447,10 @@ const scene2 = new ScrollMagic.Scene({
 /**
  ------ image learn
  */
-TweenMax.set(".program-det-one .program-images .prog2-img", {x: -700,y:-150,rotate:40});
+TweenMax.set(".program-det-one .program-images .prog2-img", {x: 700,y:-150,rotate:40});
 var tween3 = new TimelineMax()
 		.to(".program-det-one .program-images .prog2-img", 1, {y: 0, x:0 ,rotate:0,  delay:1 }	)
-		.to(".program-det-one .program-images .prog2-img", 1, { x: -700 , y: -150  ,rotate:40 ,delay:1 ,ease: Linear.easeNone}	)
+		.to(".program-det-one .program-images .prog2-img", 1, { x: 700 , y: -150  ,rotate:40 ,delay:1 ,ease: Linear.easeNone}	)
 
 const controller3 = new ScrollMagic.Controller();
 const scene3 = new ScrollMagic.Scene({
@@ -464,10 +466,10 @@ const scene3 = new ScrollMagic.Scene({
 /**
  ------ image plane with gift
  */
-TweenMax.set(".program-det-one .program-images .prog3-img ", {x: -800,y:-200,rotate:-80 });
+TweenMax.set(".program-det-one .program-images .prog3-img ", {x: 800,y:-200,rotate:-80 });
 var tween4 = new TimelineMax()
 		.to(".program-det-one .program-images .prog3-img", 1, {x: 0 ,y:0 ,rotate:0 , delay:1 }	)
-		.to(".program-det-one .program-images .prog3-img", 1, {x: -800,y:-200, rotate:-80  ,delay:1 ,ease: Linear.easeNone}	)
+		.to(".program-det-one .program-images .prog3-img", 1, {x: 800,y:-200, rotate:-80  ,delay:1 ,ease: Linear.easeNone}	)
 
 const controller4 = new ScrollMagic.Controller();
 const scene4 = new ScrollMagic.Scene({
@@ -483,10 +485,10 @@ const scene4 = new ScrollMagic.Scene({
 /**
  ------ image eng. location
  */
-TweenMax.set(".program-det-one .program-images .prog4-img ", {x: -400,y:200,rotate:-50 });
+TweenMax.set(".program-det-one .program-images .prog4-img ", {x: 400,y:200,rotate:-50 });
 var tween5 = new TimelineMax()
 		.to(".program-det-one .program-images .prog4-img", 1, {x: 0 ,y:0 ,rotate:0 , delay:1 }	)
-		.to(".program-det-one .program-images .prog4-img", 1, {x: -400,y:200, rotate:-50 ,delay:1 ,ease: Linear.easeNone}	)
+		.to(".program-det-one .program-images .prog4-img", 1, {x: 400,y:200, rotate:-50 ,delay:1 ,ease: Linear.easeNone}	)
 const controller5 = new ScrollMagic.Controller();
 const scene5 = new ScrollMagic.Scene({
   triggerElement: ".our-program",
@@ -502,7 +504,7 @@ const scene5 = new ScrollMagic.Scene({
 /*
 ------------ details-content
 */
-TweenMax.set(".program-det-one .details-content ", {x: 1200,scale:1.6 });
+TweenMax.set(".program-det-one .details-content ", {x: -1200,scale:1.6 });
 var tween6 = new TimelineMax()
 		.to(".program-det-one .details-content", 1, {x: 0 ,y:0 ,scale:1 , delay:1 }	)
 		.to(".program-det-one .details-content", 1, { y: "-80%",rotate: 45,  scale:.5 ,delay:2 ,opacity:0 ,ease: Linear.easeNone}	)
@@ -570,7 +572,7 @@ var Animation2 = new TimelineMax()
 
 
       
-TweenMax.set(".program-det-two .program-images", {x: -800, y: -0});
+TweenMax.set(".program-det-two .program-images", {x: 800, y: -0});
 var tween10 = new TimelineMax()
 		.to(".program-det-two .program-images", 5, {y: "0", x:0 , delay:5 }	)
 		// .to(".program-det-two .program-images", 2, {y: "-200", x: -800 ,delay:5 , opacity:0 , scale:0.6,ease: Linear.easeNone}	)
@@ -592,7 +594,7 @@ const scene10 = new ScrollMagic.Scene({
 /*
 --------- start image itc
 */
-TweenMax.set(".program-det-two .program-images .prog1-img ", {x: -700,y:-350,rotate:-80 });
+TweenMax.set(".program-det-two .program-images .prog1-img ", {x: 700,y:-350,rotate:-80 });
 var tween11 = new TimelineMax()
 		.to(".program-det-two .program-images .prog1-img", 4, {x: 0 ,y:0 ,rotate:0 , delay:3.2 }	)
 		// .to(".program-det-two .program-images .prog1-img", 2, {x: -700,y:-350, rotate:-80  ,delay:1 ,ease: Linear.easeNone}	)
@@ -611,7 +613,7 @@ const scene11 = new ScrollMagic.Scene({
 /**
  ------ image learn
  */
-TweenMax.set(".program-det-two .program-images .prog2-img", {x: -700,y:-150,rotate:40});
+TweenMax.set(".program-det-two .program-images .prog2-img", {x: 700,y:-150,rotate:40});
 var tween12 = new TimelineMax()
 		.to(".program-det-two .program-images .prog2-img", 2, {y: 0, x:0 ,rotate:0,  delay:3 }	)
 		// .to(".program-det-two .program-images .prog2-img", 2, { x: -700 , y: -150  ,rotate:40 ,delay:1 ,ease: Linear.easeNone}	)
@@ -630,7 +632,7 @@ const scene12 = new ScrollMagic.Scene({
 /**
  ------ image plane with gift
  */
-TweenMax.set(".program-det-two .program-images .prog3-img ", {x: -800,y:-200,rotate:-80 });
+TweenMax.set(".program-det-two .program-images .prog3-img ", {x: 800,y:-200,rotate:-80 });
 var tween13 = new TimelineMax()
 		.to(".program-det-two .program-images .prog3-img", 2, {x: 0 ,y:0 ,rotate:0 , delay:3 }	)
 		// .to(".program-det-two .program-images .prog3-img", 2, {x: -800,y:-200, rotate:-80  ,delay:1 ,ease: Linear.easeNone}	)
@@ -648,7 +650,7 @@ const scene13 = new ScrollMagic.Scene({
 /**
  ------ image eng. location
  */
-TweenMax.set(".program-det-two .program-images .prog4-img ", {x: -400,y:200,rotate:-50 });
+TweenMax.set(".program-det-two .program-images .prog4-img ", {x: 400,y:200,rotate:-50 });
 var tween14 = new TimelineMax()
 		.to(".program-det-two .program-images .prog4-img", 2, {x: 0 ,y:0 ,rotate:0 , delay:3 }	)
 		// .to(".program-det-two .program-images .prog4-img", 2, {x: -400,y:200, rotate:-50 ,delay:1 ,ease: Linear.easeNone}	)
@@ -667,7 +669,7 @@ const scene14 = new ScrollMagic.Scene({
 /*
 ------------ details-content
 */
-TweenMax.set(".program-det-two .details-content ", {x: 1200,scale:1.6 });
+TweenMax.set(".program-det-two .details-content ", {x: -1200,scale:1.6 });
 var tween15 = new TimelineMax()
 		.to(".program-det-two .details-content", 3, {x: 0 ,y:0 ,scale:1 , delay:5 }	)
 		// .to(".program-det-two .details-content", -5, {x: 1400, y: -200, scale:.5 ,delay:15 ,opacity:0 ,ease: Linear.easeNone}	)
@@ -911,7 +913,7 @@ var serTween = new TimelineMax()
 const serController = new ScrollMagic.Controller();
 const serScene = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 400,
+  duration: 100,
   triggerHook:0,
   offset: 100
 })
@@ -924,14 +926,14 @@ const serScene = new ScrollMagic.Scene({
 /*
  ------- details-content
 */
-TweenMax.set(".our-services .details-sec .service-det-one .details-content", {x: 1000, opacity:0 , scale:.2  });
+TweenMax.set(".our-services .details-sec .service-det-one .details-content", {x: -1000, opacity:0 , scale:.2  });
 var serTween2 = new TimelineMax()
-		.to(".our-services .details-sec  .service-det-one .details-content", 4, {x: "-=1000", opacity:1 , scale:1 ,delay:1  }	)
+		.to(".our-services .details-sec  .service-det-one .details-content", 4, {x: "+=1000", opacity:1 , scale:1 ,delay:1  }	)
 		.to(".our-services .details-sec .service-det-one .details-content", 1.5, { opacity:0  ,y:"-=50%" ,delay:4 ,ease: Linear.easeNone}	)
 const serController2 = new ScrollMagic.Controller();
 const serScene2 = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 400,
+  duration: 300,
   triggerHook:0,
   offset: 100
 })
@@ -952,7 +954,7 @@ var serTween3 = new TimelineMax()
 const serController3 = new ScrollMagic.Controller();
 const serScene3 = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 400,
+  duration: 300,
   triggerHook:0,
   offset: 100
 })
@@ -975,7 +977,7 @@ var wipeAnimation1 = new TimelineMax()
 		new ScrollMagic.Scene({
 				triggerElement: ".our-services",
 				triggerHook: "onLeave",
-				duration: 400,
+				duration: 300,
         offset: 80
 				// duration: "300%"
 			})
@@ -990,15 +992,15 @@ var wipeAnimation1 = new TimelineMax()
 /*
  ------- details-content
 */
-TweenMax.set(".our-services .details-sec .service-det-two .details-content", {x: 1000, opacity:0 , scale:.2  });
+TweenMax.set(".our-services .details-sec .service-det-two .details-content", {x: -1000, opacity:0 , scale:.2  });
 var serTween22 = new TimelineMax()
 		.to(".our-services .details-sec  .service-det-two .details-content", 2, { opacity:0 , scale:0.2 ,delay:1  }	)
-		.to(".our-services .details-sec  .service-det-two .details-content", 2, {x: "-=1000", opacity:1 , scale:1 ,delay:6  }	)
+		.to(".our-services .details-sec  .service-det-two .details-content", 2, {x: "+=1000", opacity:1 , scale:1 ,delay:6  }	)
 		// .to(".our-services .details-sec .service-det-two .details-content", 2.5, { opacity:0 ,delay:1.5 ,x:"+=50%" ,ease: Linear.easeNone}	)
 const serController22 = new ScrollMagic.Controller();
 const serScene22 = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 600,
+  duration: 350,
   triggerHook:0,
   offset: 100
 })
@@ -1020,7 +1022,7 @@ var serTween32 = new TimelineMax()
 const serController32 = new ScrollMagic.Controller();
 const serScene32 = new ScrollMagic.Scene({
   triggerElement: ".our-services",
-  duration: 600,
+  duration: 350,
   triggerHook:0,
   offset: 100
 })
@@ -1042,7 +1044,7 @@ start ------ tour---------- animate
 const tourTween1 = gsap.timeline();
 tourTween1.fromTo(".tour .item2" , 
 
-      {y:-500 , x:-200,  opacity:0.1,  scale:.5 , duration: 1 , },
+      {y:-500 , x:200,  opacity:0.1,  scale:.5 , duration: 1 , },
       {y:-550 , x:0 , opacity:1,  scale:1 , duration: 1 }
 
 );
@@ -1069,7 +1071,7 @@ tourTween2.to(".tour .item1", 1 , {
   ease: "power1.inOut",
   motionPath: {
     path: [
-      {y:50 , x:300,  opacity:0.2,  scale:.5}
+      {y:50 , x:-300,  opacity:0.2,  scale:.5}
     ],
     curviness: 0,
   }
@@ -1169,7 +1171,7 @@ const shapeTween3 = gsap.timeline();
 shapeTween3.fromTo(".floated-icon.graph" , 
 
       {y:0 , x:0,  opacity:1,  scale:1 , duration: 1 , },
-      {y:-80 , x:-100 , opacity:.8,  scale:1 , duration: 1 }
+      {y:-80 , x:100 , opacity:.8,  scale:1 , duration: 1 }
 
 );
 const shapeController3 = new ScrollMagic.Controller();
@@ -1183,7 +1185,3 @@ const shapeScene3 = new ScrollMagic.Scene({
 // .addIndicators()
 // .setPin(".tour")
 .addTo(shapeController3);
-
-
-
-
