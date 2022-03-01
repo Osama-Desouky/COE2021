@@ -889,7 +889,7 @@ index
       padding-#{$end-direction}: 48px;
       // position: absolute;
       // top: 213px;
-      padding-top: 213px;
+      padding-top: 200px;
       padding-bottom: 245px;
       h2{
         color: $dark-blue-text;
@@ -6154,7 +6154,7 @@ html[dir="ltr"] {
   .main-slider {
     .item {
       .caption{
-        padding-top: 185px;
+        // padding-top: 185px;
         h2{
           letter-spacing: -1px;
         }

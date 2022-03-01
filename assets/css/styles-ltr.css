@@ -11858,7 +11858,7 @@ index
 
 .main-slider .item .caption {
   padding-right: 48px;
-  padding-top: 213px;
+  padding-top: 200px;
   padding-bottom: 245px;
 }
 
@@ -18473,10 +18473,6 @@ html[dir="ltr"] .main-navbar .nav-div .nav-div-two .language button {
   background-size: 10px;
 }
 
-html[dir="ltr"] .main-slider .item .caption {
-  padding-top: 185px;
-}
-
 html[dir="ltr"] .main-slider .item .caption h2 {
   letter-spacing: -1px;
 }
@@ -19281,7 +19277,7 @@ this UI is made desktop first.
     font-size: 18px;
   }
   .main-slider {
-    margin-top: 0;
+    margin-top: 40px;
     background-position: bottom;
     min-height: auto;
   }
