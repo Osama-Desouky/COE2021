@@ -969,7 +969,7 @@ item 2222222222222222222
 */
 TweenMax.set(".our-services .details-sec .service-det-two", {y: "10%" });
 var wipeAnimation1 = new TimelineMax()
-		.to(".our-services .details-sec  .service-det-two", 4, {y: "-=110%",delay:3  }	)
+		.to(".our-services .details-sec  .service-det-two", 4, {y: "-=120%",delay:3  }	)
 		// .to(".our-services .details-sec .service-det-two ", 9, { delay:2 ,ease: Linear.easeNone}	) 
 
       var controllerzz = new ScrollMagic.Controller();

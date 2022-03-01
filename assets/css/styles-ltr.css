@@ -12547,9 +12547,9 @@ index
 .our-program {
   position: relative;
   padding-top: 60px;
-  padding-bottom: 235px;
+  padding-bottom: 35px;
   overflow: hidden;
-  max-height: 1080px;
+  max-height: 100vh;
 }
 
 .our-program .prog-bg {
@@ -12570,7 +12570,8 @@ index
 .our-program .top-desc {
   margin: 0 auto;
   max-width: 1082px;
-  margin-bottom: 55px;
+  margin-bottom: 75px;
+  margin-top: 40px;
 }
 
 .our-program .top-desc h2 {
@@ -12766,7 +12767,7 @@ index
 }
 
 .customers-opinions {
-  padding-top: 135px;
+  padding-top: 35px;
   padding-bottom: 70px;
   background-image: url(../images/cust-bg.svg);
   background-repeat: no-repeat;
@@ -12975,7 +12976,7 @@ index
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding-left: 107px;
+  padding: 20px 100px;
   height: 350px;
 }
 
@@ -14070,6 +14071,7 @@ ul.share li.share-title img {
 */
 .first-inner {
   margin-top: 40px;
+  margin-bottom: 25px;
   padding-bottom: 42px;
   background-image: url(../images/blub-bg.svg);
   background-position: 101% 40px;
@@ -15238,6 +15240,10 @@ meeeeeeeedia for bootstrap col
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin-bottom: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 70px;
 }
 
 .tamayoz-role .list-roles ul li:last-child {
@@ -15269,7 +15275,6 @@ meeeeeeeedia for bootstrap col
 }
 
 .tamayoz-role .list-roles ul li span {
-  min-height: 70px;
   font-size: 18px;
   font-weight: 500;
   color: #fff;
@@ -15375,6 +15380,9 @@ meeeeeeeedia for bootstrap col
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin-bottom: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Benefits .list-Benefits ul li:last-child {
@@ -18723,6 +18731,58 @@ html[dir="ltr"] .our-programs .program-card .content-hidden .btns-prog .card-mor
           transform: rotate(180deg);
 }
 
+html[dir="ltr"] .tour .item.item1 .item-marker span.mark-line {
+  background-image: url(../images/tour-Ellipse1-en.svg);
+}
+
+html[dir="ltr"] p {
+  font-weight: 400 !important;
+}
+
+html[dir="ltr"] .about-first .first-img-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+html[dir="ltr"] .about-values .value-card .value-content-box p,
+html[dir="ltr"] .about-first .about-content-box h2,
+html[dir="ltr"] .our-programs .program-card .content-hidden p {
+  text-align: left;
+}
+
+html[dir="ltr"] .our-programs .program-card.show-content .inner-prog-card {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+html[dir="ltr"] .our-services .details-sec {
+  background-image: url(../images/service-ellipse-bg1-en.svg);
+  background-size: cover;
+}
+
+html[dir="ltr"] .another-partners .show-all a img {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+html[dir="ltr"] .our-advantages {
+  background-position-x: calc(100% - 40px);
+}
+
+html[dir="ltr"] .who-we-are {
+  background-image: url(../images/lineZ2-en.svg);
+  background-position-x: calc(100% - 40px);
+}
+
 /*
 this UI is made desktop first.
 */
@@ -19084,6 +19144,25 @@ this UI is made desktop first.
   }
   .careers-top .content-box p {
     margin-bottom: 25px;
+  }
+  /****************************************************************************
+    EN version
+    *******************************************************************/
+  html[dir="ltr"] .main-navbar .nav-div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  html[dir="ltr"] .main-navbar .navbar .nav-div .nav-div-two .contact-us a {
+    font-size: 12px;
+  }
+  html[dir="ltr"] .main-navbar .nav-div .nav-div-two .language button {
+    background-position: 22px center;
+    background-size: 7px;
+    font-size: 13px;
   }
 }
 
@@ -19564,7 +19643,7 @@ this UI is made desktop first.
     line-height: initial;
   }
   .strategic-partners .strategic-partners-slider .item .strategic-partners-card .img-box {
-    padding-left: 70px;
+    padding-left: 20px 70px;
     height: 350px;
   }
   .strategic-partners .strategic-partners-slider .item .strategic-partners-card .content-box h4 {

@@ -522,6 +522,28 @@ this UI is made desktop first.
       }
     }
 
+
+
+    /****************************************************************************
+    EN version
+    *******************************************************************/
+
+    html[dir="ltr"] {
+    .main-navbar .nav-div{
+      width: 100%;
+      margin-#{$start-direction}: auto;
+      margin-#{$end-direction}: 0;
+      justify-content: flex-end;
+    }
+    .main-navbar .navbar .nav-div .nav-div-two .contact-us a{
+      font-size: 12px;
+    }
+    .main-navbar .nav-div .nav-div-two .language button{
+      background-position: 22px center;
+      background-size: 7px;
+      font-size: 13px;
+    }
+  }
 }
 
 
@@ -1127,7 +1149,7 @@ this UI is made desktop first.
       .strategic-partners-slider {
         .item .strategic-partners-card {
           .img-box{
-            padding-#{$start-direction}: 70px;
+            padding-#{$start-direction}:20px 70px;
             height: 350px;
           }
           .content-box {

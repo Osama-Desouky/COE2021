@@ -1578,9 +1578,9 @@ index
 .our-program{
   position: relative;
   padding-top: 60px;
-  padding-bottom: 235px;
+  padding-bottom: 35px;
   overflow:hidden;
-  max-height: 1080px;
+  max-height: 100vh;
   .prog-bg{
     content: "";
     position: absolute;
@@ -1601,7 +1601,8 @@ index
   .top-desc{
     margin: 0 auto;
     max-width: 1082px;
-    margin-bottom: 55px;
+    margin-bottom: 75px;
+    margin-top: 40px;
     h2{
       font-size: 28px;
       font-weight: $w-medium;
@@ -1761,7 +1762,7 @@ index
 
 // customers-opinions
 .customers-opinions{
-  padding-top: 135px;
+  padding-top: 35px;
   padding-bottom: 70px;
   background-image: url(../images/cust-bg.svg);
   background-repeat: no-repeat;
@@ -1965,7 +1966,7 @@ index
           display: flex;
           align-items: center;
           justify-content: flex-start;
-          padding-#{$start-direction}:107px ;
+          padding:20px 100px ;
           height: 350px;
           img{
             max-width: 310px;
@@ -2873,7 +2874,7 @@ ul.share{
 
 .first-inner{
   margin-top: 40px;
-  // padding-top: 25px;
+  margin-bottom: 25px;
   padding-bottom: 42px;
   background-image: url(../images/blub-bg.svg);
   background-position: 101% 40px;
@@ -3893,6 +3894,8 @@ meeeeeeeedia for bootstrap col
         flex-direction: row;
         justify-content: flex-start;
         margin-bottom: 24px;
+        align-items: center;
+        min-height: 70px;
         &:last-child{
           margin-bottom: 0;
         }
@@ -3917,7 +3920,7 @@ meeeeeeeedia for bootstrap col
           color: #27C4F5;
         }
         span{
-          min-height: 70px;
+          // min-height: 70px;
           font-size: 18px;
           font-weight: $w-medium;
           color: #fff;
@@ -4003,6 +4006,7 @@ meeeeeeeedia for bootstrap col
         flex-direction: row;
         justify-content: flex-start;
         margin-bottom: 24px;
+        align-items: center;
         &:last-child{
           margin-bottom: 0;
         }
@@ -6384,5 +6388,39 @@ html[dir="ltr"] {
     }
   }
 
-
+  .tour .item.item1 .item-marker span.mark-line{
+    background-image: url(../images/tour-Ellipse1-en.svg);
+  }
+  p{
+    font-weight: $w-normal !important;
+  }
+  .about-first .first-img-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .about-values .value-card .value-content-box p,
+  .about-first .about-content-box h2,
+  .our-programs .program-card .content-hidden p{
+    text-align: #{$start-direction};
+  }
+  .our-programs .program-card.show-content .inner-prog-card{
+    transform: rotateY(-180deg);
+  }
+  .our-services .details-sec{
+    background-image: url(../images/service-ellipse-bg1-en.svg);
+    background-size: cover;
+  }
+  .another-partners .show-all a img{
+    transform: rotateY(180deg);
+  }
+  .our-advantages{
+    background-position-x: calc(100% - 40px);
+  }
+  .who-we-are{
+    background-image: url(../images/lineZ2-en.svg);
+    background-position-x: calc(100% - 40px);
+  }
 }
