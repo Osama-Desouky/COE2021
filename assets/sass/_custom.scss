@@ -62,7 +62,7 @@ body.header-popup-open {
       // justify-content: space-between;
       width: 705px;
       .nav-item {
-        margin-left: 35px;
+        margin-#{$end-direction}: 35px;
         .nav-link{
           font-size: 16px;
           font-weight: $w-medium;
@@ -328,7 +328,7 @@ body.header-popup-open {
     // background: rgba(0,0,0,.8) !important;
     display: none;
     position: absolute !important;
-    top: 135px !important;
+    top: 101px !important;
     #{$end-direction}: 0 !important;
     #{$start-direction}: 0 !important;
     bottom: 0 !important;
@@ -1990,7 +1990,7 @@ index
               background-color: rgba(66, 167, 198, 0.09);
               width: 309px;
               height: 21px;
-              right: 0;
+              #{$start-direction}: 0;
               bottom: -14px;
               border-radius: 4px;
             }
@@ -2526,8 +2526,8 @@ ul.share{
     }
     .sort-area{
       display: inline-block;
-      margin-left: 0;
-      margin-right: auto;
+      margin-#{$end-direction}: 0;
+      margin-#{$start-direction}: auto;
       .sort-date{
         font-size: 16px;
         font-weight: $w-normal;
@@ -5101,6 +5101,7 @@ padding: 160px 0px ;
           width: calc(100% / 3);
           height: 100%;
           object-fit: cover;
+          flex-grow: 1;
         }
         .count{
           background-color: rgba($color: #FFFFFF, $alpha: 0.56);
@@ -5116,6 +5117,7 @@ padding: 160px 0px ;
           img{
             width: 24px;
             height: 24px;
+            flex-grow: 0;
           }
           span{
             margin-#{$start-direction}: 12px;
@@ -6136,5 +6138,251 @@ padding: 160px 0px ;
 }
 
 // LTR
-// html[dir="ltr"] {
-// }
+html[dir="ltr"] {
+
+  .main-navbar .nav-div .nav-div-one{
+    width: auto;
+  }
+  .main-navbar .nav-div .nav-div-two .language button{
+    background-position: 27px center;
+    background-size: 10px;
+  }
+  .main-slider {
+    .item {
+      .caption{
+        padding-top: 185px;
+        h2{
+          letter-spacing: -1px;
+        }
+        a.more {
+          img{
+            transform: rotate(180deg);
+          }
+        }
+      }
+      .left-slider-imgs{
+        .person-image{
+          transform: scaleX(-1);  
+        }
+        .shape1{
+          transform: scaleX(-1);
+        }
+      } 
+    }
+    .actions {
+      .next-arrow{
+        background-image: url(../images/right-arrow.svg);
+      }
+      .prev-arrow{
+        background-image: url(../images/left-arrow.svg);
+      }
+    }
+  }
+  .who-we-are {
+    .who-we-content {
+      h2{
+        margin-bottom: 20px;
+        &::before{
+          bottom: 0;
+        }
+      }
+      a.more{
+        img{
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+  .customers-opinions .cust-op-slider  {
+    .item{
+      .customer-op-card {
+        .content-box {
+          .details{
+            &::before{
+              transform: scaleX(-1);
+            }
+            &::after{
+              transform: scaleX(-1);
+            }
+          }
+        }
+      }
+    }
+    .owl-nav {
+      button.owl-next{
+        background-image: url(../images/cust-arrow-circle-right.svg);
+      }
+      button.owl-prev{
+        background-image: url(../images/cust-arrow-circle-left.svg);
+      }
+    }
+    .owl-dots{
+      transform: translateX(-50%);
+    }
+  }
+  .strategic-partners .strategic-partners-slider .item .strategic-partners-card .content-box a.more img{
+    transform: rotate(180deg);
+
+  }
+  .breadcrumb-area .breadcrumb .breadcrumb-item + .breadcrumb-item::before{
+    transform: rotate(180deg);
+  }
+  .about-first .about-content-box h2{
+    font-size: 35px;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+  }
+  .about-ro2ya-2020 .ro2ya-content-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    h2{
+      font-size: 35px;
+      margin-bottom: 25px;
+    }
+  }
+  .our-msg .msg-content-box span,
+  .about-vision .vision-content-box span{
+    font-size: 22px;
+  }
+  .jobs-list .jobs-top a.more{
+    img{
+      transform: rotate(180deg);
+    }
+  }
+  .contact-first {
+    .about-content-box {
+      h2{
+        font-size: 35px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+  .contact-mid .contactUs-form .formGroup.selectBox select{
+    background-position: 95% center;
+  }
+  .list-with-search .search-and-sort .search-area .search-input{
+    background-position: 95% center;
+  }
+  .download-center .download-card .download-btn a {
+    div{
+      transform: translateX(-200px);
+      
+    }
+    &:hover{
+      div{
+        transform: translateX(0);
+        margin-#{$start-direction}: 17px;
+
+      }
+    }
+  }
+  .events-main .events-slider {
+    .owl-dots{
+      transform: translateX(-50%);
+    }
+    .owl-nav{
+      #{$start-direction}: 47.5%;
+      transform: translateX(-50%);
+      button.owl-prev{
+        background-image: url(../images/left-arrow.svg);
+      }
+      button.owl-next{
+        background-image: url(../images/right-arrow.svg);
+      }
+    }
+  }
+  .event-list .events-list .download-card {
+    min-height: 580px;
+    .content-area {
+      .top-area{
+        flex-direction: column;
+        align-items: self-start;
+        .location{
+          margin: 0;
+          margin-top: 10px;
+        }
+        div{
+          img{
+            max-width: 15px;
+          }
+        }
+      }
+        .content-box{
+          h4{
+            line-height: 28px;
+            height: calc(29px * 2);
+          }
+          p{
+            line-height: 24px;
+            height: calc(24px * 3);
+          }
+        }
+    }
+  }
+  .download-btn a:hover{
+    width: 115px;
+  }
+  .itps-list .itp-card .content-box a.more img{
+    transform: rotate(180deg);
+  }
+  .job-form .white-card .form-group select{
+    background-position: 95% center;
+  }
+  .job-form .white-card .form-group .file-input{
+    &::after{
+      content: "Browse";
+      background-position: 55% center;
+
+    }
+    &::before{
+      content: "Drop here or";
+      #{$start-direction}:-7%
+    }
+  }
+  .first-inner .about-content-box {
+    h2{
+      font-size: 35px;
+      text-align: #{$start-direction};
+    }
+
+    a.join-us{
+      padding: 5px 10px;
+    }
+  }
+  .list-with-search .search-and-sort .sort-area .sort-date{
+    background-position: 95% 12px;
+  }
+  .list-with-search .list-items .news-list-item .news-content-box{
+    a.more img{
+      transform: rotate(180deg);
+    }
+    h4{
+      line-height: 24px;
+    }
+    p{
+      max-height: calc(18px *3);
+      line-height: 18px;
+      font-size: 17px;
+      overflow: hidden;
+    }
+  }
+  .first-inner.programs-inner .about-content-box p.with-arrow img{
+    transform: rotate(180deg);
+  }
+  .our-programs .program-card .content-hidden{
+    .btns-prog {
+      .back-btn img {
+        transform: rotate(180deg);
+      }
+       .card-more img{
+        transform: rotate(180deg);
+       }
+    }
+  }
+
+
+}
