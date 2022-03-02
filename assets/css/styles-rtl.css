@@ -15090,6 +15090,7 @@ meeeeeeeedia for bootstrap col
           flex: 0 0 52px;
   -webkit-box-shadow: 0px 4px 6px rgba(209, 209, 209, 0.61);
           box-shadow: 0px 4px 6px rgba(209, 209, 209, 0.61);
+  padding: 10px;
 }
 
 .important-specialties .list-sections ul li span {
@@ -15309,12 +15310,17 @@ meeeeeeeedia for bootstrap col
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
 }
 
 .Qualifications .list-qualifications-content p {
   font-size: 18px;
   font-weight: 500;
   color: #434951;
+  margin-bottom: 0;
 }
 
 .Qualifications .list-qualifications-content .icon-box {
@@ -18781,6 +18787,10 @@ html[dir="ltr"] .who-we-are {
 
 html[dir="ltr"] .mark-line {
   display: none;
+}
+
+html[dir="ltr"] .strategic-partners a.be-one {
+  width: 245px;
 }
 
 /*
