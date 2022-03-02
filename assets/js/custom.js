@@ -1035,17 +1035,16 @@ const serScene32 = new ScrollMagic.Scene({
 start ------ tour---------- animate 
 */
 
+
+
 /*
- ------- item2
+ ------- item1
 */
 
-const tourTween1 = gsap.timeline();
-tourTween1.fromTo(".tour .item2" , 
-
-      {y:-500 , x:-200,  opacity:0.1,  scale:.5 , duration: 1 , },
-      {y:-550 , x:0 , opacity:1,  scale:1 , duration: 1 }
-
-);
+TweenMax.set(".tour .item1", {y:0 , x:0,  opacity:1,  scale:1 , });
+var tourTween1 = new TimelineMax()
+		.to(".tour .item1", 2, { y:50 , x:300 , opacity:0.2,  scale:.5 , duration: 1 }	)
+		.to(".tour .item1", 6, {y: 600,x:600 , opacity:0 , scale:0 ,delay:2  }	)
 const tourController1 = new ScrollMagic.Controller();
 const tourScene1 = new ScrollMagic.Scene({
   triggerElement: ".tour",
@@ -1055,29 +1054,26 @@ const tourScene1 = new ScrollMagic.Scene({
 })
 .setTween(tourTween1)
 // .addIndicators()
-.setPin(".tour")
+// .setPin(".tour")
 .addTo(tourController1);
+
 
 
 /*
  ------- item2
 */
 
-const tourTween2 = gsap.timeline();
-tourTween2.to(".tour .item1", 1 , {
-  duration: 1,
-  ease: "power1.inOut",
-  motionPath: {
-    path: [
-      {y:50 , x:300,  opacity:0.2,  scale:.5}
-    ],
-    curviness: 0,
-  }
-});
+TweenMax.set(".tour .item2", {y:-500 , x:-200,  opacity:0.1,  scale:.5 , });
+var tourTween2 = new TimelineMax()
+		.to(".tour .item2", 3, { y:-600 , x:0 , opacity:1,  scale:1 , duration: 2, delay:3 }	)
+		.to(".tour .item2", 8, {y: "+=0",x:300 , opacity:.1 , scale:.5 ,delay:4 ,duration: 1 }	)
+		.to(".tour .item2", 10, {y: 600,x:600 , opacity:0 , scale:0 ,delay:5  }	)
+
+    
 const tourController2 = new ScrollMagic.Controller();
 const tourScene2 = new ScrollMagic.Scene({
   triggerElement: ".tour",
-  duration: 300,
+  duration: 600,
   triggerHook:0,
   offset: 100
 })
@@ -1085,6 +1081,96 @@ const tourScene2 = new ScrollMagic.Scene({
 // .addIndicators()
 // .setPin(".tour")
 .addTo(tourController2);
+
+
+
+
+
+/*
+ ------- item3
+*/
+
+TweenMax.set(".tour .item3", {y:-250 , x:-800,  opacity:0,  scale:0 , });
+var tourTween3 = new TimelineMax()
+		.to(".tour .item3", 2, { y:"-=850" , x:-250 , opacity:0.2,  scale:.5 , duration: 1 }	)
+		.to(".tour .item3", 6, {y: "-=150", x:0, opacity:1 , scale:1  ,duration: 3  , delay:12 }	)
+		.to(".tour .item3", 10, {y: -1200 , x:300 , opacity:.1 , scale:.5 ,duration: 1  , delay:6 }	)
+
+		.to(".tour .item3", 15, {y: 600 , x:600 , opacity:0 , scale:0 ,delay:20  }	)
+
+
+const tourController3 = new ScrollMagic.Controller();
+const tourScene3 = new ScrollMagic.Scene({
+  triggerElement: ".tour",
+  duration: 1000,
+  triggerHook:0,
+  delay:10,
+  offset: 100
+})
+.setTween(tourTween3)
+// .addIndicators()
+// .setPin(".tour")
+.addTo(tourController3);
+
+
+
+/*
+ ------- item4
+*/
+
+TweenMax.set(".tour .item4", {y:-750 , x:-1400,  opacity:0,  scale:0 , });
+var tourTween4 = new TimelineMax()
+		.to(".tour .item4", 2, { y:"-=1000" , x:-250 , opacity:0.2,  scale:.5 , duration: 3 ,delay:5}	)
+		.to(".tour .item4", 6, {y: "-=150", x:0, opacity:1 , scale:1 ,delay:1 ,duration: 1 }	)
+    .to(".tour .item4", 10, {y: -1850 , x:300 , opacity:.1 , scale:.5 ,duration: 1  , delay:6 }	)
+
+		// .to(".tour .item4", 15, {y: 600 , x:600 , opacity:0 , scale:0 ,delay:20  }	)
+
+const tourController4 = new ScrollMagic.Controller();
+const tourScene4 = new ScrollMagic.Scene({
+  triggerElement: ".tour",
+  duration: 1200,
+  delay:8,
+  triggerHook:0,
+  offset: 100
+})
+.setTween(tourTween4)
+// .addIndicators()
+// .setPin(".tour")
+.addTo(tourController4);
+
+
+
+
+
+/*
+ ------- item5
+*/
+
+TweenMax.set(".tour .item5", {y:-750 , x:-1400,  opacity:0,  scale:0 , });
+var tourTween5 = new TimelineMax()
+		.to(".tour .item5", 2, { y:"-=1600" , x:-250 , opacity:0.2,  scale:.5 , duration: 3 ,delay:6}	)
+		.to(".tour .item5", 6, {y: "-=150", x:0, opacity:1 , scale:1 ,delay:5 ,duration: 1 }	)
+    // .to(".tour .item5", 10, {y: -1850 , x:300 , opacity:.1 , scale:.5 ,duration: 1  , delay:6 }	)
+
+		// .to(".tour .item4", 15, {y: 600 , x:600 , opacity:0 , scale:0 ,delay:20  }	)
+
+const tourController5 = new ScrollMagic.Controller();
+const tourScene5 = new ScrollMagic.Scene({
+  triggerElement: ".tour",
+  duration: 1200,
+  // delay:15,
+  triggerHook:0,
+  offset: 100
+})
+.setTween(tourTween5)
+// .addIndicators()
+.setPin(".tour")
+.addTo(tourController5);
+
+
+
+
 
 
 

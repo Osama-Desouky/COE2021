@@ -48,7 +48,15 @@ body.header-popup-open {
     }
   }
   .dropdown-menu{
-    text-align: $start-direction;
+    text-align: $end-direction;
+    min-width: 75px;
+    // filter: drop-shadow(0px 5px 18px #00000014);
+    filter: drop-shadow(0px 9px 15px #0000006b);
+    border: 0;
+    background-color: #f8f8f8;
+    .dropdown-item{
+      padding: 5px 10px;
+    }
   }
   .nav-div{
     display: flex;
@@ -1295,7 +1303,7 @@ index
   padding-top: 126px;
   padding-bottom: 114px;
   z-index: 2;
-
+  // inset: inherit !important;
   &::before{
     content: "";
     position: absolute;
@@ -2874,7 +2882,7 @@ ul.share{
 
 .first-inner{
   margin-top: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 65px;
   padding-bottom: 42px;
   background-image: url(../images/blub-bg.svg);
   background-position: 101% 40px;
@@ -2921,9 +2929,9 @@ ul.share{
       filter: blur(43px);
 
     }
-    img{
-      border-radius: 40px;
-    }
+    // img{
+    //   border-radius: 40px;
+    // }
   }
 }
 
@@ -6432,4 +6440,15 @@ html[dir="ltr"] {
   .strategic-partners a.be-one{
     width: 245px;
   }
+  .title-with-p .content-main h2.with-img img{
+    transform: scaleX(-1);
+  }
+  section.events-main button.btn-link {
+    text-align: left !important;
+}
+
+section.events-main button.btn-link::before{
+    left: auto !important;
+    right:20px !important
+}
 }
